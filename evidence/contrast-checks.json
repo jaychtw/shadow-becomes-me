@@ -1,0 +1,65 @@
+[
+  {
+    "element": "body",
+    "foreground": "#edf2f1",
+    "background": "#101b24",
+    "ratio": 15.42,
+    "passesNormalText": true
+  },
+  {
+    "element": "button and arrow glyphs",
+    "foreground": "#f3f5ee",
+    "background": "#1a2c39",
+    "ratio": 13.06,
+    "passesNormalText": true
+  },
+  {
+    "element": "selected form",
+    "foreground": "#f3f5ee",
+    "background": "#3c4b4d",
+    "ratio": 8.29,
+    "passesNormalText": true
+  },
+  {
+    "element": "primary button",
+    "foreground": "#17232d",
+    "background": "#e3cf9f",
+    "ratio": 10.41,
+    "passesNormalText": true
+  },
+  {
+    "element": "status",
+    "foreground": "#f1ddb1",
+    "background": "#101b24",
+    "ratio": 13.05,
+    "passesNormalText": true
+  },
+  {
+    "element": "secondary text",
+    "foreground": "#b7c8cd",
+    "background": "#101b24",
+    "ratio": 10.09,
+    "passesNormalText": true
+  },
+  {
+    "element": "readout labels",
+    "foreground": "#afc4cb",
+    "background": "#172631",
+    "ratio": 8.53,
+    "passesNormalText": true
+  },
+  {
+    "element": "footer",
+    "foreground": "#a7bac1",
+    "background": "#101b24",
+    "ratio": 8.67,
+    "passesNormalText": true
+  },
+  {
+    "element": "panel copy",
+    "foreground": "#d2dfe0",
+    "background": "#142632",
+    "ratio": 11.36,
+    "passesNormalText": true
+  }
+]

@@ -1,0 +1,26 @@
+✔ scene metadata validates and rejects invalid forms and geometry (1.373838ms)
+✔ upright starts exposed; movement slides; stopping restores upright (0.420781ms)
+✔ exposed idle and sliding blob immediately trigger hostility (0.509239ms)
+✔ sight respects direction, distance and opaque wall fixtures (0.567887ms)
+✔ fitting box ignored under identical sight conditions (0.329903ms)
+✔ wrong chair investigated before hostility; approach and timed inspection (0.421471ms)
+✔ metadata swap to chair reverses both forms without engine changes (0.262318ms)
+✔ fitting disguise assassinates unaware unarmored guard in one hit (0.282202ms)
+✔ unfitting investigation cannot assassinate; same spike does one damage (0.175712ms)
+✔ hostility and armor independently prohibit instant takedown (0.393977ms)
+✔ attack range and cooldown enforce meaningful limits (1.338667ms)
+✔ repeated ordinary spikes can defeat guard without one hit kill (0.26476ms)
+✔ observed fitting correction cancels investigation but never hostile state (0.109159ms)
+✔ patrol bounds turn and player collision clamps to floor extent (3.205853ms)
+✔ hostile attack causes failure; restart returns clean state (0.29105ms)
+✔ exit completes encounter and freezes further simulation (0.229844ms)
+✔ complete deterministic stealth route is solvable without taking damage (0.932834ms)
+✔ locale resources have matching complete keys (1.200159ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.635827
