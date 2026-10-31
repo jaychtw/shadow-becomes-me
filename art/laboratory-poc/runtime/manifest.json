@@ -1,0 +1,30 @@
+{
+  "sourceSha256": "ef87dd31ea2559c339ee20f269869897b56b039a373df83a7f09a01365a97224",
+  "canvas": [
+    1680,
+    640
+  ],
+  "floorY": 500,
+  "layers": [
+    "distant-background",
+    "architecture",
+    "illumination",
+    "architectural-details",
+    "floor",
+    "background-props",
+    "foreground"
+  ],
+  "excluded": "reference-characters",
+  "runtimeOrder": "All scenery before actors; foreground does not occlude actors",
+  "exports": {
+    "distant-background": "47132d9d8932ec5e1891c211d6eebb0dde69a738edf9f80cecd061defa322fc7",
+    "architecture": "a436270f60ceb36479261978466be6c3ff9f6965fbc28cc49454277f2f682f60",
+    "illumination": "b67362ef8d5e8b94bbf768de79a7a637bc63438315512fe06ced3e6444f2bdba",
+    "architectural-details": "8c4f34a0a745d9fd43e49f8370f72c0e9404ba603166d415468704fe16affb2a",
+    "floor": "ddb264b8b6ac1cd07927b89a5471ddf702612577bf94debdcb051ab9f9b6bae5",
+    "background-props": "38f7717aee96752234730e03c39311d7a30b3d7b30bdfb53e40b99647504e589",
+    "foreground": "2c2e8201aedeaf06c1fe63f33f6546de9bceda72fc89f8523fd60267fba33871",
+    "environment-reference": "906605a72155fd2c0ee16241813b5bcfb36d6749ee67358323d963e6442e90de"
+  },
+  "browser": "154.0.8037.57"
+}

@@ -80,7 +80,7 @@ function render(){
  $('exit-text').textContent=t('exit');
  const p=game.player,b=game.guard;
  const width=Math.max(520,Math.min(1680,$('stage').clientWidth/$('world').clientHeight*640));
- const camera=Math.max(0,Math.min(game.scene.width-width,p.x-width*.35));
+ const camera=Math.max(-100,Math.min(game.scene.width-width+100,p.x-width*.35));
  $('world').setAttribute('viewBox',`${camera} 0 ${width} 640`);
  $('player').setAttribute('transform',`translate(${p.x} 500)`);
  $('shadow').setAttribute('d',forms[p.form]);

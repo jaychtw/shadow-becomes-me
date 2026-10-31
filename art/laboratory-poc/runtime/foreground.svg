@@ -1,0 +1,13 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1680" height="640" viewBox="0 0 1680 640" role="img" aria-label="Laboratory POC keyframe review candidate with Shadow at start, six boxes, two chairs, guard patrol and right exit">
+<ns0:defs>
+<ns0:linearGradient id="back" x2=".1" y2="1"><ns0:stop stop-color="#809da7" /><ns0:stop offset=".58" stop-color="#bacdc5" /><ns0:stop offset="1" stop-color="#e1e6d6" /></ns0:linearGradient>
+<ns0:linearGradient id="window" x2=".85" y2="1"><ns0:stop stop-color="#d1e9de" /><ns0:stop offset=".48" stop-color="#84b8b8" /><ns0:stop offset="1" stop-color="#628e9a" /></ns0:linearGradient>
+<ns0:linearGradient id="wall" x2="0" y2="1"><ns0:stop stop-color="#dae4d9" /><ns0:stop offset="1" stop-color="#9db6b5" /></ns0:linearGradient>
+<ns0:linearGradient id="wood" x2=".2" y2="1"><ns0:stop stop-color="#f5deb4" /><ns0:stop offset="1" stop-color="#b69a72" /></ns0:linearGradient>
+<ns0:linearGradient id="floor" x2="0" y2="1"><ns0:stop stop-color="#607780" /><ns0:stop offset=".13" stop-color="#293f4d" /><ns0:stop offset="1" stop-color="#172937" /></ns0:linearGradient>
+<ns0:linearGradient id="beam" x2="0" y2="1"><ns0:stop stop-color="#fff7c9" stop-opacity=".52" /><ns0:stop offset="1" stop-color="#fff7c9" stop-opacity="0" /></ns0:linearGradient>
+<ns0:radialGradient id="warm"><ns0:stop stop-color="#fff4c6" stop-opacity=".47" /><ns0:stop offset="1" stop-color="#fff4c6" stop-opacity="0" /></ns0:radialGradient>
+<ns0:pattern id="ticks" width="80" height="30" patternUnits="userSpaceOnUse"><ns0:path d="M0 0h80M0 0v30" stroke="#d9e7d7" stroke-width="1" opacity=".13" /></ns0:pattern>
+</ns0:defs>
+<ns0:g id="foreground"><ns0:path d="M0 0h50v498H0Z" fill="#253e4b" opacity=".88" /><ns0:path d="M0 0h1680v17H0Z" fill="#213746" /><ns0:path d="M1660 0h20v499h-20Z" fill="#294553" /><ns0:path d="M0 491h1680" stroke="#d9e5d3" stroke-width="3" opacity=".25" /></ns0:g>
+</ns0:svg>
