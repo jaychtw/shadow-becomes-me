@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="256" viewBox="0 0 192 256" role="img" aria-label="Guard walking frame 1"><g id="far-arm"><path d="M92 82.25 Q77.60769515458674 108.25 78.4115427318801 134.25" fill="none" stroke="#1c3b53" stroke-width="13" stroke-linecap="round"/><path d="M78.4115427318801 134.25 l3 8" stroke="#b98967" stroke-width="8" stroke-linecap="round"/></g><g id="far-leg"><path d="M92.00 136.25 L109.53 187.33 L68.60 221.00" fill="none" stroke="#1b2b39" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M94.00 139.25 L112.53 187.33 L70.60 217.00" fill="none" stroke="#243b4a" stroke-width="3"/>
+ <path d="M61.60 216.00 L73.60 216.00 L75.60 222.00 Q85.60 223.00 84.60 230.00 L60.60 230.00 Z" fill="#101b23"/>
+ <path d="M60.60 230.00 H84.60" stroke="#46535a" stroke-width="2"/></g><g id="near-leg"><path d="M99.00 136.25 L131.86 179.10 L117.09 230.00" fill="none" stroke="#263b4b" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M101.00 139.25 L134.86 179.10 L119.09 226.00" fill="none" stroke="#354e5e" stroke-width="3"/>
+ <path d="M110.09 225.00 L122.09 225.00 L124.09 231.00 Q134.09 232.00 133.09 239.00 L109.09 239.00 Z" fill="#101b23"/>
+ <path d="M109.09 239.00 H133.09" stroke="#46535a" stroke-width="2"/></g>
+ <g id="uniform" transform="translate(0 1.2500000000000002)">
+ <path d="M83 72 Q95 67 105 74 L115 94 111 127 115 139 Q96 145 78 138 L80 116 77 87 Z" fill="#294b66" stroke="#162c40" stroke-width="2"/>
+ <path d="M87 79 L89 128 101 134 106 77" fill="#345a75"/>
+ <path d="M81 99 L91 100 90 112 81 110 Z M99 99 L108 97 109 108 99 110 Z" fill="#213f57" stroke="#486b83"/>
+ <path d="M96 81 L96 126" stroke="#1b354b" stroke-width="2"/><path d="M80 130 L112 130 114 137 79 137 Z" fill="#142631"/>
+ <rect x="95" y="130" width="8" height="6" rx="1" fill="#aeb9b4"/><rect x="81" y="127" width="7" height="13" rx="2" fill="#182a36"/>
+ <path d="M88 66 L89 77 97 82 104 73 103 62 Z" fill="#bc8c69"/>
+ <path d="M87 45 Q89 33 102 36 Q112 38 111 51 L116 57 110 60 108 69 Q98 74 91 66 L87 57 Z" fill="#c89b77"/>
+ <path d="M87 44 L92 45 92 60 96 65 91 64 86 56 Z" fill="#222e36"/>
+ <path d="M86 39 Q95 30 106 36 L110 43 120 47 119 50 86 48 Z" fill="#24435e" stroke="#142b3e" stroke-width="2"/>
+ <path d="M87 43 L110 45" stroke="#607f94" stroke-width="2"/><path d="M103 39 l4 1 -1 4 -3 -1 Z" fill="#cab16b"/>
+ <path d="M109 52 l3 1" stroke="#33302b" stroke-width="1.5"/><path d="M106 64 l4 -1" stroke="#825e48"/>
+ </g><g id="near-arm"><path d="M103 83.25 Q118.39230484541326 107.25 126.5884572681199 131.25" fill="none" stroke="#2e526e" stroke-width="14" stroke-linecap="round"/>
+ <path d="M105 86.25 Q121.39230484541326 109.25 128.5884572681199 127.25" fill="none" stroke="#426682" stroke-width="3"/>
+ <path d="M126.5884572681199 131.25 l2 9" stroke="#c59876" stroke-width="8" stroke-linecap="round"/>
+ <path d="M102 85.25 l6 1 -1 10 -5 -2 Z" fill="#b49a58"/><path d="M104 87.25 l2 1 -1 5" stroke="#ead79a" fill="none"/></g></svg>

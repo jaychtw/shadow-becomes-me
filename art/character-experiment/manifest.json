@@ -1,0 +1,701 @@
+{
+  "version": 1,
+  "status": "experimental; awaiting fresh owner visual acceptance",
+  "worldScale": 0.55,
+  "baseline": 240,
+  "facing": "right; mirror around pivot for left",
+  "motions": {
+    "shadow-spike": {
+      "durationMs": 220,
+      "loop": false,
+      "note": "Presentation only; existing engine untouched. Preview repeats with 700 ms rest."
+    },
+    "guard-walk": {
+      "durationMs": 1200,
+      "loop": true,
+      "nominalTravelWorldUnitsPerSecond": 58,
+      "sourceTravelPerCycle": 126.54545
+    }
+  },
+  "frames": [
+    {
+      "id": "shadow-spike-00",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-00.svg",
+      "png": "frames/shadow-spike-00.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "f7f86e7d4acbce1473a39765b97e40ecd48d53214fe208c3985b893a55fa524d",
+      "pngSha256": "dbdcbcdc391fd1f15f5f90c17b134f87f7746a366bfced3a04542a8397231f1a"
+    },
+    {
+      "id": "shadow-spike-01",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-01.svg",
+      "png": "frames/shadow-spike-01.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.08,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "ed6d1633bb1f181738c7fc767d9e6a9b0136217ce3c221a0250f3b9fd1cac0b7",
+      "pngSha256": "368b1e30c2efedee5f4e97228cc876a02ba732d1900131b94374b16e2363cc3c"
+    },
+    {
+      "id": "shadow-spike-02",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-02.svg",
+      "png": "frames/shadow-spike-02.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.24,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "b7838789c283f639539448070d64d1ec66cc6f8afd397846a2d6e2e17b1a585c",
+      "pngSha256": "6fb11790ffcfb0ede7641141b91426d6faccfa0d6fc7cdecdd68394476bc435e"
+    },
+    {
+      "id": "shadow-spike-03",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-03.svg",
+      "png": "frames/shadow-spike-03.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.52,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "060c35961f6c25632ba84032acd7cc81c86de05812f936dbb9bb5e70cb7b8be2",
+      "pngSha256": "2c47c92984c5e98da740cad3ca153c0fe01d832850e8598c95ce1cf2e5822e0b"
+    },
+    {
+      "id": "shadow-spike-04",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-04.svg",
+      "png": "frames/shadow-spike-04.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.83,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "f0cd7e7c3fd2d05acc3d7b058745639d01c58643f2314bdc2091345e9e6de259",
+      "pngSha256": "1749ad3f19ebf4c46e388ab38ce9e85dfba1e01e3e4c9fff2ded6de7edc0d1e0"
+    },
+    {
+      "id": "shadow-spike-05",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-05.svg",
+      "png": "frames/shadow-spike-05.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 1,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "8f3a44325addba781c08982af590b687187c05d57e38ebdfd0e172afd800c733",
+      "pngSha256": "d79a1f88fc2336f098e0b865c8fcf52d5637a4030e1ead1bae22fc387645004c"
+    },
+    {
+      "id": "shadow-spike-06",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-06.svg",
+      "png": "frames/shadow-spike-06.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 1,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "c09a257cb1b008d2c3b7d4bb4eae80c1fd36b87f91ab55d3e37b7b8ee87f16ed",
+      "pngSha256": "d79a1f88fc2336f098e0b865c8fcf52d5637a4030e1ead1bae22fc387645004c"
+    },
+    {
+      "id": "shadow-spike-07",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-07.svg",
+      "png": "frames/shadow-spike-07.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.78,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "96f67ac7fa49ab9f3c3a136228536fe1131e48b02518f2806ff1df9b785cc689",
+      "pngSha256": "e29c6888c4ee12f180780697092eddd6238ce9d182a26d268fe4ef21ec0773fb"
+    },
+    {
+      "id": "shadow-spike-08",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-08.svg",
+      "png": "frames/shadow-spike-08.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.46,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "3cffe8df39cf1fa019577461f8a4153bbf8bef1f54e5229487c6e49d32a86582",
+      "pngSha256": "e64b9bbbe7c0cecf0561d6279d6ad35177efd592818078a31a3acdcb98472e4f"
+    },
+    {
+      "id": "shadow-spike-09",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-09.svg",
+      "png": "frames/shadow-spike-09.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 20,
+      "extension": 0.19,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "e9f2bc2be9686cf69e7c2c78a6bd142e48349d9d2c5f6ba1a80e2de7b13f225d",
+      "pngSha256": "d5f5270c22268fe87aa0dc7d6e55a0df54c976143bee02c30c232d3a5f9a5ba4"
+    },
+    {
+      "id": "shadow-spike-10",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-10.svg",
+      "png": "frames/shadow-spike-10.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 10,
+      "extension": 0.04,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "ec4bfe0a7e061fee6bcf03f032aad9fe248a6059cdb54d7b09e6522ea83b95da",
+      "pngSha256": "18e4caf34cc34bd45d6f01da83be45a029d95cc65608752b2afd9cf58aeffd0c"
+    },
+    {
+      "id": "shadow-spike-11",
+      "motion": "shadow-spike",
+      "source": "source/shadow-spike-11.svg",
+      "png": "frames/shadow-spike-11.png",
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 10,
+      "extension": 0,
+      "handRoot": [
+        139,
+        128
+      ],
+      "sourceSha256": "7bccd13ecc7ac8cdfd71cdd16026da4f01eee0ea821c579453827536ab08a46f",
+      "pngSha256": "dbdcbcdc391fd1f15f5f90c17b134f87f7746a366bfced3a04542a8397231f1a"
+    },
+    {
+      "id": "guard-walk-00",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-00.svg",
+      "png": "frames/guard-walk-00.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            127.6364,
+            230
+          ],
+          "contact": true
+        },
+        "far": {
+          "ankle": [
+            64.3636,
+            230
+          ],
+          "contact": false
+        },
+        "hipY": 137.5
+      },
+      "sourceSha256": "483a965b6f6b47a3412c4282166d6c76d3ef320b2bcc5bdd2c3d70358a68e49e",
+      "pngSha256": "da2a48833323ad437e2c07a1774df585064b288acf0e5009a0af45540a8cab19"
+    },
+    {
+      "id": "guard-walk-01",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-01.svg",
+      "png": "frames/guard-walk-01.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            117.0909,
+            230
+          ],
+          "contact": true
+        },
+        "far": {
+          "ankle": [
+            68.6021,
+            221
+          ],
+          "contact": false
+        },
+        "hipY": 136.25
+      },
+      "sourceSha256": "3a13cc8f3b532127e94bb49bb46a3df0ad2fcc9d09c74c573d3832653f2f4639",
+      "pngSha256": "ffa0a5f0823c91f45c81a94fd1c7e54c42a173c36b5e047d57b23fd1f0fe556c"
+    },
+    {
+      "id": "guard-walk-02",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-02.svg",
+      "png": "frames/guard-walk-02.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            106.5455,
+            230
+          ],
+          "contact": true
+        },
+        "far": {
+          "ankle": [
+            80.1818,
+            214.4115
+          ],
+          "contact": false
+        },
+        "hipY": 133.75
+      },
+      "sourceSha256": "c49769100a8ec70f76d9d102a9af2aca561449bb9530a5ba55074ebadb142389",
+      "pngSha256": "1220c8a1e4d3f09d79e06ab1f0ccfe3d8bf699f88c81071f2a88d89f51db3066"
+    },
+    {
+      "id": "guard-walk-03",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-03.svg",
+      "png": "frames/guard-walk-03.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            96,
+            230
+          ],
+          "contact": true
+        },
+        "far": {
+          "ankle": [
+            96,
+            212
+          ],
+          "contact": false
+        },
+        "hipY": 132.5
+      },
+      "sourceSha256": "56bd123e9396d1e9492c9dc67a2ebf626f150feaca87fa6304de44d5fa5856dd",
+      "pngSha256": "72f5ae5397ea4352970dcf5d1074ca30499b0dd89d006a94e90f47c011c1111a"
+    },
+    {
+      "id": "guard-walk-04",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-04.svg",
+      "png": "frames/guard-walk-04.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            85.4545,
+            230
+          ],
+          "contact": true
+        },
+        "far": {
+          "ankle": [
+            111.8182,
+            214.4115
+          ],
+          "contact": false
+        },
+        "hipY": 133.75
+      },
+      "sourceSha256": "ad5ff75e2eb68cfe5166b5d3c458fec9c2a36a7eaaf71fa77125a6af4429b034",
+      "pngSha256": "27785ac7429f37c28827837340b54dd2487bf41fe194f9e110405f28c07be9e0"
+    },
+    {
+      "id": "guard-walk-05",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-05.svg",
+      "png": "frames/guard-walk-05.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            74.9091,
+            230
+          ],
+          "contact": true
+        },
+        "far": {
+          "ankle": [
+            123.3979,
+            221
+          ],
+          "contact": false
+        },
+        "hipY": 136.25
+      },
+      "sourceSha256": "9bbdc99bde7042578fdf33f08af840765055e896c5fac3e0931c4979e504bb21",
+      "pngSha256": "39058c7cee4286b7de88b58e30e220baf22714746913170da1446338c3fe7688"
+    },
+    {
+      "id": "guard-walk-06",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-06.svg",
+      "png": "frames/guard-walk-06.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            64.3636,
+            230
+          ],
+          "contact": false
+        },
+        "far": {
+          "ankle": [
+            127.6364,
+            230
+          ],
+          "contact": true
+        },
+        "hipY": 137.5
+      },
+      "sourceSha256": "8bab20ff9dec76f9437c7c73324574096f8d4f904dbd6251b32255a629bb7236",
+      "pngSha256": "a9ef1bdfc7da02124c2b4d3f6e21c8c394d72ad2f9ac7b26ca9ff88ef472d7aa"
+    },
+    {
+      "id": "guard-walk-07",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-07.svg",
+      "png": "frames/guard-walk-07.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            68.6021,
+            221
+          ],
+          "contact": false
+        },
+        "far": {
+          "ankle": [
+            117.0909,
+            230
+          ],
+          "contact": true
+        },
+        "hipY": 136.25
+      },
+      "sourceSha256": "0eef60398c80d65732e96b409a615e90d6386a9b2c4fed61a5ef87d955bd404f",
+      "pngSha256": "632aa4ac440c0258373020f0e8f51ceb6a344dcd3a028c2035a6e4906ad012e1"
+    },
+    {
+      "id": "guard-walk-08",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-08.svg",
+      "png": "frames/guard-walk-08.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            80.1818,
+            214.4115
+          ],
+          "contact": false
+        },
+        "far": {
+          "ankle": [
+            106.5455,
+            230
+          ],
+          "contact": true
+        },
+        "hipY": 133.75
+      },
+      "sourceSha256": "f7ee6778fc9de3bec308d481737723bf2ef9fdf0e4e0a6bc58da794329f8a430",
+      "pngSha256": "9d5db35dc0ab4a3d8f6f877c55ab260859d328963502d16aaaabac39fd023707"
+    },
+    {
+      "id": "guard-walk-09",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-09.svg",
+      "png": "frames/guard-walk-09.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            96,
+            212
+          ],
+          "contact": false
+        },
+        "far": {
+          "ankle": [
+            96,
+            230
+          ],
+          "contact": true
+        },
+        "hipY": 132.5
+      },
+      "sourceSha256": "862a325a64488900b9b37c4d20e8f2a604faa933e2a33ab1fd7ed66fb00d205c",
+      "pngSha256": "b643bea9858bb652cee540d2be97b8c06067dab4f2ffc29bcebba4c0669efe05"
+    },
+    {
+      "id": "guard-walk-10",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-10.svg",
+      "png": "frames/guard-walk-10.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            111.8182,
+            214.4115
+          ],
+          "contact": false
+        },
+        "far": {
+          "ankle": [
+            85.4545,
+            230
+          ],
+          "contact": true
+        },
+        "hipY": 133.75
+      },
+      "sourceSha256": "58c9e9cb1488335f28a5c9d8e2e09149c83a6d872f160601047052f7e0973f50",
+      "pngSha256": "562a1da4f5a080cb4dd518c02f77e2ab99e636378b03f1dfebb51a5dcf16f215"
+    },
+    {
+      "id": "guard-walk-11",
+      "motion": "guard-walk",
+      "source": "source/guard-walk-11.svg",
+      "png": "frames/guard-walk-11.png",
+      "canvas": [
+        192,
+        256
+      ],
+      "pivot": [
+        96,
+        240
+      ],
+      "durationMs": 100,
+      "landmarks": {
+        "near": {
+          "ankle": [
+            123.3979,
+            221
+          ],
+          "contact": false
+        },
+        "far": {
+          "ankle": [
+            74.9091,
+            230
+          ],
+          "contact": true
+        },
+        "hipY": 136.25
+      },
+      "sourceSha256": "2984f84d7c1c7bc812d9531ba95d2252f570ed69b6e962e11c414fa4429b592f",
+      "pngSha256": "af328d1ec0409ade50fe577dee67bec1bcf68baa19f2fbb81d0ffbdfb6e7b1ad"
+    }
+  ],
+  "provenance": "Original local vector drawings guided by supplied approved references; not recovered assets or crops.",
+  "exporter": {
+    "tool": "Playwright 1.56.1 / Chromium",
+    "browser": "154.0.8037.57",
+    "deviceScaleFactor": 1,
+    "alpha": true
+  }
+}
