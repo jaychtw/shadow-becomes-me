@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "status": "candidate awaiting owner visual acceptance",
+  "canvas": {
+    "width": 1680,
+    "height": 640,
+    "floorY": 500
+  },
+  "scene": {
+    "id": "lab_01",
+    "spawnX": 125,
+    "guardStartX": 900,
+    "guardPatrolMinX": 640,
+    "guardPatrolMaxX": 1240,
+    "exitThresholdX": 1550,
+    "fittingShadow": "box",
+    "availableForms": [
+      "box",
+      "chair"
+    ]
+  },
+  "eligibleObjects": {
+    "box": [
+      {
+        "x": 298,
+        "y": 448
+      },
+      {
+        "x": 368,
+        "y": 451
+      },
+      {
+        "x": 692,
+        "y": 443
+      },
+      {
+        "x": 772,
+        "y": 450
+      },
+      {
+        "x": 1210,
+        "y": 450
+      },
+      {
+        "x": 1290,
+        "y": 441
+      }
+    ],
+    "chair": [
+      {
+        "x": 537,
+        "y": 430
+      },
+      {
+        "x": 1090,
+        "y": 430
+      }
+    ],
+    "count": {
+      "box": 6,
+      "chair": 2
+    },
+    "contract": "Painted visual background only; no runtime object counting. Excluded objects include terminals and racks."
+  },
+  "characters": {
+    "shadow": {
+      "x": 125,
+      "footY": 500,
+      "source": "art/character-experiment/reference/shadow-rest-candidate.svg",
+      "scale": 0.42,
+      "assetState": "reference pose only; exact in-game scaling subject to explicit contact-map review"
+    },
+    "guard": {
+      "x": 900,
+      "footY": 500,
+      "source": "art/character-experiment/source/guard-walk-00.svg",
+      "scale": 0.55,
+      "assetState": "accepted original guard frame embedded in keyframe"
+    }
+  },
+  "cameraReview": {
+    "desktop": {
+      "viewBox": [
+        400,
+        0,
+        880,
+        640
+      ],
+      "purpose": "encounter bay and box-vs-chair inference"
+    },
+    "phone": {
+      "viewBox": [
+        720,
+        0,
+        400,
+        640
+      ],
+      "purpose": "guard contact area / eligible objects near middle"
+    },
+    "note": "Reference crops are review windows, not claims of actual runtime camera viewport, phone interface, or solved clue recognition. Recheck in-engine camera."
+  },
+  "foregroundExclusions": {
+    "actors": "Actor rendering separate; source reference-characters group excluded from environment layers",
+    "interactiveObjects": "All eligible boxes/chairs painted in background; no new collision",
+    "lighting": "decorative only",
+    "foreground": "Do not obscure actor or exit trigger"
+  },
+  "layers": [
+    "distant-background",
+    "architecture",
+    "illumination",
+    "architectural-details",
+    "floor",
+    "background-props",
+    "reference-characters",
+    "foreground"
+  ],
+  "look": {
+    "palette": [
+      "#293f50",
+      "#84b8b8",
+      "#dae4d9",
+      "#f5deb4",
+      "#172937"
+    ],
+    "perspective": "orthographic side-on, subtle background depth only",
+    "source": "original procedural vector illustration; references existing repo mood and visual brief, not recovered lost art"
+  }
+}
