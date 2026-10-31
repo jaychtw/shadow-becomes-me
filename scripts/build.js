@@ -6,3 +6,7 @@ await cp('src','dist/src',{recursive:true});
 await mkdir('dist/art');
 await copyFile('art/laboratory.svg','dist/art/laboratory.svg');
 console.log('Static build: dist/ (no runtime network dependencies)');
+
+await mkdir('dist/art/characters',{recursive:true});
+await copyFile('art/character-experiment/manifest.json','dist/art/characters/manifest.json');
+await cp('art/character-experiment/frames','dist/art/characters/frames',{recursive:true});

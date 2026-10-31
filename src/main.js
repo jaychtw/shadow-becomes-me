@@ -1,3 +1,4 @@
+import {renderCharacters} from './presentation.js';
 import {createGame,start,tick,camouflage,attack} from './engine.js';
 import {strings} from './i18n.js';
 let game=createGame(),locale='en',paused=false,help=false;
@@ -90,6 +91,7 @@ function render(){
  $('guard-cue').textContent=b.state==='investigate'?'?':b.state==='hostile'?'!':'';
  $('guard-hp').innerHTML=b.hp?Array.from({length:3},(_,i)=>`<rect x="${i*14-19}" y="-126" width="10" height="4" rx="1" fill="${i<b.hp?'#223e50':'#b3c2bd'}"/>`).join(''):'';
  const range=330*b.direction;
+ renderCharacters(game);
  $('guard-vision').innerHTML=b.hp?`<path d="M${b.x} 396l${range} -78v167Z" fill="url(#vision)"/><path d="M${b.x} 396l${range} -78" fill="none" stroke="#aa5649" opacity=".25"/>`:'';
 }
 let last=performance.now(),lastPhase='intro';
