@@ -1,8 +1,9 @@
 // Presentation only. Engine timing, hit testing and accepted source artwork are untouched.
-const manifest=await (await fetch(new URL('../art/characters/manifest.json',import.meta.url))).json();
+import manifest from '../art/characters/manifest.js';
 const root=new URL('../art/characters/',import.meta.url);
 const frames=manifest.frames;
-await Promise.all(frames.map(async f=>{const im=new Image();im.src=new URL(f.png,root);await im.decode();}));
+const decodedImages=frames.map(f=>{const im=new Image();im.src=new URL(f.png,root);return im;});
+export const artReady=Promise.all(decodedImages.map(im=>im.decode()));
 const shadow=frames.filter(f=>f.motion==='shadow-spike'),walk=frames.filter(f=>f.motion==='guard-walk');
 export const SHADOW_SCALE=105/243;
 function at(list,t){let end=0;for(const f of list){end+=f.durationMs;if(t<end)return f;}return list.at(-1);}

@@ -1,10 +1,11 @@
-import {renderCharacters} from './presentation.js';
+import {renderCharacters,artReady} from './presentation.js';
 import {createGame,start,tick,camouflage,attack} from './engine.js';
 import {strings} from './i18n.js';
 let game=createGame(),locale='en',paused=false,help=false;
 try{const saved=localStorage.getItem('sbm-language');if(Object.hasOwn(strings,saved))locale=saved;}catch{}
 const $=id=>document.getElementById(id),t=k=>strings[locale][k];
 function text(el,value){if(el.textContent!==value)el.textContent=value;}
+$('begin').disabled=true;artReady.then(()=>{$('begin').disabled=false;});
 const keys=new Set(),touch=new Set();
 const clearInput=()=>{keys.clear();touch.clear();};
 const forms={

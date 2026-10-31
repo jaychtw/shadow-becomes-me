@@ -1,4 +1,4 @@
-import {mkdir,copyFile,cp,rm} from 'node:fs/promises';
+import {mkdir,copyFile,cp,rm,readFile,writeFile} from 'node:fs/promises';
 await rm('dist',{recursive:true,force:true});
 await mkdir('dist');
 for(const file of ['index.html','style.css']) await copyFile(file,`dist/${file}`);
@@ -19,3 +19,5 @@ await copyFile('art/laboratory-poc/runtime/architectural-details.png','dist/art/
 await copyFile('art/laboratory-poc/runtime/floor.png','dist/art/laboratory/floor.png');
 await copyFile('art/laboratory-poc/runtime/background-props.png','dist/art/laboratory/background-props.png');
 await copyFile('art/laboratory-poc/runtime/foreground.png','dist/art/laboratory/foreground.png');
+
+await writeFile('dist/art/characters/manifest.js','export default '+await readFile('art/character-experiment/manifest.json','utf8')+';');
