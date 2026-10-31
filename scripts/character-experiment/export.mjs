@@ -18,5 +18,12 @@ for(const f of manifest.frames){
 }
 manifest.exporter={tool:'Playwright 1.56.1 / Chromium',browser:await browser.version(),deviceScaleFactor:1,alpha:true};
 await writeFile(new URL('manifest.json',root),JSON.stringify(manifest,null,2)+'\n');
+// Rasterize the immutable candidate for exact first/last-pose comparison.
+const reference=await readFile(new URL('reference/shadow-rest-candidate.svg',root));
+const page=await browser.newPage({viewport:{width:512,height:256},deviceScaleFactor:1});
+await page.setContent(`<style>html,body{margin:0;background:transparent}img{display:block}</style><img src="data:image/svg+xml;base64,${reference.toString('base64')}">`);
+await page.locator('img').evaluate(e=>e.decode());
+await writeFile(new URL('../../evidence/shadow-rest-integration/candidate-reference.png',root),await page.screenshot({omitBackground:true}));
+await page.close();
 await browser.close();
 console.log(`Exported ${manifest.frames.length} transparent PNGs with source/export SHA-256 hashes.`);

@@ -1,9 +1,12 @@
 {
-  "version": 2,
-  "revision": "Owner-directed amorphous grounded Shadow and upright gait correction",
+  "version": 3,
+  "revision": "Authored candidate rest with continuous body-to-attack morph; accepted guard unchanged",
   "status": "experimental; awaiting fresh owner visual acceptance",
   "worldScale": 0.55,
-  "baseline": 240,
+  "baseline": {
+    "shadow-spike": 232,
+    "guard-walk": 240
+  },
   "facing": "right; mirror around pivot for left",
   "motions": {
     "shadow-spike": {
@@ -25,21 +28,23 @@
       "source": "source/shadow-spike-00.svg",
       "png": "frames/shadow-spike-00.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "94f5d907dbc07601d6a501172e785e4c758e8fb9c5141a3e78cceb9a54d88b1a",
-      "pngSha256": "fad922ecf7fbe11eba833ddae80bcc8259914049cff7bf8fa60e140c884172bf"
+      "sourceSha256": "beed01fbd983fb4ac4165f7cbe107bcbbe6d7748037ea2ed3aad1dc6231891c9",
+      "pngSha256": "b64a185fba854cea3548471651f6e692ad891c927f35e3c36d38c5c12ca4eb05"
     },
     {
       "id": "shadow-spike-01",
@@ -47,21 +52,23 @@
       "source": "source/shadow-spike-01.svg",
       "png": "frames/shadow-spike-01.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.08,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.282843,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "25f210b3af74c9175e8c9cd6df4e467efaeccae088a2e0dfe6e44e924b873a49",
-      "pngSha256": "53e802dfea1ffc047a5340da428268143ce1451a38e7458a404af24e961bdfb7"
+      "sourceSha256": "8c535ae38977b3388866f2cbeb298b259558a9dcdde73ecaf8f58906cadda450",
+      "pngSha256": "dcbb5e0ab329ceb36db8209d1ed8b8faffaf6d7bc75dc9a0bb1406df37291a78"
     },
     {
       "id": "shadow-spike-02",
@@ -69,21 +76,23 @@
       "source": "source/shadow-spike-02.svg",
       "png": "frames/shadow-spike-02.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.24,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.489898,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "10f4468866d75045fdc7d99dac8c3bcdecb9d70af99a17cfab3cb7e21d84e22d",
-      "pngSha256": "7261480775fc547df8421ea74fedb04109d14aaaacd47b78bd82caa463a27a64"
+      "sourceSha256": "48b4e0bff2d8d4f4768824e597d9bc8f10fa906a91734797c5785fafd7e113c2",
+      "pngSha256": "990f1ff378a609e6d677d02859d7f3ed29f553551ef40c42775fb297d31dd0eb"
     },
     {
       "id": "shadow-spike-03",
@@ -91,21 +100,23 @@
       "source": "source/shadow-spike-03.svg",
       "png": "frames/shadow-spike-03.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.52,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.72111,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "f9f555077ace3eb8ef48fec847cd1a57f896e4ef0647d2de1715c38d86f85155",
-      "pngSha256": "4653873e5fe6f45576467563f10681ba23adda9e8241e8b238ddfd1ddd705a62"
+      "sourceSha256": "59582b6e63a404f91ac674596c3e74931cda9d29cdbafe350e1b303fab33413f",
+      "pngSha256": "1393ef1ff93f7b2ad4158284cf38c68ac4bc1d20a5a99340aa7bf1cd0832c5f2"
     },
     {
       "id": "shadow-spike-04",
@@ -113,21 +124,23 @@
       "source": "source/shadow-spike-04.svg",
       "png": "frames/shadow-spike-04.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.83,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.911043,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "9279bf870986ac8e98a4abb9078ec1399e7ede8ddabd2e11e9fe0e13289db19e",
-      "pngSha256": "6b683b19702218a9db65b2fcf88f13c5e038d3fc0a0c878f805cd9ca1b6c30a2"
+      "sourceSha256": "260b935fee51773643429a5fc0c016144093de36859a89c82c565cbe1f9fd24d",
+      "pngSha256": "219a4c4c87f2614cdcb2eff7a67f4bf895b5b8b5ae9bb9b719722f451e297281"
     },
     {
       "id": "shadow-spike-05",
@@ -135,21 +148,23 @@
       "source": "source/shadow-spike-05.svg",
       "png": "frames/shadow-spike-05.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 1,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 1,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "64230df06379a14e5249a9f17c15b58d6b3a12cc1a507748d277db3e520dfa93",
-      "pngSha256": "e8161bccaeb60a147e947bcb676c560ba8906ac404e23da9cfeafa1fbb9ec4ab"
+      "sourceSha256": "4a27f26703e20c91d1f113a5d5ebee23e008beb2703bee4910912bf255acafe1",
+      "pngSha256": "e21a1564252662f7538dbb10df22ca8a45709fa26192c5f6240089b707102677"
     },
     {
       "id": "shadow-spike-06",
@@ -157,21 +172,23 @@
       "source": "source/shadow-spike-06.svg",
       "png": "frames/shadow-spike-06.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 1,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 1,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "567da9d424a6dbee8ed71020a8befa80ad48f9397bac1ec19120b97a765c3c00",
-      "pngSha256": "e8161bccaeb60a147e947bcb676c560ba8906ac404e23da9cfeafa1fbb9ec4ab"
+      "sourceSha256": "cc7f87eba3760588351105811f4582efcd6a7d13d38deb3591329cd30693a94d",
+      "pngSha256": "e21a1564252662f7538dbb10df22ca8a45709fa26192c5f6240089b707102677"
     },
     {
       "id": "shadow-spike-07",
@@ -179,21 +196,23 @@
       "source": "source/shadow-spike-07.svg",
       "png": "frames/shadow-spike-07.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.78,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.883176,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "3afa1315f1e0baff3bbd15a408604ccd2219c8c7dfe9b159109bef184781c108",
-      "pngSha256": "e6be5cbc0c4435c56f27d48db0bac4f4d976c06f201ec717c7d54649e546bf32"
+      "sourceSha256": "55da8a63f25356f8f8136125aa3bd5187c6bec01fdf97806abe3eb612f82927f",
+      "pngSha256": "c87d02c221abb3a505acdee6a49f0e1ee65ace1d47f4cd4ee354cfb66c4d097d"
     },
     {
       "id": "shadow-spike-08",
@@ -201,21 +220,23 @@
       "source": "source/shadow-spike-08.svg",
       "png": "frames/shadow-spike-08.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.46,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.678233,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "4383dbb23576bc983d2921500adae54dd689f26e29047d49ac99ba65c89b6c46",
-      "pngSha256": "93d7cf615d759ae95639f623aca7f6f46497a5a91c39141e67c16fd02d1522b9"
+      "sourceSha256": "736c3b7dbe2fbe94a7af9d3e675b33f6550dd5340c164d9a0da7e9adcabd749c",
+      "pngSha256": "df9491c4b6026a9e9278670e68faf418b635d1b07899277cd366095069dc58b8"
     },
     {
       "id": "shadow-spike-09",
@@ -223,21 +244,23 @@
       "source": "source/shadow-spike-09.svg",
       "png": "frames/shadow-spike-09.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 20,
       "extension": 0.19,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.43589,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "2d3e9fc570ed5c6a58594c3dbc329c16a1c01cf53598086ce9d121b91dba811e",
-      "pngSha256": "09c36cee5b1005a396e242fe21605e616d958fadfd9c0561e277d8d2e0e2670f"
+      "sourceSha256": "ec748da628c25ad7753901218cb432d64aa6fbcfade96507ab6e54b802dcb7ed",
+      "pngSha256": "c1a58c26ba4e0072e5886d3fa136b14b91e62a3962fd2f2263d547684445ee12"
     },
     {
       "id": "shadow-spike-10",
@@ -245,21 +268,23 @@
       "source": "source/shadow-spike-10.svg",
       "png": "frames/shadow-spike-10.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 10,
       "extension": 0.04,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0.2,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "9e237c2bd64399228a9ad3a6d094dd52883872bf9407e481c321bd979ef750a8",
-      "pngSha256": "bc7849e9854e5386090732c478f8ae639eecb5946382394499ee57e09bc54d54"
+      "sourceSha256": "b5f0831624e19c18d441786d853adb4c6ab2d2617fb043a4b5fce36d8c79d994",
+      "pngSha256": "40af00dd9c1a093fa46492f3b5997d26db65c0cdd61dd9042db912fa5a437957"
     },
     {
       "id": "shadow-spike-11",
@@ -267,21 +292,23 @@
       "source": "source/shadow-spike-11.svg",
       "png": "frames/shadow-spike-11.png",
       "canvas": [
-        384,
+        512,
         256
       ],
       "pivot": [
-        96,
-        240
+        256,
+        232
       ],
+      "baseline": 232,
       "durationMs": 10,
       "extension": 0,
-      "handRoot": [
-        139,
-        128
+      "restBlend": 0,
+      "attackTransform": [
+        160,
+        -8
       ],
-      "sourceSha256": "ada6b4e20c8b0f50a267f801d2ca07d804ad95b422ea95fc6e944b746ecdcd35",
-      "pngSha256": "fad922ecf7fbe11eba833ddae80bcc8259914049cff7bf8fa60e140c884172bf"
+      "sourceSha256": "37b1182476382ead87bbdb31d690a58c7227a5b444cf1cd07ce491fe8f5ae32b",
+      "pngSha256": "b64a185fba854cea3548471651f6e692ad891c927f35e3c36d38c5c12ca4eb05"
     },
     {
       "id": "guard-walk-00",
@@ -1148,7 +1175,12 @@
       "pngSha256": "758fb0369b6ee99a917ce24dd5171e2a7841323a64d4cf482105ce08608f06a5"
     }
   ],
-  "provenance": "Original local vector drawings guided by supplied approved references; not recovered assets or crops.",
+  "restReference": {
+    "path": "reference/shadow-rest-candidate.svg",
+    "sha256": "9707233116573a8bea0291db110a1e307eb4fc3384c5967db9c809e54db50a23",
+    "mapping": "Exact authored 512x256 path; pivot (256,232), no scaling or silhouette redesign"
+  },
+  "provenance": "ChatGPT-authored rest candidate used directly; prior original local attack endpoint and accepted guard preserved.",
   "exporter": {
     "tool": "Playwright 1.56.1 / Chromium",
     "browser": "154.0.8037.57",

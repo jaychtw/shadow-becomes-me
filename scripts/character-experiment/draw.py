@@ -3,14 +3,14 @@ Edit silhouette control points, costume paths or gait landmarks here; each emitt
 is independently editable. Raster export is a separate Chromium operation.
 """
 from pathlib import Path
-import math,json
+import math,json,re,hashlib,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'art/character-experiment'
 
 def svg(w,body,label):
  return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="256" viewBox="0 0 {w} 256" role="img" aria-label="{label}">{body}</svg>\n'
 
-def shadow(extension):
+def legacy_shadow(extension):
  # Smooth amorphous mound: no separate head, neck, shoulders or hanging hem.
  # Attack contour/control points and extension schedule remain unchanged.
  tip=151+188*extension; tipy=119-14*extension
@@ -23,6 +23,54 @@ def shadow(extension):
  C {tip-25:.2f} {tipy+9:.2f} {157+25*extension:.2f} 136 141 137
  C 143 159 146 180 151 204 C 154 222 159 232 166 240
  L 38 240 Z"/>'''
+
+# Read the concrete handoff path. Rest is never redrawn from verbal descriptions.
+REFERENCE=OUT/'reference/shadow-rest-candidate.svg'
+REST_D=ET.parse(REFERENCE).getroot()[0].attrib['d']
+
+def curves(path):
+ tokens=re.findall(r'[MCLZ]|-?\d+(?:\.\d+)?',path)
+ i=0;start=None;segments=[]
+ while i<len(tokens):
+  command=tokens[i];i+=1
+  if command=='Z':break
+  count={'M':2,'C':6,'L':2}[command]
+  points=[(float(tokens[j]),float(tokens[j+1])) for j in range(i,i+count,2)];i+=count
+  if command=='M':start=points[0]
+  elif command=='C':segments.append(points)
+ return start,segments
+
+def split(p0,segment):
+ # De Casteljau at t=0.5: exact subdivision of the authored curve.
+ p1,p2,p3=segment
+ mid=lambda a,b:tuple((x+y)/2 for x,y in zip(a,b))
+ a,b,c=mid(p0,p1),mid(p1,p2),mid(p2,p3)
+ d,e=mid(a,b),mid(b,c);f=mid(d,e)
+ return [a,d,f],[e,c,p3]
+
+REST_START,rest_original=curves(REST_D)
+REST_CURVES=[];position=REST_START
+for i,segment in enumerate(rest_original):
+ if i in (1,3,4,5):REST_CURVES.extend(split(position,segment))
+ else:REST_CURVES.append(segment)
+ position=segment[-1]
+assert len(REST_CURVES)==10
+
+def shadow(extension):
+ if extension==0:
+  return f'<path id="continuous-shadow" fill="#000000" d="{REST_D}"/>'
+ target_start,target=curves(ET.fromstring('<svg>'+legacy_shadow(extension)+'</svg>')[0].attrib['d'])
+ shift=lambda p:(p[0]+160,p[1]-8)
+ target_start=shift(target_start);target=[[shift(p) for p in c] for c in target]
+ assert len(target)==len(REST_CURVES)
+ # Geometry morph, no opacity fade or detached overlaid blade.
+ blend=math.sqrt(extension)
+ lerp=lambda a,b:tuple(x+(y-x)*blend for x,y in zip(a,b))
+ start=lerp(REST_START,target_start)
+ segments=[[lerp(a,b) for a,b in zip(rest,attack)] for rest,attack in zip(REST_CURVES,target)]
+ fmt=lambda p:f'{p[0]:.6f} {p[1]:.6f}'
+ d='M '+fmt(start)+' '+' '.join('C '+' '.join(fmt(p) for p in c) for c in segments)+' L '+fmt(start)+' Z'
+ return f'<path id="continuous-shadow" fill="#000000" d="{d}"/>'
 
 def leg(hip,foot,front):
  hx,hy=hip; fx,fy=foot
@@ -78,12 +126,12 @@ frames=[]
 extensions=[0,.08,.24,.52,.83,1,1,.78,.46,.19,.04,0]
 for i,e in enumerate(extensions):
  name=f'shadow-spike-{i:02}'
- (OUT/'source'/f'{name}.svg').write_text(svg(384,shadow(e),f'Shadow spike frame {i}'))
- frames.append({'id':name,'motion':'shadow-spike','source':f'source/{name}.svg','png':f'frames/{name}.png','canvas':[384,256],'pivot':[96,240],'durationMs':20 if i<10 else 10,'extension':e,'handRoot':[139,128]})
+ (OUT/'source'/f'{name}.svg').write_text(svg(512,shadow(e),f'Shadow spike frame {i}'))
+ frames.append({'id':name,'motion':'shadow-spike','source':f'source/{name}.svg','png':f'frames/{name}.png','canvas':[512,256],'pivot':[256,232],'baseline':232,'durationMs':20 if i<10 else 10,'extension':e,'restBlend':round(math.sqrt(e),6),'attackTransform':[160,-8]})
 for i in range(24):
  name=f'guard-walk-{i:02}'; body,landmarks=guard(i/24)
  (OUT/'source'/f'{name}.svg').write_text(svg(192,body,f'Guard walking frame {i}'))
  frames.append({'id':name,'motion':'guard-walk','source':f'source/{name}.svg','png':f'frames/{name}.png','canvas':[192,256],'pivot':[96,240],'durationMs':50,'landmarks':landmarks})
-manifest={'version':2,'revision':'Owner-directed amorphous grounded Shadow and upright gait correction','status':'experimental; awaiting fresh owner visual acceptance','worldScale':.55,'baseline':240,'facing':'right; mirror around pivot for left','motions':{'shadow-spike':{'durationMs':220,'loop':False,'note':'Presentation only; existing engine untouched. Preview repeats with 700 ms rest.'},'guard-walk':{'durationMs':1200,'loop':True,'nominalTravelWorldUnitsPerSecond':58,'sourceTravelPerCycle':126.54545}},'frames':frames,'provenance':'Original local vector drawings guided by supplied approved references; not recovered assets or crops.'}
+manifest={'version':3,'revision':'Authored candidate rest with continuous body-to-attack morph; accepted guard unchanged','status':'experimental; awaiting fresh owner visual acceptance','worldScale':.55,'baseline':{'shadow-spike':232,'guard-walk':240},'facing':'right; mirror around pivot for left','motions':{'shadow-spike':{'durationMs':220,'loop':False,'note':'Presentation only; existing engine untouched. Preview repeats with 700 ms rest.'},'guard-walk':{'durationMs':1200,'loop':True,'nominalTravelWorldUnitsPerSecond':58,'sourceTravelPerCycle':126.54545}},'frames':frames,'restReference':{'path':'reference/shadow-rest-candidate.svg','sha256':hashlib.sha256(REFERENCE.read_bytes()).hexdigest(),'mapping':'Exact authored 512x256 path; pivot (256,232), no scaling or silhouette redesign'},'provenance':'ChatGPT-authored rest candidate used directly; prior original local attack endpoint and accepted guard preserved.'}
 (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print('12 Shadow + 24 guard editable SVG frames and manifest written.')

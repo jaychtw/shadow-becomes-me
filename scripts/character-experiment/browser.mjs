@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import {mkdir,writeFile,rm} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import {resolve} from 'node:path';
-const out='evidence/character-corrections';await mkdir(out,{recursive:true});
+const out='evidence/shadow-rest-integration';await mkdir(out,{recursive:true});
 const report={started:new Date().toISOString(),cases:[],audits:[],errors:[],externalRequests:[]};
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});report.browser=await browser.version();
 const origin='http://127.0.0.1:8081';
@@ -19,13 +19,18 @@ for(const width of [1440,390]){
  await p.locator('#shadow-scrub').fill('11');await p.locator('#guard-scrub').fill('23');
  await p.locator('#step').click();let s=await p.evaluate(()=>__characterStudy.snapshot());assert.equal(s.shadow,0);assert.equal(s.guard,0);
  report.cases.push({name:`${width}: all 36 frames independently inspectable and step wraps`,status:'pass'});
+ const first=await p.locator('#shadow').evaluate(e=>e.toDataURL());
+ await p.locator('#shadow-scrub').fill('11');const last=await p.locator('#shadow').evaluate(e=>e.toDataURL());assert.equal(last,first);
+ report.cases.push({name:`${width}: first and returned resting canvas pixels identical`,status:'pass'});
  await p.selectOption('#facing','left');assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).facing,'left');await p.locator('#svg').check();assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).source,true);await p.locator('#zoom').check();assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).zoom,true);await p.locator('#zoom').uncheck();await p.locator('#svg').uncheck();await p.selectOption('#facing','right');
  report.cases.push({name:`${width}: facing, editable SVG comparison and zoom controls`,status:'pass'});
  for(const locale of ['en','zh-TW']){
   if(locale==='zh-TW')await p.locator('#language').click();assert.equal(await p.locator('html').getAttribute('lang'),locale);
   assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   const result=await new AxeBuilder({page:p}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();report.audits.push({width,locale,violations:result.violations,incomplete:result.incomplete.map(x=>({id:x.id,targets:x.nodes.map(n=>n.target)}))});assert.equal(result.violations.length,0);
-  await p.locator('#shadow-scrub').fill('5');await p.locator('#guard-scrub').fill('0');
+  await p.locator('#shadow-scrub').fill('0');await p.locator('#guard-scrub').fill('0');
+  await p.screenshot({path:`${out}/study-${width}-${locale}-rest.png`,fullPage:true});
+  await p.locator('#shadow-scrub').fill('5');
   await p.screenshot({path:`${out}/study-${width}-${locale}.png`,fullPage:true});
  }
  report.cases.push({name:`${width}: two locales, no overflow, two zero-violation axe audits`,status:'pass'});

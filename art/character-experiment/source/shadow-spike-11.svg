@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="384" height="256" viewBox="0 0 384 256" role="img" aria-label="Shadow spike frame 11"><path id="continuous-shadow" fill="#000000" d="
- M 38 240 C 47 226 55 208 61 182 C 65 155 62 122 68 96
- C 72 72 83 47 99 49 C 115 50 119 75 120 94
- C 120 102 120 106 121 111
- C 122 119 129 120 139 119
- C 146.00 117.00 129.00 120.00 151.00 119.00
- C 126.00 128.00 157.00 136 141 137
- C 143 159 146 180 151 204 C 154 222 159 232 166 240
- L 38 240 Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="256" viewBox="0 0 512 256" role="img" aria-label="Shadow spike frame 11"><path id="continuous-shadow" fill="#000000" d="M 40 232 C 58 214 71 193 83 161 C 96 119 131 76 177 55 C 222 34 254 49 285 75 C 308 96 323 118 349 132 C 380 150 405 164 421 192 C 434 214 449 223 472 232 L 40 232 Z"/></svg>

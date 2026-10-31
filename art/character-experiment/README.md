@@ -7,7 +7,7 @@ Original replacement drawings, not recovered or accepted production assets. Owne
 - `manifest.json`: dimensions, pivots, duration, facing, stance landmarks and source/PNG SHA-256.
 - Source generator: `../../scripts/character-experiment/draw.py`; editable vector path control points, costume details and gait landmarks.
 - Standalone preview: `../../character-study/index.html`, served through HTTP; not included in the production build.
-- Current review/verification: `../../docs/CHARACTER_CORRECTIONS.md`. Original experiment report: `../../docs/CHARACTER_EXPERIMENT.md`.
+- Current review/verification: `../../docs/SHADOW_REST_INTEGRATION.md`. Previous correction report: `../../docs/CHARACTER_CORRECTIONS.md`. Original experiment report: `../../docs/CHARACTER_EXPERIMENT.md`.
 
 Free local recipe from repository root (existing locked npm packages, Python Pillow, system Chromium and FFmpeg):
 
@@ -33,3 +33,9 @@ Baseline `cdfd8cfaa8f6e5cdbee84a2344b8a763154c86e5` was technically successful; 
 The existing 1,200 ms guard loop now has 24 × 50 ms samples instead of 12 × 100 ms. Hip height is raised, arm swing reduced, support knees are relatively straight, and swing-foot clearance is 5 source pixels. Stance speed remains 58 world units/s at 0.55 scale; frame-hold travel drops from 5.8 to 2.9 world units per sample. This reduces rather than eliminates stepping/sliding. No new motion category, engine adapter or interpolation pipeline was added.
 
 Fresh validation writes `evidence/character-corrections/` so the previous experiment evidence stays intact. `verify.py` also compares the preserved spike against the baseline Git object, which must be available locally.
+
+## Authored resting geometry continuation
+
+Current rest is read directly from `reference/shadow-rest-candidate.svg`, with that exact path at both first and final attack frames. Shadow canvas/pivot/baseline are now 512×256 / (256,232) / 232; guard stays 192×256 / (96,240) / 240. The manifest records per-motion baselines. The accepted attack endpoint is translated by (+160,−8), equal to the pivot change, retaining its relative reach and timing. Intermediate contours morph from the authored candidate, not the old exposed-arm rest silhouette. Frame count and guard animation are preserved.
+
+Fresh evidence and verifier output now go to `evidence/shadow-rest-integration/`; earlier reports and media remain historical. Create that directory before `export.mjs` if restoring only a source subset; a candidate reference raster is emitted there for exact rest comparison. Baseline Git object `89cf4a4` must be available to the preservation verifier.
