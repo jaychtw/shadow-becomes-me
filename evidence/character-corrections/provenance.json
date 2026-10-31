@@ -1,0 +1,20 @@
+{
+  "ownerBaseline": "cdfd8cfaa8f6e5cdbee84a2344b8a763154c86e5",
+  "sourceCheckpoint": "c74f274",
+  "inputHashes": {
+    "scripts/character-experiment/draw.py": "d439a0a9a4cd1b9da8aea57399fe8c4cbc88a0e7fa923eb85728b6629b4228eb",
+    "scripts/character-experiment/export.mjs": "f895b55ccfcf5328e15ebee553790c4dd4d4df04cdd3d3c5748b599f8d6bfdc9",
+    "scripts/character-experiment/verify.py": "9e096ee0c6daf14579de2e5aedbad8aa5f831d13caabe881e49a948cdc591a25",
+    "scripts/character-experiment/browser.mjs": "75bcaf1eb8ea0ab1c3c9c1cef901367187cee95b26cb75f8d9b2d9016ba62056",
+    "character-study/index.html": "f5e75b4a2970acc820f20c8a1681255d02ac1ff914c93d4af509c14e1bcd36af",
+    "character-study/study.js": "a8017a041d93a547462e767ef0c85104c4bf69e096be2b0ea387515a9c8548b0",
+    "character-study/study.css": "be92555997aa4c80edbbb2060f89d0f767746ffb12345f21e12204dfb9695de5",
+    "art/character-experiment/manifest.json": "09ebc8f725666b50a7fc4c12884b672913fe5cb106bcd3ec8d5571f6d4b2aa57"
+  },
+  "generatedFrames": 36,
+  "gameplayBoundaryUnchanged": true,
+  "recording": "Actual Chromium CDP frames with original timestamps, local FFmpeg VP9; GIF25fps derivatives",
+  "phoneTesting": "Chromium touch emulation only",
+  "supportGeometry": "Level ground only; no physics changes",
+  "cost": "$0 incremental paid services"
+}

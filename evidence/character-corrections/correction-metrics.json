@@ -1,0 +1,15 @@
+{
+  "baseline": "cdfd8cfaa8f6e5cdbee84a2344b8a763154c86e5",
+  "guardFrames": 24,
+  "guardFrameDurationMs": 50,
+  "guardCycleDurationMs": 1200,
+  "maxSupportKneeFlexDegrees": 25.2821,
+  "maxSwingKneeFlexDegrees": 38.3763,
+  "maxFootLiftSourcePixels": 5,
+  "nominalFrameHoldGroundTravelWorldUnits": 2.9,
+  "previousNominalFrameHoldGroundTravelWorldUnits": 5.8,
+  "shadowBaseline": 240,
+  "supportSurface": "level only; no new terrain/physics",
+  "spikeControlCurvesAndTiming": "unchanged; see asset checks",
+  "rasterEdgeNote": "Whole-path retessellation changes a few boundary-alpha values; >=128 distal spike footprint remains identical."
+}
