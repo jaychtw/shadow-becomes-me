@@ -35,9 +35,9 @@ test('hostility and armor independently prohibit instant takedown',()=>{
 test('attack range and cooldown enforce meaningful limits',()=>{
  const g=encounter();g.player.x=1100;assert.equal(attack(g),'miss');assert.equal(g.guard.hp,3);assert.equal(attack(g),'cooldown');advance(g,T.spikeCooldown+.1);g.player.x=g.guard.x+60;assert.equal(attack(g),'normal');assert.equal(g.guard.hp,2);
 });
-test('repeated ordinary spikes can defeat guard without one hit kill',()=>{
+test('repeated ordinary spikes with retreat during cooldown defeat guard without one hit kill',()=>{
  const g=encounter();g.player.x=g.guard.x+50;
- for(let i=0;i<3;i++){attack(g);if(i<2){assert.equal(g.guard.hp,2-i);advance(g,.72);}}
+ for(let i=0;i<3;i++){g.player.x=g.guard.x+50;attack(g);if(i<2){assert.equal(g.guard.hp,2-i);advance(g,T.spikeCooldown+.02,1);}}
  assert.equal(g.guard.hp,0);
 });
 test('observed fitting correction cancels investigation but never hostile state',()=>{
@@ -62,4 +62,10 @@ test('complete deterministic stealth route is solvable without taking damage',()
 test('locale resources have matching complete keys',()=>{
  assert.deepEqual(Object.keys(strings.en).sort(),Object.keys(strings['zh-TW']).sort());
  for(const locale of Object.values(strings))for(const val of Object.values(locale))assert.ok(typeof val==='string'&&val.length);
+});
+
+test('deliberate cadence blocks repeat attack through 1.19s, then permits after 1.2s',()=>{
+ const g=createGame();start(g);assert.equal(attack(g),'miss');assert.equal(g.player.cooldown,1.2);assert.equal(g.player.spike,.22);
+ for(let i=0;i<23;i++)tick(g,.05);tick(g,.04);assert.equal(attack(g),'cooldown');
+ tick(g,.02);assert.equal(attack(g),'miss');assert.equal(g.player.cooldown,1.2);
 });

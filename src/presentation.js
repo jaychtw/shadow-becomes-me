@@ -15,10 +15,15 @@ export function renderCharacters(g){
  distance+=Math.abs(g.guard.x-lastX);lastX=g.guard.x;
  const p=g.player,b=g.guard;
  const s=image(document.getElementById('player'),'shadow-sprite');
- const active=p.spike>0,visible=active||p.form==='idle';
+ const active=p.spike>0,visible=active||p.form==='idle'||p.form==='blob';
  s.style.display=visible?'':'none';document.getElementById('shadow').style.display=visible?'none':'';
  document.getElementById('spike-shape').setAttribute('d','');
- if(visible)apply(s,active?at(shadow,Math.max(0,220-p.spike*1000)):shadow[0],SHADOW_SCALE,p.direction);
+ if(visible){
+  apply(s,active?at(shadow,Math.max(0,220-p.spike*1000)):shadow[0],SHADOW_SCALE,p.direction);
+  // Reuse the authored amorphous rest envelope with a wider, lower moving profile.
+  // The flat source baseline stays exactly at the actor's ground pivot.
+  if(!active&&p.form==='blob')s.setAttribute('transform',`scale(${.46*p.direction} .24) translate(-256 -232)`);
+ }
  const guard=image(document.getElementById('guard'),'guard-sprite');
  document.getElementById('guard-body').style.display='none';
  const f=b.hp?at(walk,(distance/58*1000)%1200):walk[0];apply(guard,f,.55,b.direction);

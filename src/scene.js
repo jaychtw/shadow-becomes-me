@@ -8,6 +8,6 @@ export const scene = Object.freeze({
 export const tuning = Object.freeze({
   playerSpeed:185,guardSpeed:58,investigateSpeed:88,hostileSpeed:112,
   sightRange:330,inspectionDistance:76,inspectionSeconds:2.5,
-  spikeRange:105,spikeCooldown:0.7,spikeVisualSeconds:0.22,staggerSeconds:0.38,
+  spikeRange:105,spikeCooldown:1.2,spikeVisualSeconds:0.22,staggerSeconds:0.38,
   guardHP:3,playerHP:3,guardAttackRange:52,guardAttackCooldown:1.05
 });
