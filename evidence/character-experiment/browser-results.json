@@ -1,0 +1,89 @@
+{
+  "started": "2026-10-31T09:54:48.782Z",
+  "cases": [
+    {
+      "name": "1440: reduced motion starts paused",
+      "status": "pass"
+    },
+    {
+      "name": "1440: all 24 frames independently inspectable and step wraps",
+      "status": "pass"
+    },
+    {
+      "name": "1440: facing, editable SVG comparison and zoom controls",
+      "status": "pass"
+    },
+    {
+      "name": "1440: two locales, no overflow, two zero-violation axe audits",
+      "status": "pass"
+    },
+    {
+      "name": "1440: actual autoplay, half-speed review and left-facing playback recorded",
+      "status": "pass"
+    },
+    {
+      "name": "1440: 534 actual CDP frames encoded with timestamp durations",
+      "status": "pass"
+    },
+    {
+      "name": "390: reduced motion starts paused",
+      "status": "pass"
+    },
+    {
+      "name": "390: all 24 frames independently inspectable and step wraps",
+      "status": "pass"
+    },
+    {
+      "name": "390: facing, editable SVG comparison and zoom controls",
+      "status": "pass"
+    },
+    {
+      "name": "390: two locales, no overflow, two zero-violation axe audits",
+      "status": "pass"
+    },
+    {
+      "name": "390: actual autoplay, half-speed review and left-facing playback recorded",
+      "status": "pass"
+    },
+    {
+      "name": "390: 534 actual CDP frames encoded with timestamp durations",
+      "status": "pass"
+    }
+  ],
+  "audits": [
+    {
+      "width": 1440,
+      "locale": "en",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "width": 1440,
+      "locale": "zh-TW",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "width": 390,
+      "locale": "en",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "width": 390,
+      "locale": "zh-TW",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "browser": "154.0.8037.57",
+  "finished": "2026-10-31T09:55:36.812Z",
+  "summary": {
+    "pass": 12,
+    "fail": 0,
+    "audits": 4,
+    "violations": 0
+  }
+}

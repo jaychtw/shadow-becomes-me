@@ -38,7 +38,7 @@ Historical baseline acceptance (80/100) and spike acceptance/closure remain sepa
 
 See [fresh QA](RECOVERY_QA.md), its commands and new evidence. Previous reports remain in their original locations and are not relabeled as this run. Validation runs from an external copy to avoid overwriting tracked historical screenshots/results. Fresh build/runtime bytes match the surviving POC's seven-file, 39,076-byte artifact; build-script metadata still names the original branch/base and is not new branch provenance.
 
-## Checkpoint safety and status
+## Checkpoint safety and status (original recovery observation)
 
 No `.github` workflows exist in either surviving branch or the proposed recovery changes. No publish/deploy scripts or runtime external services are introduced. Read-only Git access works. GitHub CLI requests for `/repos/jaychtw/shadow-becomes-me/pages`, `/actions/workflows` and repository metadata returned `Forbidden`; native Git access does not establish API permission. Repository visibility and Pages configuration could not be independently read through that API.
 
@@ -55,3 +55,7 @@ If Support returns the original workspace, first export its branch as a Git bund
 [Reconstruction Offer](RECONSTRUCTION_OFFER.md) compares wait/reconstruct/hybrid. No substantial art work is started. Owner must select an approach, explicitly authorize its bounded execution, then separately judge technical evidence and visual acceptance. Release remains outside that decision.
 
 Lesson observed: local-only completion leaves an evidence and delivery gap when a workspace disappears. Keep small verified source checkpoints and downloadable verified backups; neither a local commit nor a passing test implies remote availability or acceptance. This is recorded as a project-specific recovery procedure; no universal standards change is proposed.
+
+## Subsequent preservation update
+
+Owner reviewed Pages/Actions settings: Pages uses Actions, no deployment workflow configured, no existing Actions workflows; read-only default workflow token. Owner then explicitly authorized the checkpoint push. Recovery checkpoint `89b358c681c133d9045e3556cfad59001caaa75c` was pushed and independently fetched/verified on GitHub. The prior blocker above is historical and resolved. New limited character experiment and current gate are indexed in [PROJECT_STATE](PROJECT_STATE.md); original missing assets and historical acceptances remain unchanged.

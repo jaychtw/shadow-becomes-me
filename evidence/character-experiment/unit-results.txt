@@ -1,0 +1,30 @@
+
+> shadow-becomes-me@0.1.0 test
+> node --test tests/engine.test.js
+
+✔ scene metadata validates and rejects invalid forms and geometry (1.664297ms)
+✔ upright starts exposed; movement slides; stopping restores upright (0.420308ms)
+✔ exposed idle and sliding blob immediately trigger hostility (0.255045ms)
+✔ sight respects direction, distance and opaque wall fixtures (0.207926ms)
+✔ fitting box ignored under identical sight conditions (0.375532ms)
+✔ wrong chair investigated before hostility; approach and timed inspection (0.40091ms)
+✔ metadata swap to chair reverses both forms without engine changes (0.279261ms)
+✔ fitting disguise assassinates unaware unarmored guard in one hit (0.251991ms)
+✔ unfitting investigation cannot assassinate; same spike does one damage (0.402763ms)
+✔ hostility and armor independently prohibit instant takedown (0.361151ms)
+✔ attack range and cooldown enforce meaningful limits (0.917559ms)
+✔ repeated ordinary spikes can defeat guard without one hit kill (0.267483ms)
+✔ observed fitting correction cancels investigation but never hostile state (0.110613ms)
+✔ patrol bounds turn and player collision clamps to floor extent (0.580103ms)
+✔ hostile attack causes failure; restart returns clean state (0.230889ms)
+✔ exit completes encounter and freezes further simulation (0.121899ms)
+✔ complete deterministic stealth route is solvable without taking damage (0.382402ms)
+✔ locale resources have matching complete keys (0.73446ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 77.464785

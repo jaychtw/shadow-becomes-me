@@ -1,0 +1,13 @@
+{
+  "assetCheckpoint": "af3efa1",
+  "recoveryCheckpoint": "89b358c681c133d9045e3556cfad59001caaa75c",
+  "experimentOnly": true,
+  "gameIntegration": false,
+  "physicalDeviceTesting": false,
+  "generatedFrames": 24,
+  "assets": "New original replacement art, not recovered assets",
+  "videoMethod": "Actual Chromium CDP screencast with timestamp durations, local system FFmpeg encoding",
+  "gifMethod": "15 fps full-resolution derivatives of recorded WebMs",
+  "gameRuntimeDiffAgainstRecovery": "",
+  "cost": "$0 incremental paid services"
+}

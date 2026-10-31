@@ -1,0 +1,10 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "method": "Chromium CDP screencast JPEG quality 95 -> system FFmpeg VP9; original timestamp intervals",
+  "frames": 534,
+  "durationSeconds": 8.910506963729858,
+  "segments": "Initial 1x, then 0.5x right, 0.5x left, final 1x left; no generated frame substitution"
+}
