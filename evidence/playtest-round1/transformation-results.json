@@ -1,0 +1,43 @@
+{
+  "pass": 4,
+  "fail": 0,
+  "cases": [
+    {
+      "width": 1440,
+      "form": "box",
+      "guardState": "patrol",
+      "playerHp": 3,
+      "guardHp": 3,
+      "path": "M-30 0V-59H30V0Z",
+      "rendered": true
+    },
+    {
+      "width": 1440,
+      "form": "chair",
+      "guardState": "investigate",
+      "playerHp": 3,
+      "guardHp": 3,
+      "path": "M-27 0V-83H-15V-39H28V-29H21V0H12V-29H-17V0Z",
+      "rendered": true
+    },
+    {
+      "width": 390,
+      "form": "box",
+      "guardState": "patrol",
+      "playerHp": 3,
+      "guardHp": 3,
+      "path": "M-30 0V-59H30V0Z",
+      "rendered": true
+    },
+    {
+      "width": 390,
+      "form": "chair",
+      "guardState": "investigate",
+      "playerHp": 3,
+      "guardHp": 3,
+      "path": "M-27 0V-83H-15V-39H28V-29H21V0H12V-29H-17V0Z",
+      "rendered": true
+    }
+  ],
+  "conclusion": "Both rendered forms work. Box fitting; chair investigated, not a control/render defect. Movement breaks both disguises."
+}

@@ -1,6 +1,6 @@
 from pathlib import Path
-import hashlib,json,zipfile,subprocess
-r=Path(__file__).resolve().parents[2];out=r/'evidence/playable-laboratory';files=[]
+import hashlib,json,zipfile,subprocess,os
+r=Path(__file__).resolve().parents[2];out=r/os.environ.get('EVIDENCE_DIR','evidence/playable-laboratory');files=[]
 with zipfile.ZipFile(out/'playable-laboratory.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((r/'dist').rglob('*')):
   if not p.is_file():continue

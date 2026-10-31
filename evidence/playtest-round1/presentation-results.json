@@ -1,0 +1,11 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    "attack over box returns to box",
+    "attack over chair returns to chair",
+    "idle returns to exact rest frame",
+    "renderer scale maps peak to105",
+    "pause freezes guard phase"
+  ]
+}
