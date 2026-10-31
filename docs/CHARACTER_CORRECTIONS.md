@@ -1,5 +1,7 @@
 # Character motion corrections — owner review
 
+Historical correction report. New authored resting-geometry continuation from `89cf4a4` is in [the current integration report](SHADOW_REST_INTEGRATION.md). Its fresh evidence is separate; this report describes the preceding revision.
+
 Date: 2026-10-31 (Asia/Taipei). Status: localized revision, fresh visual acceptance pending.
 
 Baseline: `cdfd8cfaa8f6e5cdbee84a2344b8a763154c86e5`, preserved in this branch. The owner assessed the experiment as technically successful and requested two localized design corrections: amorphous grounded Shadow without head/neck or drapery points, and a relatively upright guard gait with reduced knee flexion/stepping. The extension/retraction behavior is acceptable and must be preserved. This does not accept the replacement artwork, reopen the two separate historical milestones, or authorize new motions or game integration.

@@ -1,0 +1,26 @@
+{
+  "continuationBaseline": "89cf4a4a03f3e42b518ce9184c8ed4a27ad287ed",
+  "sourceCheckpoint": "15fc3ec",
+  "testedInputHashes": {
+    "scripts/character-experiment/draw.py": "5b96ed3aeb998acd5d87127c644cc360c652e4d376a8f532c0f4fd2d10cfd360",
+    "scripts/character-experiment/export.mjs": "e781dbde1924f2561d115b1e4909e8676c2ea8ca0244763a635467f071a35066",
+    "scripts/character-experiment/verify.py": "a01d868ccf592ccc7b99d7cb5b8003c37013d898e28636aec53544e7d985228b",
+    "scripts/character-experiment/browser.mjs": "34f16bf197e2ef2f8ed964f6ef1baadfac048bb28da3cb35c0de8e527f31e1d1",
+    "character-study/index.html": "1684b2daedf6996b31e130061fc20306f9d4e101b55dd13f1ae09b786d13301d",
+    "character-study/study.js": "8b21e560a5a478fc10e53e9e7f14b9c7dbf5a193cfd04e6eedd518a9de039f84",
+    "character-study/study.css": "be92555997aa4c80edbbb2060f89d0f767746ffb12345f21e12204dfb9695de5",
+    "art/character-experiment/manifest.json": "6035879ddae55fd2256a977c4876dc536626ad92e97e1785b7121d71a8c67a3d",
+    "art/character-experiment/reference/shadow-rest-candidate.svg": "9707233116573a8bea0291db110a1e307eb4fc3384c5967db9c809e54db50a23"
+  },
+  "restReference": "Exact authored path; 512x256; first and return PNG pixels identical",
+  "attackEndpointTranslation": [
+    160,
+    -8
+  ],
+  "guardPreservation": "All 24 source/export files and manifest entries byte-identical to baseline",
+  "gameplayBoundaryUnchanged": true,
+  "recording": "Actual Chromium CDP screencast with timestamp durations; local FFmpeg VP9; GIF25fps derivative",
+  "phoneTesting": "Chromium touch emulation only",
+  "conceptImage": "Not in continuation checkout; SVG candidate available and used directly",
+  "paidServiceCost": "$0"
+}
