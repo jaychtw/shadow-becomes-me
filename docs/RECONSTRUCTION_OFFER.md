@@ -33,3 +33,7 @@ If these difficult motions pass the owner gate, propose a separate bounded follo
 Stop after one representative motion pair and evidence report. Stop earlier and counteroffer if free tools cannot generate reproducible exports, continuity/gait cannot approach approved references within the bound, paid access appears necessary, or gameplay timing must change. No full frame set, gameplay adapter, environment layers or production rollout may follow by inference.
 
 Owner decides whether to wait, approve this limited hybrid experiment, or request a revised Offer. Commitment must specify scope/time bound and accept the evidence criteria above. Subsequent acceptance must separately assess silhouette/hand origin, motion/gait, game-scale readability and illustrated fidelity. Replacements need fresh approval; a score is not a waiver of mandatory defects. Merge, deployment, publication and further production require separate authority.
+
+## Commitment received — 2026-10-31
+
+Owner explicitly authorized only the proposed limited experiment: forward-hand/arm spike transformation and alternating guard walk; editable sources, transparent exports, manifest, standalone preview and desktop/phone-scale evidence. AICP 1.2.1 now governs. Existing engine, timings and gameplay remain untouched. Historical Offer text above is retained; execution is confined to this commitment. New assets require new visual acceptance.
