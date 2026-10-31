@@ -19,4 +19,4 @@ for(const f of manifest.frames){
 manifest.exporter={tool:'Playwright 1.56.1 / Chromium',browser:await browser.version(),deviceScaleFactor:1,alpha:true};
 await writeFile(new URL('manifest.json',root),JSON.stringify(manifest,null,2)+'\n');
 await browser.close();
-console.log('Exported 24 transparent PNGs with source/export SHA-256 hashes.');
+console.log(`Exported ${manifest.frames.length} transparent PNGs with source/export SHA-256 hashes.`);

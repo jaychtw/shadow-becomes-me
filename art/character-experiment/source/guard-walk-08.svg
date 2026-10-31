@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="192" height="256" viewBox="0 0 192 256" role="img" aria-label="Guard walking frame 8"><g id="far-arm"><path d="M92 79.75 Q94.0 105.75 103.0 131.75" fill="none" stroke="#1c3b53" stroke-width="13" stroke-linecap="round"/><path d="M103.0 131.75 l3 8" stroke="#b98967" stroke-width="8" stroke-linecap="round"/></g><g id="far-leg"><path d="M92.00 133.75 L121.32 179.10 L106.55 230.00" fill="none" stroke="#1b2b39" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
- <path d="M94.00 136.75 L124.32 179.10 L108.55 226.00" fill="none" stroke="#243b4a" stroke-width="3"/>
- <path d="M99.55 225.00 L111.55 225.00 L113.55 231.00 Q123.55 232.00 122.55 239.00 L98.55 239.00 Z" fill="#101b23"/>
- <path d="M98.55 239.00 H122.55" stroke="#46535a" stroke-width="2"/></g><g id="near-leg"><path d="M99.00 133.75 L122.43 182.40 L80.18 214.41" fill="none" stroke="#263b4b" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
- <path d="M101.00 136.75 L125.43 182.40 L82.18 210.41" fill="none" stroke="#354e5e" stroke-width="3"/>
- <path d="M73.18 209.41 L85.18 209.41 L87.18 215.41 Q97.18 216.41 96.18 223.41 L72.18 223.41 Z" fill="#101b23"/>
- <path d="M72.18 223.41 H96.18" stroke="#46535a" stroke-width="2"/></g>
- <g id="uniform" transform="translate(0 -1.249999999999998)">
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="256" viewBox="0 0 192 256" role="img" aria-label="Guard walking frame 8"><g id="far-arm"><path d="M92 70.25 Q91.5 96.25 99.25 122.25" fill="none" stroke="#1c3b53" stroke-width="13" stroke-linecap="round"/><path d="M99.25 122.25 l3 8" stroke="#b98967" stroke-width="8" stroke-linecap="round"/></g><g id="far-leg"><path d="M96.00 124.25 L120.38 172.43 L115.92 226.25" fill="none" stroke="#1b2b39" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M98.00 127.25 L123.38 172.43 L117.92 222.25" fill="none" stroke="#243b4a" stroke-width="3"/>
+ <path d="M108.92 221.25 L120.92 221.25 L122.92 227.25 Q132.92 228.25 131.92 235.25 L107.92 235.25 Z" fill="#101b23"/>
+ <path d="M107.92 235.25 H131.92" stroke="#46535a" stroke-width="2"/></g><g id="near-leg"><path d="M96.00 124.25 L100.29 178.08 L85.45 230.00" fill="none" stroke="#263b4b" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M98.00 127.25 L103.29 178.08 L87.45 226.00" fill="none" stroke="#354e5e" stroke-width="3"/>
+ <path d="M78.45 225.00 L90.45 225.00 L92.45 231.00 Q102.45 232.00 101.45 239.00 L77.45 239.00 Z" fill="#101b23"/>
+ <path d="M77.45 239.00 H101.45" stroke="#46535a" stroke-width="2"/></g>
+ <g id="uniform" transform="translate(0 -10.75)">
  <path d="M83 72 Q95 67 105 74 L115 94 111 127 115 139 Q96 145 78 138 L80 116 77 87 Z" fill="#294b66" stroke="#162c40" stroke-width="2"/>
  <path d="M87 79 L89 128 101 134 106 77" fill="#345a75"/>
  <path d="M81 99 L91 100 90 112 81 110 Z M99 99 L108 97 109 108 99 110 Z" fill="#213f57" stroke="#486b83"/>
@@ -17,7 +17,7 @@
  <path d="M86 39 Q95 30 106 36 L110 43 120 47 119 50 86 48 Z" fill="#24435e" stroke="#142b3e" stroke-width="2"/>
  <path d="M87 43 L110 45" stroke="#607f94" stroke-width="2"/><path d="M103 39 l4 1 -1 4 -3 -1 Z" fill="#cab16b"/>
  <path d="M109 52 l3 1" stroke="#33302b" stroke-width="1.5"/><path d="M106 64 l4 -1" stroke="#825e48"/>
- </g><g id="near-arm"><path d="M103 80.75 Q102.0 104.75 102.0 128.75" fill="none" stroke="#2e526e" stroke-width="14" stroke-linecap="round"/>
- <path d="M105 83.75 Q105.0 106.75 104.0 124.75" fill="none" stroke="#426682" stroke-width="3"/>
- <path d="M102.0 128.75 l2 9" stroke="#c59876" stroke-width="8" stroke-linecap="round"/>
- <path d="M102 82.75 l6 1 -1 10 -5 -2 Z" fill="#b49a58"/><path d="M104 84.75 l2 1 -1 5" stroke="#ead79a" fill="none"/></g></svg>
+ </g><g id="near-arm"><path d="M103 71.25 Q104.5 95.25 105.75 119.25" fill="none" stroke="#2e526e" stroke-width="14" stroke-linecap="round"/>
+ <path d="M105 74.25 Q107.5 97.25 107.75 115.25" fill="none" stroke="#426682" stroke-width="3"/>
+ <path d="M105.75 119.25 l2 9" stroke="#c59876" stroke-width="8" stroke-linecap="round"/>
+ <path d="M102 73.25 l6 1 -1 10 -5 -2 Z" fill="#b49a58"/><path d="M104 75.25 l2 1 -1 5" stroke="#ead79a" fill="none"/></g></svg>

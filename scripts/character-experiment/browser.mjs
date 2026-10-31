@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import {mkdir,writeFile,rm} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import {resolve} from 'node:path';
-const out='evidence/character-experiment';await mkdir(out,{recursive:true});
+const out='evidence/character-corrections';await mkdir(out,{recursive:true});
 const report={started:new Date().toISOString(),cases:[],audits:[],errors:[],externalRequests:[]};
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});report.browser=await browser.version();
 const origin='http://127.0.0.1:8081';
@@ -13,9 +13,12 @@ for(const width of [1440,390]){
  const ctx=await browser.newContext({viewport:{width,height:width===390?1000:1000},deviceScaleFactor:1,isMobile:width===390,hasTouch:width===390,reducedMotion:'reduce'});const p=await ctx.newPage();await track(p);
  assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).playing,false);
  report.cases.push({name:`${width}: reduced motion starts paused`,status:'pass'});
- for(let i=0;i<12;i++){await p.locator('#shadow-scrub').fill(String(i));await p.locator('#guard-scrub').fill(String(i));const s=await p.evaluate(()=>__characterStudy.snapshot());assert.equal(s.shadow,i);assert.equal(s.guard,i);}
+ for(const [kind,count] of [['shadow',12],['guard',24]]){
+  for(let i=0;i<count;i++){await p.locator(`#${kind}-scrub`).fill(String(i));assert.equal((await p.evaluate(()=>__characterStudy.snapshot()))[kind],i);}
+ }
+ await p.locator('#shadow-scrub').fill('11');await p.locator('#guard-scrub').fill('23');
  await p.locator('#step').click();let s=await p.evaluate(()=>__characterStudy.snapshot());assert.equal(s.shadow,0);assert.equal(s.guard,0);
- report.cases.push({name:`${width}: all 24 frames independently inspectable and step wraps`,status:'pass'});
+ report.cases.push({name:`${width}: all 36 frames independently inspectable and step wraps`,status:'pass'});
  await p.selectOption('#facing','left');assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).facing,'left');await p.locator('#svg').check();assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).source,true);await p.locator('#zoom').check();assert.equal((await p.evaluate(()=>__characterStudy.snapshot())).zoom,true);await p.locator('#zoom').uncheck();await p.locator('#svg').uncheck();await p.selectOption('#facing','right');
  report.cases.push({name:`${width}: facing, editable SVG comparison and zoom controls`,status:'pass'});
  for(const locale of ['en','zh-TW']){

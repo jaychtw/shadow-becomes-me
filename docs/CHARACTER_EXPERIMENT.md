@@ -1,5 +1,7 @@
 # Limited character reconstruction experiment
 
+**Historical baseline report.** Owner subsequently judged technical feasibility successful and requested localized design corrections. See [current correction report](CHARACTER_CORRECTIONS.md); this document and its evidence describe `cdfd8cf`, not the revised artwork.
+
 Status: bounded experiment technically verified; awaiting owner visual review. No production-art acceptance is claimed.
 
 Authorized by the owner on 2026-10-31 (Asia/Taipei), limited to the accepted Offer's hand-origin spike and guard-walk micro-spike. This is new replacement work; historical acceptance of `f870b40` (80/100) and separate closure of `13eba8b` remain unchanged and do not approve these drawings.

@@ -2,12 +2,12 @@
 
 Original replacement drawings, not recovered or accepted production assets. Owner-authorized experiment only; engine and game artwork are untouched.
 
-- `source/`: 12 individually editable Shadow spike SVGs and 12 guard walk SVGs.
+- `source/`: 12 individually editable Shadow spike SVGs and 24 guard walk SVGs.
 - `frames/`: matching transparent PNG exports.
 - `manifest.json`: dimensions, pivots, duration, facing, stance landmarks and source/PNG SHA-256.
 - Source generator: `../../scripts/character-experiment/draw.py`; editable vector path control points, costume details and gait landmarks.
 - Standalone preview: `../../character-study/index.html`, served through HTTP; not included in the production build.
-- Review/verification: `../../docs/CHARACTER_EXPERIMENT.md`.
+- Current review/verification: `../../docs/CHARACTER_CORRECTIONS.md`. Original experiment report: `../../docs/CHARACTER_EXPERIMENT.md`.
 
 Free local recipe from repository root (existing locked npm packages, Python Pillow, system Chromium and FFmpeg):
 
@@ -25,3 +25,11 @@ Use existing checkouts in isolated tasks; do not create Git worktrees unless the
 Canvas: Shadow 384×256; guard 192×256. Both pivot at (96, 240), face right and mirror around that pivot. Transparent padding includes attack reach. Scale exports by 0.55 to world units. The Shadow sequence totals 220 ms; the preview inserts 700 ms rest for inspection. Guard loop totals 1,200 ms. A 126.54545-source-pixel travel cycle corresponds to 58 world units/s at 0.55 scale, matching the existing patrol speed without editing it. The preview uses moving ground reference ticks and a stationary root. Frame-held stance still has subframe stepping; it is not continuous skeletal playback.
 
 Source files contain original drawings, not cropped reference sheets. No claims of matching the missing 80/100 accepted baseline or its closed refinement. New owner visual acceptance is required.
+
+## Localized owner corrections
+
+Baseline `cdfd8cfaa8f6e5cdbee84a2344b8a763154c86e5` was technically successful; the owner requested an amorphous Shadow without head/neck or a pointed drapery base, and a more upright, less choppy guard gait. Current sources implement only that revision. Shadow remains one opaque black contour with its original spike control curves, extension schedule and 220 ms timing. Its support edge is a straight segment at source y=240; the preview's ground stroke meets that edge. Level ground is the only supporting surface in this study; no new terrain deformation or physics is implemented.
+
+The existing 1,200 ms guard loop now has 24 × 50 ms samples instead of 12 × 100 ms. Hip height is raised, arm swing reduced, support knees are relatively straight, and swing-foot clearance is 5 source pixels. Stance speed remains 58 world units/s at 0.55 scale; frame-hold travel drops from 5.8 to 2.9 world units per sample. This reduces rather than eliminates stepping/sliding. No new motion category, engine adapter or interpolation pipeline was added.
+
+Fresh validation writes `evidence/character-corrections/` so the previous experiment evidence stays intact. `verify.py` also compares the preserved spike against the baseline Git object, which must be available locally.
