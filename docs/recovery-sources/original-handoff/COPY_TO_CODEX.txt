@@ -1,0 +1,18 @@
+Codex — implement the first playable POC for **Shadow Becomes Me**.
+
+I am providing the **Shadow_Becomes_Me_Codex_Handoff.zip** bundle. Extract it into the correct project workspace and **read these files in full before implementation**:
+- `docs/GDD.md` (authoritative game design and approved decisions)
+- `docs/CODEX_POC_BRIEF.md` (bounded assignment and QA requirements)
+- `docs/PROJECT_STATE.md` (status/authority)
+- `art/approved_laboratory_concept.png` (**owner-approved visual reference**)
+- `art/dialogue_ui_future_reference.png` (**future dialogue UI idea only; not POC work**)
+
+Follow UGDS v1.0.0 and AICP v1.1.1 pinned to `jaychtw/game-development-standards` commit `374143e614ed9d95bf2c413fb13711e802f2133c`. **Verify and fully read the pinned UGDS before coding**. If you cannot access/verify it, stop and report the blocker rather than reconstructing it from memory.
+
+First, discover/verify the intended repository under `jaychtw` and inspect its state; do not assume its name or overwrite existing work. If the target is not identifiable or available, stop and ask for the repository. Make a dedicated development branch; do not merge into main.
+
+Build **only** the browser-based, GitHub Pages-compatible mechanics POC. Show the black featureless upright/slide/blob/camouflage forms, illustrated lab with visibly dominant boxes or chairs matching a metadata `fittingShadow` ID, guard patrol and three responses (blob hostile, fitting ignored/ambush, unfitting investigated), and the same spike attack used for lethal stealth assassination vs non-one-hit-kill direct damage. Include exit/restart; English/zh-TW live toggle; desktop keyboard and mobile touch; tests and real in-browser visual evidence. Keep the GDD engine-agnostic for a later possible Godot port; **do not build Godot now**.
+
+**Critical visual requirement:** use the included laboratory art as the approved direction, not as a complete gameplay background. Build original game-ready art and report actual in-game visual differences. The Shadow depicted in the concept is superseded by the GDD's solid-black human-shaped idle / draped sliding blob design. The dialogue UI screenshot is not licensed for reproduction and is explicitly deferred.
+
+Work within $0. Do not deploy, publish, activate external services, merge to main, or add a Possibility entry. Report verified standards preflight, architecture, changes, test evidence, screenshots, known gaps, and an explicit request for my POC review. Escalate material changes before implementing them; choose ordinary minor engineering details autonomously.

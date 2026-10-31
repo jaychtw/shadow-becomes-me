@@ -1,0 +1,69 @@
+[
+  {
+    "archive": "Shadow_Becomes_Me_Codex_Handoff (1).zip",
+    "sha256": "f4bd3108e4b10c9f4100dbde41c8054c83c9ae84151a196fab5db553ef5b6dc0",
+    "members": [
+      {
+        "path": "README.md",
+        "bytes": 1159,
+        "sha256": "7fd02963306617845a1b2eee0815d347f5e134795abd84cce1c351bfc9c3ce85"
+      },
+      {
+        "path": "COPY_TO_CODEX.txt",
+        "bytes": 2589,
+        "sha256": "02618f24040f69528d2871d2c639bd277ed6238d1bf0cfb611f4d02ee01199ce"
+      },
+      {
+        "path": "art/dialogue_ui_future_reference.png",
+        "bytes": 777772,
+        "sha256": "1bda462029648e6cc057da355fddef6d8961a9bbd6b303ee09e6f3fe18146420"
+      },
+      {
+        "path": "art/approved_laboratory_concept.png",
+        "bytes": 1460539,
+        "sha256": "534d74f8b3b7977c068cfe1cddb2b47140969a1bc4a055c5b662b34c6dbb4c9c"
+      },
+      {
+        "path": "docs/GDD.md",
+        "bytes": 17194,
+        "sha256": "d9bed53bc458863012152a85fb55ea3243d5e817917cb4868021e6ebec373cd0"
+      },
+      {
+        "path": "docs/CODEX_POC_BRIEF.md",
+        "bytes": 6517,
+        "sha256": "db836ed55b9716e5087da9fb83e0dd4c395f5db5dfcd1b0614ca566a3c12082c"
+      },
+      {
+        "path": "docs/PROJECT_STATE.md",
+        "bytes": 1651,
+        "sha256": "20d243f8ca4eef2f41a14a599778c089e614263edb8a8154d6f29a99a1324875"
+      }
+    ]
+  },
+  {
+    "archive": "shadow-art-pipeline-handoff (1).zip",
+    "sha256": "9a10cdade24624787a90a01be29171466a65d5d36ea0a83795709921e29859c3",
+    "members": [
+      {
+        "path": "shadow-art-pipeline/approved-references/01-art-direction.png",
+        "bytes": 1831152,
+        "sha256": "693f25223b84c0cd5ec8c2be6efece4a44c49289fec4bd93b8c8c34e82f2fd70"
+      },
+      {
+        "path": "shadow-art-pipeline/approved-references/02-asset-layout-a.png",
+        "bytes": 2654582,
+        "sha256": "a2c1d1c24da06374ac7d3da22baf68630d3f8c1ebe5f2cb66d4f17b2369db522"
+      },
+      {
+        "path": "shadow-art-pipeline/approved-references/03-asset-layout-b.png",
+        "bytes": 2458053,
+        "sha256": "237cb2206c0b6ce64f3c48e982f7e25681d51fcee7b99f4c3f9571eecbb311f2"
+      },
+      {
+        "path": "shadow-art-pipeline/CODEX_BRIEF.md",
+        "bytes": 4091,
+        "sha256": "27d2916bd28a411b98cfe5196f92a32c58644c0cb9b910d17d9535021a3a43d2"
+      }
+    ]
+  }
+]

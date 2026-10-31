@@ -1,0 +1,44 @@
+{
+  "baseCommit": "e1404aeb4ab60fb54f796a07c0f9276e0dac52e5",
+  "branch": "dev/first-playable-poc",
+  "files": [
+    {
+      "path": "art/laboratory.svg",
+      "bytes": 14744,
+      "sha256": "d6ec48d7504f00c469a2780d71e34691ef6b0e3acf1de1713656884704a74ef1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3664,
+      "sha256": "e9b9e5e55ceb566a90e5e64a5b54cced838759a95c27b6fc30fef273e5228f1f"
+    },
+    {
+      "path": "src/engine.js",
+      "bytes": 4211,
+      "sha256": "cfcdbdf686fb8f58b1d98c52fd242fb5b8eb0ea5de51e78374a93d82bd1564f9"
+    },
+    {
+      "path": "src/i18n.js",
+      "bytes": 4649,
+      "sha256": "cecbdcf13640afda601e32ccdab8e258edefbf895b07f65fc94ec873796bef96"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 6707,
+      "sha256": "502eee91d71df3bdeba1319d75333b13c7bd05c0a45eaeaedde44334da7dce4a"
+    },
+    {
+      "path": "src/scene.js",
+      "bytes": 698,
+      "sha256": "f9861b07958c6f2c8cce925da504026795ab1776dd9aa5309436321aa7feaeca"
+    },
+    {
+      "path": "style.css",
+      "bytes": 4403,
+      "sha256": "0f84e13725025b4c4f5470e8bc298b53af95bd7684ed3858a8e526d59865f94a"
+    }
+  ],
+  "totalBytes": 39076,
+  "contentSha256": "4fd4e2020537aab36d323f9c28f9693a7aa8a24ad6a74dfc8705bb0ad221d1ed",
+  "zipSha256": "b2aec8c019980b0720284e0427e81ad3cb475d838e1531f2464d39b3ddd72b84"
+}

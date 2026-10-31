@@ -1,0 +1,30 @@
+{
+  "sourceCommit": "871dabff06c703b4ea39eb4a3c0022a99a6e7340",
+  "node": "24.19.0",
+  "npm": "11.9.0",
+  "chromium": "154.0.8037.57",
+  "playwright": "1.56.1",
+  "axe": "4.10.2",
+  "validationDirectory": "/workspace/recovery-validation",
+  "buildManifestCaveat": "Repository packaging script hardcodes original branch/base metadata; use sourceCommit here for fresh provenance. Runtime hashes independently match the surviving POC.",
+  "commands": [
+    "npm ci --cache /workspace/.npm-cache --no-audit --no-fund",
+    "npm test",
+    "npm run build",
+    "npm start",
+    "npm run test:browser",
+    "python3 scripts/artifact.py"
+  ],
+  "unitSummary": {
+    "pass": 18,
+    "fail": 0,
+    "skip": 0
+  },
+  "browserSummary": {
+    "pass": 18,
+    "fail": 0
+  },
+  "axeAudits": 16,
+  "axeViolations": 0,
+  "physicalDevicesTested": false
+}
