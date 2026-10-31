@@ -1,0 +1,20 @@
+{
+  "baseline": "2ce17dedf35f921fac0ecca81bceddede3fadd57",
+  "characterSourcesExportsAndManifestUnchanged": true,
+  "authoredLabMasterUnchanged": true,
+  "engineAndTuningUnchanged": true,
+  "rendererShadowScale": 0.43209876543209874,
+  "peakTipWorldUnits": 105.0,
+  "damageTiming": "immediate, unchanged",
+  "environmentLayers": [
+    "distant-background",
+    "architecture",
+    "illumination",
+    "architectural-details",
+    "floor",
+    "background-props",
+    "foreground"
+  ],
+  "illustratedBoxes": 6,
+  "illustratedChairs": 2
+}

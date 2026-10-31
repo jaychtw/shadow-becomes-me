@@ -1,0 +1,14 @@
+{
+  "maxChannelDifference": 3,
+  "meanAbsoluteChannelDifference": 0.07671037946428572,
+  "referenceActorsExcluded": true,
+  "layers": [
+    "distant-background",
+    "architecture",
+    "illumination",
+    "architectural-details",
+    "floor",
+    "background-props",
+    "foreground"
+  ]
+}
