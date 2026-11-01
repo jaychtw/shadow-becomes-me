@@ -1,0 +1,37 @@
+{
+  "pass": 6,
+  "fail": 0,
+  "checks": [
+    {
+      "time": 0,
+      "display": "",
+      "mask": "url(#devour-mask)"
+    },
+    {
+      "time": 100,
+      "display": "",
+      "mask": "url(#devour-mask)"
+    },
+    {
+      "time": 160,
+      "display": "",
+      "mask": "url(#devour-mask)"
+    },
+    {
+      "time": 220,
+      "display": "",
+      "mask": "url(#devour-mask)"
+    },
+    {
+      "time": 260,
+      "display": "none",
+      "mask": "url(#devour-mask)"
+    },
+    {
+      "time": 560,
+      "display": "none",
+      "mask": null
+    }
+  ],
+  "method": "Actual renderer; cocoon visibility hidden only in labeled diagnostic screenshots, so masked guard pixels can be seen independently."
+}

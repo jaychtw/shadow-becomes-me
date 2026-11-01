@@ -1,6 +1,6 @@
 import {chromium} from 'playwright';import assert from 'node:assert/strict';import {writeFile} from 'node:fs/promises';
 const out='evidence/devour',checks=[],samples=[];const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
-async function setup(p,form='box'){await p.goto('http://127.0.0.1:8080');await p.locator('#begin').click();await p.keyboard.down('d');await p.waitForFunction(()=>{const s=__shadow.snapshot();return s.guard.x-s.player.x<90;});await p.keyboard.up('d');await p.waitForFunction(()=>__shadow.snapshot().player.form==='idle');await p.locator('#'+form).click();}
+async function setup(p,form='box'){await p.goto('http://127.0.0.1:8080');await p.locator('#begin').click();await p.keyboard.down('d');await p.waitForFunction(()=>{const s=__shadow.snapshot();return s.guard.x-s.player.x<350;});await p.keyboard.up('d');await p.waitForFunction(()=>__shadow.snapshot().player.form==='idle');await p.locator('#box').click();await p.waitForFunction(()=>{const s=__shadow.snapshot();return Math.abs(s.guard.x-s.player.x)<90;},null,{timeout:20000});if(form!=='box')await p.locator('#'+form).click();}
 for(const width of [1440,390]){
  const p=await b.newPage({viewport:{width,height:1050},hasTouch:width===390,isMobile:width===390});await setup(p);await p.locator('#attack').click();
  assert.equal(await p.evaluate(()=>__shadow.snapshot().guard.hp),0);assert.equal(await p.locator('#shadow-devour').evaluate(e=>e.style.display),'');checks.push(width+': eligible instant logical defeat starts Devour');

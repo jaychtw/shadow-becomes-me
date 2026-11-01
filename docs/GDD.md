@@ -130,3 +130,7 @@ UGDS v1.0.0 **P01–P05, L01–L02, A01, V01–V06, S02–S04, Q01–Q06, C01–
 **POC done:** bounded mechanically complete and tested scene with observed three-tier camouflage, original upright/blob motion, contextual spike behavior, guard investigation, exit/retry, responsive touch, bilingual live switch, and truthfully reported visual alignment/gaps. Owner acceptance of POC is separate from final production approval.
 
 **v1.0 full release:** not yet scoped or authorized. Requires a later approved production brief and separate release approval under UGDS/AICP.
+
+## 13. SBM-010 — Shadow Devour presentation commitment (2026-11-01)
+
+Owner explicitly authorized a distinct authored solid-cocoon **Shadow Devour** presentation for the existing eligible stealth-assassination outcome. Ordinary attacks retain Shadow Spike. This supersedes §4.4's original shared-spike **visual** direction for assassination only; eligibility, immediate defeat, range, cooldown, health/awareness, movement and camouflage rules do not change. The four authored poses and alpha-mask handoff at `1c55239` establish the concrete visual starting point. No Shadow Expansion, extra attack input, enemy or release is authorized. [Implementation and evidence](SHADOW_DEVOUR.md). Status: bounded implementation authorized; final motion/mask/art acceptance pending owner review. Historical accepted baselines and separate closed refinement remain preserved.

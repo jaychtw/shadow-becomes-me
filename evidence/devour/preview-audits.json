@@ -1,0 +1,15 @@
+{
+  "audits": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "leftDirectionAndTerminalPassed": true
+}

@@ -1,0 +1,23 @@
+{
+  "authoredBaseline": "1c55239cb51dd44727ea75b70f4aab6a6e208a48",
+  "runtimeSourceCheckpoint": "b9944ee",
+  "testedInputSha256": {
+    "src/devour.js": "e52e3839f9c538c372d021f9c2582a87e74991a2745619a581ec028e9c8a34fa",
+    "src/presentation.js": "7baf07c227a405b610b286820041d0811a75e2dff88ab78e7ad054e72dccd88d",
+    "src/main.js": "1c555b7c403c3dacca090b62a5948a7049705bcfb3466d9cd5e54a7f07833f5b",
+    "art/shadow-transformation/manifest.json": "c0f12e17996b7220f0c0cd45fc5c4fc12226d8662f5ec33f1bea73b422dbad7e",
+    "devour-study/index.html": "fdee7b77a34531934579436c7327845f11e3e50843b98ce0204fc22c860d5b66",
+    "devour-study/actor.html": "ea0965a8294be59b710e00437e09e36e57fd39e65c8779e628c35cb926894053",
+    "scripts/devour/check.mjs": "a9125590172cd42f1b5352feee7e2155a00719f8b39e8b4009ea3c1cc8734722"
+  },
+  "logicalDefeat": "immediate, unchanged",
+  "durationMs": 560,
+  "maskWindowMs": [
+    60,
+    260
+  ],
+  "preservedAssetsAndEngine": true,
+  "maskDiagnostics": "Cocoon hidden only in labeled diagnostic screenshots; gameplay/comparison recordings unmodified",
+  "physicalDevicesTested": false,
+  "cost": "$0 incremental paid services"
+}
