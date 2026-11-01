@@ -15,7 +15,7 @@ export function updateDevour(g,guardFrame){
  let ms=effect?Math.max(0,(g.time-effect.start)*1000):0;
  if(effect&&ms>=DEVOUR_DURATION){effect=null;consumed=true;}
  const path=node('path','shadow-devour',document.getElementById('player'));path.setAttribute('fill','#000');path.style.display=effect?'':'none';
- const wrapper=node('g','devour-target',document.getElementById('guard'));const sprite=document.getElementById('guard-sprite');if(sprite.parentNode!==wrapper)wrapper.append(sprite);
+ const wrapper=node('g','devour-target',document.getElementById('guard'));const sprite=document.getElementById('guard-sprite');if(sprite.parentNode!==wrapper)wrapper.append(sprite);const groundShadow=document.querySelector('#guard > ellipse');if(groundShadow)wrapper.prepend(groundShadow);
  wrapper.style.display=consumed?'none':'';wrapper.removeAttribute('mask');
  if(!effect)return {active:false,suppressSpike:suppressed,consumed};
  const frame=manifest.frames[Math.min(28,Math.floor(ms/20))];path.setAttribute('d',frame.d);
