@@ -1,0 +1,14 @@
+{
+  "archive": "shadow-becomes-me-playtest-r2-6d5c7d3.zip",
+  "sourceCommit": "6d5c7d3c769fa1d2ac8f50df29da5e7540b25faf",
+  "zipSha256": "293ca5df05aef8ab846971b17ec05054e531403e55a15170ea3216bd477439ea",
+  "allZipHashesMatch": true,
+  "packagedRuntimeMatchesRegressedDist": true,
+  "readmeIncludesExactSourceCommit": true,
+  "readmeNamesActualSpikeControl": true,
+  "runtimeCodeUnchangedSinceSourceCheckpoint": true,
+  "repeatPackagingByteIdentical": true,
+  "httpBuildIdentifierMatches": true,
+  "httpLaunchInstructionsMatch": true,
+  "httpDevourAndMovingRuntimeMatch": true
+}

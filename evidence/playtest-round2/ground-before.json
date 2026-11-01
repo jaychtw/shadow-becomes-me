@@ -1,0 +1,1154 @@
+[
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1,
+    "x": 160,
+    "file": "contact-crops/ground-before-320-1-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 42.37499697059401,
+    "x1": 113.62499442249552,
+    "floorTop": 39.281246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499697059401,
+      "x1": 147.62499442249552,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      34,
+      400,
+      190,
+      449
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1,
+    "x": 260,
+    "file": "contact-crops/ground-before-320-1-260.png",
+    "playerX": 260.6419999999999,
+    "form": "blob",
+    "x0": 42.3749968528152,
+    "x1": 113.6249943047167,
+    "floorTop": 39.281246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.3749968528152,
+      "x1": 147.6249943047167,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      34,
+      400,
+      190,
+      449
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1,
+    "x": 360,
+    "file": "contact-crops/ground-before-320-1-360.png",
+    "playerX": 362.39199999999926,
+    "form": "blob",
+    "x0": 42.37499685281483,
+    "x1": 113.62499430471635,
+    "floorTop": 39.281246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499685281483,
+      "x1": 147.62499430471635,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      34,
+      400,
+      190,
+      449
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1.25,
+    "x": 160,
+    "file": "contact-crops/ground-before-320-1.25-160.png",
+    "playerX": 161.99999999999991,
+    "form": "blob",
+    "x0": 41.974996970593985,
+    "x1": 113.22499442249548,
+    "floorTop": 39.281246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499697059398,
+      "x1": 147.6249944224955,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      43,
+      500,
+      237,
+      561
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1.25,
+    "x": 260,
+    "file": "contact-crops/ground-before-320-1.25-260.png",
+    "playerX": 260.66049999999984,
+    "form": "blob",
+    "x0": 41.97499609178309,
+    "x1": 113.2249935436846,
+    "floorTop": 39.281246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499609178309,
+      "x1": 147.6249935436846,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      43,
+      500,
+      237,
+      561
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1.25,
+    "x": 360,
+    "file": "contact-crops/ground-before-320-1.25-360.png",
+    "playerX": 362.4104999999994,
+    "form": "blob",
+    "x0": 41.97500062173565,
+    "x1": 113.22499807363718,
+    "floorTop": 39.281246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37500062173565,
+      "x1": 147.6249980736372,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      43,
+      500,
+      237,
+      561
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1.5,
+    "x": 160,
+    "file": "contact-crops/ground-before-320-1.5-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 41.70833030392735,
+    "x1": 112.95832775582886,
+    "floorTop": 38.61457953241967,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499697059401,
+      "x1": 147.62499442249552,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      52,
+      601,
+      284,
+      673
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1.5,
+    "x": 260,
+    "file": "contact-crops/ground-before-320-1.5-260.png",
+    "playerX": 260.64199999999994,
+    "form": "blob",
+    "x0": 41.708330186148565,
+    "x1": 112.9583276380501,
+    "floorTop": 38.61457953241967,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499685281523,
+      "x1": 147.62499430471675,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      52,
+      601,
+      284,
+      673
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 1.5,
+    "x": 360,
+    "file": "contact-crops/ground-before-320-1.5-360.png",
+    "playerX": 362.3919999999994,
+    "form": "blob",
+    "x0": 41.70833018614825,
+    "x1": 112.95832763804978,
+    "floorTop": 38.61457953241967,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499685281492,
+      "x1": 147.62499430471644,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      52,
+      601,
+      284,
+      673
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 2,
+    "x": 160,
+    "file": "contact-crops/ground-before-320-2-160.png",
+    "playerX": 162.0185,
+    "form": "blob",
+    "x0": 41.874997342050165,
+    "x1": 113.12499479395166,
+    "floorTop": 38.781246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499734205016,
+      "x1": 147.62499479395166,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      69,
+      801,
+      379,
+      897
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 2,
+    "x": 260,
+    "file": "contact-crops/ground-before-320-2-260.png",
+    "playerX": 260.6605,
+    "form": "blob",
+    "x0": 41.8749960917832,
+    "x1": 113.12499354368472,
+    "floorTop": 38.781246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.3749960917832,
+      "x1": 147.62499354368472,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      69,
+      801,
+      379,
+      897
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 320,
+    "dpr": 2,
+    "x": 360,
+    "file": "contact-crops/ground-before-320-2-360.png",
+    "playerX": 362.4289999999999,
+    "form": "blob",
+    "x0": 41.87499533075106,
+    "x1": 113.12499278265258,
+    "floorTop": 38.781246199086354,
+    "scale": 0.593749978765846,
+    "sourceViewportGeometry": {
+      "x0": 76.37499533075106,
+      "x1": 147.62499278265258,
+      "floorTop": 439.28124619908635
+    },
+    "clipDevicePixels": [
+      69,
+      801,
+      379,
+      897
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1,
+    "x": 160,
+    "file": "contact-crops/ground-before-390-1-160.png",
+    "playerX": 161.9815,
+    "form": "blob",
+    "x0": 39.75000501251222,
+    "x1": 107.25000501251225,
+    "floorTop": 36.6875,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000501251222,
+      "x1": 170.25000501251225,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      63,
+      395,
+      210,
+      441
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1,
+    "x": 260,
+    "file": "contact-crops/ground-before-390-1-260.png",
+    "playerX": 260.6605,
+    "form": "blob",
+    "x0": 39.750005604743976,
+    "x1": 107.25000560474396,
+    "floorTop": 36.6875,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000560474398,
+      "x1": 170.25000560474396,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      63,
+      395,
+      210,
+      441
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1,
+    "x": 360,
+    "file": "contact-crops/ground-before-390-1-360.png",
+    "playerX": 362.39199999999977,
+    "form": "blob",
+    "x0": 39.75000525283802,
+    "x1": 107.25000525283804,
+    "floorTop": 36.6875,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000525283802,
+      "x1": 170.25000525283804,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      63,
+      395,
+      210,
+      441
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1.25,
+    "x": 160,
+    "file": "contact-crops/ground-before-390-1.25-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 39.55000429153442,
+    "x1": 107.05000429153442,
+    "floorTop": 37.28750000000002,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000429153442,
+      "x1": 170.25000429153442,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      79,
+      493,
+      263,
+      551
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1.25,
+    "x": 260,
+    "file": "contact-crops/ground-before-390-1.25-260.png",
+    "playerX": 260.6604999999999,
+    "form": "blob",
+    "x0": 39.550005604743916,
+    "x1": 107.0500056047439,
+    "floorTop": 37.28750000000002,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000560474392,
+      "x1": 170.2500056047439,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      79,
+      493,
+      263,
+      551
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1.25,
+    "x": 360,
+    "file": "contact-crops/ground-before-390-1.25-360.png",
+    "playerX": 362.41049999999944,
+    "form": "blob",
+    "x0": 39.550004531860054,
+    "x1": 107.05000453186004,
+    "floorTop": 37.28750000000002,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000453186006,
+      "x1": 170.25000453186004,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      79,
+      493,
+      263,
+      551
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1.5,
+    "x": 160,
+    "file": "contact-crops/ground-before-390-1.5-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 39.41667095820109,
+    "x1": 106.91667095820108,
+    "floorTop": 37.020833333333314,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000429153442,
+      "x1": 170.25000429153442,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      95,
+      592,
+      315,
+      661
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1.5,
+    "x": 260,
+    "file": "contact-crops/ground-before-390-1.5-260.png",
+    "playerX": 260.6604999999999,
+    "form": "blob",
+    "x0": 39.41667227141058,
+    "x1": 106.91667227141056,
+    "floorTop": 37.020833333333314,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000560474392,
+      "x1": 170.2500056047439,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      95,
+      592,
+      315,
+      661
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 1.5,
+    "x": 360,
+    "file": "contact-crops/ground-before-390-1.5-360.png",
+    "playerX": 362.4104999999995,
+    "form": "blob",
+    "x0": 39.41667119852675,
+    "x1": 106.91667119852676,
+    "floorTop": 37.020833333333314,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000453186009,
+      "x1": 170.2500045318601,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      95,
+      592,
+      315,
+      661
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 2,
+    "x": 160,
+    "file": "contact-crops/ground-before-390-2-160.png",
+    "playerX": 161.99999999999991,
+    "form": "blob",
+    "x0": 39.750004291534395,
+    "x1": 107.2500042915344,
+    "floorTop": 36.6875,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.7500042915344,
+      "x1": 170.2500042915344,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      126,
+      790,
+      420,
+      881
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 2,
+    "x": 260,
+    "file": "contact-crops/ground-before-390-2-260.png",
+    "playerX": 260.6604999999999,
+    "form": "blob",
+    "x0": 39.75000560474392,
+    "x1": 107.2500056047439,
+    "floorTop": 36.6875,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000560474392,
+      "x1": 170.2500056047439,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      126,
+      790,
+      420,
+      881
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 390,
+    "dpr": 2,
+    "x": 360,
+    "file": "contact-crops/ground-before-390-2-360.png",
+    "playerX": 362.4104999999998,
+    "form": "blob",
+    "x0": 39.750004531860256,
+    "x1": 107.25000453186027,
+    "floorTop": 36.6875,
+    "scale": 0.5625,
+    "sourceViewportGeometry": {
+      "x0": 102.75000453186026,
+      "x1": 170.25000453186027,
+      "floorTop": 431.6875
+    },
+    "clipDevicePixels": [
+      126,
+      790,
+      420,
+      881
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1,
+    "x": 160,
+    "file": "contact-crops/ground-before-768-1-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 39.62499661371119,
+    "x1": 107.12499460205447,
+    "floorTop": 36.68749699927872,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 113.62499661371119,
+      "x1": 181.12499460205447,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      74,
+      403,
+      221,
+      449
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1,
+    "x": 260,
+    "file": "contact-crops/ground-before-768-1-260.png",
+    "playerX": 260.66049999999996,
+    "form": "blob",
+    "x0": 40.12152620978571,
+    "x1": 107.62152419812901,
+    "floorTop": 36.68749699927872,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 169.1215262097857,
+      "x1": 236.621524198129,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      129,
+      403,
+      276,
+      449
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1,
+    "x": 360,
+    "file": "contact-crops/ground-before-768-1-360.png",
+    "playerX": 362.4104999999997,
+    "form": "blob",
+    "x0": 40.355899504068304,
+    "x1": 107.8558974924116,
+    "floorTop": 36.68749699927872,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 226.3558995040683,
+      "x1": 293.8558974924116,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      186,
+      403,
+      334,
+      449
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1.25,
+    "x": 160,
+    "file": "contact-crops/ground-before-768-1.25-160.png",
+    "playerX": 161.98149999999995,
+    "form": "blob",
+    "x0": 40.014590364021316,
+    "x1": 107.5145883523646,
+    "floorTop": 37.287496999278744,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 113.61459036402131,
+      "x1": 181.1145883523646,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      92,
+      503,
+      276,
+      561
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1.25,
+    "x": 260,
+    "file": "contact-crops/ground-before-768-1.25-260.png",
+    "playerX": 260.6604999999999,
+    "form": "blob",
+    "x0": 39.52152620978569,
+    "x1": 107.02152419812896,
+    "floorTop": 37.287496999278744,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 169.12152620978569,
+      "x1": 236.62152419812895,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      162,
+      503,
+      345,
+      561
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1.25,
+    "x": 360,
+    "file": "contact-crops/ground-before-768-1.25-360.png",
+    "playerX": 362.39199999999965,
+    "form": "blob",
+    "x0": 39.94549325437842,
+    "x1": 107.44549124272172,
+    "floorTop": 37.287496999278744,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 226.34549325437843,
+      "x1": 293.8454912427217,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      233,
+      503,
+      417,
+      561
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1.5,
+    "x": 160,
+    "file": "contact-crops/ground-before-768-1.5-160.png",
+    "playerX": 161.98149999999998,
+    "form": "blob",
+    "x0": 39.614590364021325,
+    "x1": 107.11458835236462,
+    "floorTop": 37.020830332612036,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 113.61459036402132,
+      "x1": 181.11458835236462,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      111,
+      604,
+      331,
+      673
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1.5,
+    "x": 260,
+    "file": "contact-crops/ground-before-768-1.5-260.png",
+    "playerX": 260.64199999999994,
+    "form": "blob",
+    "x0": 39.77778662676249,
+    "x1": 107.27778461510579,
+    "floorTop": 37.020830332612036,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 169.11111996009583,
+      "x1": 236.61111794843913,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      194,
+      604,
+      414,
+      673
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 1.5,
+    "x": 360,
+    "file": "contact-crops/ground-before-768-1.5-360.png",
+    "playerX": 362.3919999999995,
+    "form": "blob",
+    "x0": 39.678826587711654,
+    "x1": 107.17882457605495,
+    "floorTop": 37.020830332612036,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 226.3454932543783,
+      "x1": 293.8454912427216,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      280,
+      604,
+      500,
+      673
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 2,
+    "x": 160,
+    "file": "contact-crops/ground-before-768-2-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 39.62499661371119,
+    "x1": 107.12499460205447,
+    "floorTop": 36.68749699927872,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 113.62499661371119,
+      "x1": 181.12499460205447,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      148,
+      806,
+      441,
+      897
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 2,
+    "x": 260,
+    "file": "contact-crops/ground-before-768-2-260.png",
+    "playerX": 260.6604999999999,
+    "form": "blob",
+    "x0": 39.621526209785685,
+    "x1": 107.12152419812895,
+    "floorTop": 36.68749699927872,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 169.12152620978569,
+      "x1": 236.62152419812895,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      259,
+      806,
+      552,
+      897
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 768,
+    "dpr": 2,
+    "x": 360,
+    "file": "contact-crops/ground-before-768-2-360.png",
+    "playerX": 362.41049999999944,
+    "form": "blob",
+    "x0": 39.85589950406819,
+    "x1": 107.35589749241149,
+    "floorTop": 36.68749699927872,
+    "scale": 0.5624999832361941,
+    "sourceViewportGeometry": {
+      "x0": 226.3558995040682,
+      "x1": 293.8558974924115,
+      "floorTop": 439.6874969992787
+    },
+    "clipDevicePixels": [
+      373,
+      806,
+      667,
+      897
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1,
+    "x": 160,
+    "file": "contact-crops/ground-before-1440-1-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 68.68750572204593,
+    "x1": 184.9375057220459,
+    "floorTop": 63.40625,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 196.68750572204593,
+      "x1": 312.9375057220459,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      128,
+      585,
+      381,
+      663
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1,
+    "x": 260,
+    "file": "contact-crops/ground-before-1440-1-260.png",
+    "playerX": 260.66049999999996,
+    "form": "blob",
+    "x0": 68.26486509704591,
+    "x1": 184.5148650970459,
+    "floorTop": 63.40625,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 292.2648650970459,
+      "x1": 408.5148650970459,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      224,
+      585,
+      477,
+      663
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1,
+    "x": 360,
+    "file": "contact-crops/ground-before-1440-1-360.png",
+    "playerX": 362.4289999999997,
+    "form": "blob",
+    "x0": 67.85309947204564,
+    "x1": 184.10309947204564,
+    "floorTop": 63.40625,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 390.85309947204564,
+      "x1": 507.10309947204564,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      323,
+      585,
+      575,
+      663
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1.25,
+    "x": 160,
+    "file": "contact-crops/ground-before-1440-1.25-160.png",
+    "playerX": 162,
+    "form": "blob",
+    "x0": 67.88750572204594,
+    "x1": 184.13750572204594,
+    "floorTop": 63.606250000000045,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 196.68750572204596,
+      "x1": 312.93750572204596,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      161,
+      731,
+      476,
+      829
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1.25,
+    "x": 260,
+    "file": "contact-crops/ground-before-1440-1.25-260.png",
+    "playerX": 260.642,
+    "form": "blob",
+    "x0": 68.24694322204596,
+    "x1": 184.49694322204596,
+    "floorTop": 63.606250000000045,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 292.24694322204596,
+      "x1": 408.49694322204596,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      280,
+      731,
+      596,
+      829
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1.25,
+    "x": 360,
+    "file": "contact-crops/ground-before-1440-1.25-360.png",
+    "playerX": 362.37349999999986,
+    "form": "blob",
+    "x0": 68.39933384704585,
+    "x1": 184.64933384704585,
+    "floorTop": 63.606250000000045,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 390.79933384704583,
+      "x1": 507.04933384704583,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      403,
+      731,
+      719,
+      829
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1.5,
+    "x": 160,
+    "file": "contact-crops/ground-before-1440-1.5-160.png",
+    "playerX": 161.99999999999997,
+    "form": "blob",
+    "x0": 68.02083905537927,
+    "x1": 184.27083905537924,
+    "floorTop": 63.07291666666663,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 196.68750572204593,
+      "x1": 312.9375057220459,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      193,
+      878,
+      572,
+      995
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1.5,
+    "x": 260,
+    "file": "contact-crops/ground-before-1440-1.5-260.png",
+    "playerX": 260.66049999999996,
+    "form": "blob",
+    "x0": 68.26486509704591,
+    "x1": 184.5148650970459,
+    "floorTop": 63.07291666666663,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 292.2648650970459,
+      "x1": 408.5148650970459,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      336,
+      878,
+      715,
+      995
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 1.5,
+    "x": 360,
+    "file": "contact-crops/ground-before-1440-1.5-360.png",
+    "playerX": 362.3919999999996,
+    "form": "blob",
+    "x0": 68.15058905537887,
+    "x1": 184.40058905537887,
+    "floorTop": 63.07291666666663,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 390.81725572204556,
+      "x1": 507.06725572204556,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      484,
+      878,
+      863,
+      995
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 2,
+    "x": 160,
+    "file": "contact-crops/ground-before-1440-2-160.png",
+    "playerX": 161.99999999999994,
+    "form": "blob",
+    "x0": 68.1875057220459,
+    "x1": 184.4375057220459,
+    "floorTop": 63.40625,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 196.6875057220459,
+      "x1": 312.9375057220459,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      257,
+      1170,
+      762,
+      1326
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 2,
+    "x": 260,
+    "file": "contact-crops/ground-before-1440-2-260.png",
+    "playerX": 260.64199999999994,
+    "form": "blob",
+    "x0": 68.2469432220459,
+    "x1": 184.4969432220459,
+    "floorTop": 63.40625,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 292.2469432220459,
+      "x1": 408.4969432220459,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      448,
+      1170,
+      953,
+      1326
+    ]
+  },
+  {
+    "tag": "before",
+    "width": 1440,
+    "dpr": 2,
+    "x": 360,
+    "file": "contact-crops/ground-before-1440-2-360.png",
+    "playerX": 362.3919999999997,
+    "form": "blob",
+    "x0": 67.81725572204567,
+    "x1": 184.06725572204567,
+    "floorTop": 63.40625,
+    "scale": 0.96875,
+    "sourceViewportGeometry": {
+      "x0": 390.8172557220457,
+      "x1": 507.0672557220457,
+      "floorTop": 648.40625
+    },
+    "clipDevicePixels": [
+      646,
+      1170,
+      1150,
+      1326
+    ]
+  }
+]

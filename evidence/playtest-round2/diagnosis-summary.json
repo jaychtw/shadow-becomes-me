@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "stationary",
+    "beforeForm": "box",
+    "beforeGuardState": "patrol",
+    "guardHpAfter": 0,
+    "visibleDevourSamples": 33,
+    "totalSamples": 51
+  },
+  {
+    "mode": "move-after",
+    "beforeForm": "box",
+    "beforeGuardState": "patrol",
+    "guardHpAfter": 0,
+    "visibleDevourSamples": 0,
+    "totalSamples": 52
+  },
+  {
+    "mode": "moving-attack",
+    "beforeForm": "blob",
+    "beforeGuardState": "hostile",
+    "guardHpAfter": 2,
+    "visibleDevourSamples": 0,
+    "totalSamples": 55
+  }
+]

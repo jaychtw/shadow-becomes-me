@@ -1,6 +1,6 @@
 from pathlib import Path
-import subprocess,hashlib,json,zipfile
-r=Path(__file__).resolve().parents[2];out=r/'evidence/playtest-round2';sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=r,text=True).strip();name=f'shadow-becomes-me-playtest-r2-{sha[:7]}'
+import subprocess,hashlib,json,zipfile,os
+r=Path(__file__).resolve().parents[2];out=r/'evidence/playtest-round2';sha=subprocess.check_output(['git','rev-parse',os.environ.get('ROUND2_SOURCE_COMMIT','HEAD')],cwd=r,text=True).strip();assert not subprocess.check_output(['git','diff',sha,'--','src','index.html','style.css','art','scripts/build.js','package.json','package-lock.json'],cwd=r);name=f'shadow-becomes-me-playtest-r2-{sha[:7]}'
 readme=f'''SHADOW BECOMES ME — PLAYTEST ROUND 2
 Runtime source commit: {sha}
 Branch: dev/recovery-art-pipeline
@@ -21,7 +21,8 @@ DEVOUR WALKTHROUGH — same eligibility and accepted animation
   remaining behind the guard. Release movement before transforming.
 - Choose Box / 箱子 (key 1 or the touch button). Stay still and wait for
   the patrolling guard to turn and approach within attack reach.
-- Click/tap Attack once (X/Space on keyboard). Remain stationary for
+- Click/tap Spike / 尖刺 once (X/Space on keyboard). This contextual
+  attack becomes Devour when eligible. Remain stationary for
   at least 0.56 seconds to see the full cocoon and disappearance.
 - Move to the right exit afterward. Keyboard A/D or arrows move;
   touch arrows may be held. Language toggle is live EN/Traditional Chinese.

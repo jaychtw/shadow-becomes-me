@@ -1,0 +1,35 @@
+{
+  "acceptedBaseline": "9404913acc81e6edf6ac2e3861ce49af4f4f19a3",
+  "packagedRuntimeSource": "6d5c7d3c769fa1d2ac8f50df29da5e7540b25faf",
+  "allListedPathsByteUnchangedFromAcceptedBaseline": [
+    "src/devour.js",
+    "src/engine.js",
+    "src/scene.js",
+    "art",
+    "evidence/devour",
+    "index.html",
+    "style.css"
+  ],
+  "runtimeUnchangedSincePackagedSource": true,
+  "verificationSourceSha256": {
+    "src/presentation.js": "1991341312d6cc48719ff2be65395b255f001a33a7c3a3eb62de147b0da37898",
+    "scripts/build.js": "cd1ea0b59d7db195390206bc29993eb0e4567577cf5b9d7f3e099ecde2437d5c",
+    "scripts/round2/diagnose.mjs": "cc619a03819a8ab9721a1fc4c7fc8e4d1fb9e6c2c5c623c9a0d64bc3b5f207af",
+    "scripts/round2/ground.mjs": "4cd0c5678711d460099ecbdbb177a477e66bafc1c6b51104b8e4b6d71907b254",
+    "scripts/round2/pixels.py": "3215236cd05938d33fb32381ea60de8d1c558f37076c30ae838a37e3c4dbf35d",
+    "scripts/round2/crop-evidence.py": "2cbf33c7439c501e8bfcedd58af3e0c1cd847cca4f3c7d2a629b14667c50dde4",
+    "scripts/round2/package.py": "121d9d668d114c70ca89bb2ff9717f37696b39a4d6d7422ae6068442755fd3df",
+    "scripts/round2/package-demo.mjs": "b88319db86150c8778fbed6cbbc6def63bd2593092b88dc33eac06c374bdb4a2",
+    "scripts/devour/check.mjs": "8f268b742b23ddd872579a8a41a5c30f5db9b2ff25b200dafa6433ec0ad9893a"
+  },
+  "evidenceMethod": {
+    "devour": "Ordinary keyboard/touch input against extracted ZIPs. Snapshot/DOM read-only tracing, no injected game state. Baseline stationary 33 visible samples; moving-after 0; moving-before 0.",
+    "ground": "96 actual moving screenshots: 48 baseline +48 corrected; x160/260/360, widths320/390/768/1440 and DPR1/1.25/1.5/2. PNG contact crops preserve pixels, metadata retains viewport geometry. Central\u00b160 world-unit columns tested for black body followed by bright background before floor; blackRGB<=10, brightRGB>70. Both versions report zero sampled gap columns.",
+    "recordings": "New ZIP HTTP server8083. CDP screenshots/timestamps encoded with system FFmpeg; gameplayGIFs25fps derivatives. Desktop keyboard, phone-scale actual CDP touch. Not a physical phone.",
+    "limitations": [
+      "Exact owner archive, browser, zoom, OS and input sequence unknown.",
+      "Owner-reported exact ground gap not independently reproduced; samples do not cover every contour edge.",
+      "No assertion of owner acceptance or physical-device equivalence."
+    ]
+  }
+}

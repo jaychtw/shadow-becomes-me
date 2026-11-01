@@ -1,0 +1,1679 @@
+{
+  "packagePort": 8082,
+  "ordinaryPlayerInputs": true,
+  "pass": 3,
+  "cases": [
+    {
+      "mode": "stationary",
+      "before": {
+        "phase": "playing",
+        "player": {
+          "x": 747.8209999999991,
+          "form": "box",
+          "direction": 1,
+          "hp": 3,
+          "cooldown": 0,
+          "spike": 0
+        },
+        "guard": {
+          "x": 836.9116,
+          "direction": -1,
+          "hp": 3,
+          "state": "patrol",
+          "inspection": 0,
+          "attackCooldown": 0,
+          "stagger": 0
+        },
+        "time": 12.81619999999996,
+        "locale": "en",
+        "paused": false
+      },
+      "after": {
+        "phase": "playing",
+        "player": {
+          "x": 747.8209999999991,
+          "form": "box",
+          "direction": 1,
+          "hp": 3,
+          "cooldown": 1.2,
+          "spike": 0.22
+        },
+        "guard": {
+          "x": 834.9802,
+          "direction": -1,
+          "hp": 0,
+          "state": "dead",
+          "inspection": 0,
+          "attackCooldown": 0,
+          "stagger": 0
+        },
+        "time": 12.84949999999996,
+        "locale": "en",
+        "paused": false
+      },
+      "trace": [
+        {
+          "time": 12.81619999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.83279999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.84949999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.866199999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "16.699999999998383",
+          "target": ""
+        },
+        {
+          "time": 12.882899999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "33.39999999999854",
+          "target": ""
+        },
+        {
+          "time": 12.89939999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "49.89999999999917",
+          "target": ""
+        },
+        {
+          "time": 12.916199999999959,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "66.6999999999991",
+          "target": ""
+        },
+        {
+          "time": 12.93279999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "83.29999999999949",
+          "target": ""
+        },
+        {
+          "time": 12.94949999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "99.99999999999964",
+          "target": ""
+        },
+        {
+          "time": 12.96609999999996,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "116.60000000000004",
+          "target": ""
+        },
+        {
+          "time": 12.982799999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "133.29999999999842",
+          "target": ""
+        },
+        {
+          "time": 12.999499999999959,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "149.99999999999858",
+          "target": ""
+        },
+        {
+          "time": 13.016199999999957,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "166.69999999999698",
+          "target": ""
+        },
+        {
+          "time": 13.032799999999957,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "183.29999999999734",
+          "target": ""
+        },
+        {
+          "time": 13.049399999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "199.89999999999776",
+          "target": ""
+        },
+        {
+          "time": 13.066199999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "216.69999999999766",
+          "target": ""
+        },
+        {
+          "time": 13.082799999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "233.29999999999808",
+          "target": ""
+        },
+        {
+          "time": 13.099499999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "249.99999999999824",
+          "target": ""
+        },
+        {
+          "time": 13.116199999999957,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "266.69999999999663",
+          "target": "none"
+        },
+        {
+          "time": 13.132799999999957,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "283.299999999997",
+          "target": "none"
+        },
+        {
+          "time": 13.149499999999957,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "299.99999999999716",
+          "target": "none"
+        },
+        {
+          "time": 13.166099999999958,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "316.5999999999975",
+          "target": "none"
+        },
+        {
+          "time": 13.182799999999956,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "333.2999999999959",
+          "target": "none"
+        },
+        {
+          "time": 13.199499999999956,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "349.9999999999961",
+          "target": "none"
+        },
+        {
+          "time": 13.216099999999956,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "366.5999999999965",
+          "target": "none"
+        },
+        {
+          "time": 13.232799999999955,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "383.29999999999484",
+          "target": "none"
+        },
+        {
+          "time": 13.249499999999955,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "399.999999999995",
+          "target": "none"
+        },
+        {
+          "time": 13.266099999999955,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "416.5999999999954",
+          "target": "none"
+        },
+        {
+          "time": 13.282799999999954,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "433.2999999999938",
+          "target": "none"
+        },
+        {
+          "time": 13.299499999999954,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "449.999999999994",
+          "target": "none"
+        },
+        {
+          "time": 13.316099999999954,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "466.59999999999434",
+          "target": "none"
+        },
+        {
+          "time": 13.332799999999953,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "483.29999999999274",
+          "target": "none"
+        },
+        {
+          "time": 13.349499999999953,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "499.9999999999929",
+          "target": "none"
+        },
+        {
+          "time": 13.366199999999951,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "516.6999999999913",
+          "target": "none"
+        },
+        {
+          "time": 13.382799999999952,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "533.2999999999917",
+          "target": "none"
+        },
+        {
+          "time": 13.399499999999952,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.416099999999952,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.43279999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.449399999999951,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.466099999999951,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.48279999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.49939999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.51619999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.53279999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.54949999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.56609999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.58279999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.59939999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.61619999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.63279999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        },
+        {
+          "time": 13.64939999999995,
+          "x": 747.8209999999991,
+          "form": "box",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "549.9999999999918",
+          "target": "none"
+        }
+      ]
+    },
+    {
+      "mode": "move-after",
+      "before": {
+        "phase": "playing",
+        "player": {
+          "x": 747.8209999999995,
+          "form": "box",
+          "direction": 1,
+          "hp": 3,
+          "cooldown": 0,
+          "spike": 0
+        },
+        "guard": {
+          "x": 836.9115999999947,
+          "direction": -1,
+          "hp": 3,
+          "state": "patrol",
+          "inspection": 0,
+          "attackCooldown": 0,
+          "stagger": 0
+        },
+        "time": 12.816199999999961,
+        "locale": "en",
+        "paused": false
+      },
+      "after": {
+        "phase": "playing",
+        "player": {
+          "x": 747.8209999999995,
+          "form": "box",
+          "direction": 1,
+          "hp": 3,
+          "cooldown": 1.2,
+          "spike": 0.22
+        },
+        "guard": {
+          "x": 834.9743999999947,
+          "direction": -1,
+          "hp": 0,
+          "state": "dead",
+          "inspection": 0,
+          "attackCooldown": 0,
+          "stagger": 0
+        },
+        "time": 12.84959999999996,
+        "locale": "en",
+        "paused": false
+      },
+      "trace": [
+        {
+          "time": 12.816199999999961,
+          "x": 747.8209999999995,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.83289999999996,
+          "x": 747.8209999999995,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.84959999999996,
+          "x": 747.8209999999995,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.86619999999996,
+          "x": 750.8919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.882899999999958,
+          "x": 753.9814999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.899499999999959,
+          "x": 757.0524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.916199999999959,
+          "x": 760.1419999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.932799999999958,
+          "x": 763.2129999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.949499999999958,
+          "x": 766.3024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.966199999999958,
+          "x": 769.3919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.982799999999957,
+          "x": 772.4629999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 12.999499999999957,
+          "x": 775.5524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.016199999999957,
+          "x": 778.6419999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.032799999999956,
+          "x": 781.7129999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.049499999999956,
+          "x": 784.8024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.066199999999956,
+          "x": 787.8919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.082799999999954,
+          "x": 790.9629999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.099499999999955,
+          "x": 794.0524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.116199999999955,
+          "x": 797.1419999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.132899999999953,
+          "x": 800.2314999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.149499999999954,
+          "x": 803.3024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.166199999999954,
+          "x": 806.3919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.182799999999952,
+          "x": 809.4629999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.199499999999952,
+          "x": 812.5524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.216199999999953,
+          "x": 815.6419999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.232899999999951,
+          "x": 818.7314999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.249499999999951,
+          "x": 821.8024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.266199999999952,
+          "x": 824.8919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.28279999999995,
+          "x": 827.9629999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.29949999999995,
+          "x": 831.0524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.31619999999995,
+          "x": 834.1419999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.33279999999995,
+          "x": 837.2129999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.34949999999995,
+          "x": 840.3024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.36609999999995,
+          "x": 843.3734999999994,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.382799999999948,
+          "x": 846.4629999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.399499999999948,
+          "x": 849.5524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.416099999999949,
+          "x": 852.6234999999994,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.432799999999947,
+          "x": 855.7129999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.449499999999947,
+          "x": 858.8024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.466199999999947,
+          "x": 861.8919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.482899999999946,
+          "x": 864.9814999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.499499999999946,
+          "x": 868.0524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.516099999999946,
+          "x": 871.1234999999994,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.532799999999945,
+          "x": 874.2129999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.549499999999945,
+          "x": 877.3024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.566199999999945,
+          "x": 880.3919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.582799999999944,
+          "x": 883.4629999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.599499999999944,
+          "x": 886.5524999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.616199999999944,
+          "x": 889.6419999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.632799999999943,
+          "x": 892.7129999999992,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.649499999999943,
+          "x": 895.8024999999993,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        },
+        {
+          "time": 13.666199999999943,
+          "x": 898.8919999999995,
+          "form": "blob",
+          "event": "playing:dead",
+          "hp": 0,
+          "devour": "none",
+          "ms": "0",
+          "target": "none"
+        }
+      ]
+    },
+    {
+      "mode": "moving-attack",
+      "before": {
+        "phase": "playing",
+        "player": {
+          "x": 757.0709999999984,
+          "form": "blob",
+          "direction": 1,
+          "hp": 3,
+          "cooldown": 0,
+          "spike": 0
+        },
+        "guard": {
+          "x": 831.3062000000009,
+          "direction": -1,
+          "hp": 3,
+          "state": "hostile",
+          "inspection": 0,
+          "attackCooldown": 0,
+          "stagger": 0
+        },
+        "time": 12.86619999999996,
+        "locale": "en",
+        "paused": false
+      },
+      "after": {
+        "phase": "playing",
+        "player": {
+          "x": 763.2129999999985,
+          "form": "blob",
+          "direction": 1,
+          "hp": 3,
+          "cooldown": 1.2,
+          "spike": 0.22
+        },
+        "guard": {
+          "x": 827.5878000000009,
+          "direction": -1,
+          "hp": 2,
+          "state": "hostile",
+          "inspection": 0,
+          "attackCooldown": 0,
+          "stagger": 0.38
+        },
+        "time": 12.899399999999961,
+        "locale": "en",
+        "paused": false
+      },
+      "trace": [
+        {
+          "time": 12.816099999999961,
+          "x": 747.8024999999988,
+          "form": "box",
+          "event": "playing:patrol",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.83279999999996,
+          "x": 750.8919999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.84939999999996,
+          "x": 753.9629999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.86619999999996,
+          "x": 757.0709999999984,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.88279999999996,
+          "x": 760.1419999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.899399999999961,
+          "x": 763.2129999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 3,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.916099999999961,
+          "x": 766.3024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.93279999999996,
+          "x": 769.3919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.94939999999996,
+          "x": 772.4629999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.96609999999996,
+          "x": 775.5524999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.982799999999958,
+          "x": 778.6419999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 12.999499999999959,
+          "x": 781.7314999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.016099999999959,
+          "x": 784.8024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.032799999999957,
+          "x": 787.8919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.049499999999957,
+          "x": 790.9814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.066199999999956,
+          "x": 794.0709999999984,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.082799999999956,
+          "x": 797.1419999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.099499999999956,
+          "x": 800.2314999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.116099999999957,
+          "x": 803.3024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.132799999999955,
+          "x": 806.3919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.149499999999955,
+          "x": 809.4814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.166199999999954,
+          "x": 812.5709999999984,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.182799999999954,
+          "x": 815.6419999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.199399999999955,
+          "x": 818.7129999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.216099999999955,
+          "x": 821.8024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.232799999999953,
+          "x": 824.8919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.249499999999953,
+          "x": 827.9814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.266199999999952,
+          "x": 831.0709999999984,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.282699999999952,
+          "x": 834.1234999999984,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.299499999999954,
+          "x": 837.2314999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.316099999999954,
+          "x": 840.3024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.332799999999953,
+          "x": 843.3919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.349499999999953,
+          "x": 846.4814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.366099999999953,
+          "x": 849.5524999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.382699999999952,
+          "x": 852.6234999999983,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.399399999999952,
+          "x": 855.7129999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.416099999999952,
+          "x": 858.8024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.43279999999995,
+          "x": 861.8919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.44949999999995,
+          "x": 864.9814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.466099999999951,
+          "x": 868.0524999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.48279999999995,
+          "x": 871.1419999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.49949999999995,
+          "x": 874.2314999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.51609999999995,
+          "x": 877.3024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.532799999999948,
+          "x": 880.3919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.549499999999949,
+          "x": 883.4814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.566099999999949,
+          "x": 886.5524999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.582699999999948,
+          "x": 889.6234999999983,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.599399999999948,
+          "x": 892.7129999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.616099999999948,
+          "x": 895.8024999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.632799999999946,
+          "x": 898.8919999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.649499999999946,
+          "x": 901.9814999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.666099999999947,
+          "x": 905.0524999999986,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.682699999999945,
+          "x": 908.1234999999983,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.699499999999947,
+          "x": 911.2314999999985,
+          "form": "blob",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        },
+        {
+          "time": 13.716099999999948,
+          "x": 911.2314999999985,
+          "form": "idle",
+          "event": "playing:hostile",
+          "hp": 2,
+          "devour": "none",
+          "target": ""
+        }
+      ]
+    }
+  ]
+}
