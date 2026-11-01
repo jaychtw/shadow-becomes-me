@@ -28,4 +28,4 @@ await writeFile('dist/art/devour/manifest.js','export default '+await readFile('
 await cp('devour-study','dist/devour-study',{recursive:true});
 
 const restSvg=await readFile('art/character-experiment/reference/shadow-rest-candidate.svg','utf8');
-await writeFile('dist/art/characters/rest-path.js','export default '+JSON.stringify(restSvg.match(/d="([^"]+)"/)[1])+';');
+await writeFile('dist/art/characters/rest-path.js','export default '+JSON.stringify(restSvg.match(/<path[^>]*\sd="([^"]+)"/)[1])+';');
