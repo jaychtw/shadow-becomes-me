@@ -1,10 +1,12 @@
 # Shadow Becomes Me — Game Design Document
 
-**Version:** 0.1.0 | **Status:** Owner-approved gameplay direction; first POC bounded below; future campaign provisional  
+**Version:** 0.1.0 | **Status:** Bounded laboratory POC accepted and closed; future campaign provisional
 **Date:** 2026-10-30 | **Creative authority:** Project owner  
 **Primary release platform:** Browser / GitHub Pages | **Future portability:** Godot-friendly design specification  
 **Adopted standard:** [UGDS v1.0.0](https://github.com/jaychtw/game-development-standards/blob/374143e614ed9d95bf2c413fb13711e802f2133c/UGDS.md) pinned to standards repository commit `374143e614ed9d95bf2c413fb13711e802f2133c`  
-**Collaboration:** [AICP v1.1.1](https://github.com/jaychtw/game-development-standards/blob/374143e614ed9d95bf2c413fb13711e802f2133c/AI-COLLABORATION-PROTOCOL.md), same snapshot pin.
+**Collaboration:** [AICP v1.2.1](https://github.com/jaychtw/game-development-standards/blob/b8b9de0d4faaf666fb53cec83ff8516bccf5bd5b/AI-COLLABORATION-PROTOCOL.md); [adoption history](standards/README.md).
+
+> Current accepted interpretation: [POC closure](POC_ACCEPTANCE_CLOSURE.md), [Round 3](PLAYTEST_ROUND3.md) and later decisions supersede early provisional wording. Resting Shadow is the approved smooth amorphous geometry, ordinary attack is Spike and eligible assassination presents Devour. The single laboratory is complete as a POC; campaign possibilities below are not implementation commitments. [Publication](PUBLICATION.md) is a separate authorized delivery step.
 
 ## 1. Pitch and identity
 A living, featureless black shadow escapes a military experiment and survives by reading the visual patterns of its surroundings, imitating familiar silhouettes, slipping past guards, and striking with its own sharpened body. **The core fantasy: you are not hiding in darkness; you are darkness.**

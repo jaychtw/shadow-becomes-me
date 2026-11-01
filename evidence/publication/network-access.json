@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-01T04:33:09.280493+00:00",
+  "observations": [
+    {
+      "url": "https://api.github.com/repos/jaychtw/shadow-becomes-me",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://jaychtw.github.io/shadow-becomes-me/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://jaychtw.github.io/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "environmentDraftSaved": true,
+  "requiresPublish": true,
+  "githubApiWritesPerformed": false,
+  "deploymentsPerformed": false
+}

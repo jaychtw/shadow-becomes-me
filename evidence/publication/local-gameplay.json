@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8080",
+  "pass": 6,
+  "fail": 0,
+  "checks": [
+    "1440/en: primary transform cycle",
+    "1440/en: actual keyboard/touch fitting Box, full Devour, exit",
+    "1440/en: restart, unfitting Chair, ordinary Spike and build identity",
+    "390/zh-TW: primary transform cycle",
+    "390/zh-TW: actual keyboard/touch fitting Box, full Devour, exit",
+    "390/zh-TW: restart, unfitting Chair, ordinary Spike and build identity"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "method": "Actual canonical HTTP game and ordinary player input; no response/state injection; desktop keyboard and CDP phone touch"
+}

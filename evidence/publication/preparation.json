@@ -1,0 +1,332 @@
+{
+  "acceptedCheckpoint": "5e26b0c4b521186114d1041a98ccaa3b0cfe7f8d",
+  "runtimeSource": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+  "buildId": "r3-5c7c6e926759",
+  "archive": "shadow-becomes-me-r3-5c7c6e926759.zip",
+  "zipSha256": "d6baa41ce388efbb9c9232c6842074f257dcaedc5bbad674aef143fc2fb8c84b",
+  "siteFiles": [
+    {
+      "path": "BUILD.json",
+      "bytes": 259,
+      "sha256": "99935d2d317b4caf5b360b5fbcb15095dd2928cd015259f7f01e3bf89a8e373b"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-00.png",
+      "bytes": 10190,
+      "sha256": "c516ae7a34f860a28bb8ba6c40455b3e54a7fcfeb67037887dda17812d956c71"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-01.png",
+      "bytes": 9895,
+      "sha256": "feb969826c520750a7b897df5d6017a727f997a39eedb714898e642cfdcaaa3b"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-02.png",
+      "bytes": 9890,
+      "sha256": "50e6d926ab73b2cc9fa454680d33b9bf983a59aedefbd49cd80aa6ea3f068d1a"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-03.png",
+      "bytes": 9667,
+      "sha256": "24624b26b78844457b00daaba0732d8283007d8a7ee2510c7833ea0b47515ebe"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-04.png",
+      "bytes": 9268,
+      "sha256": "663014776e8be3657b83cf9bd8c4b40c37f029b6d9be9ea0bb43281f40807271"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-05.png",
+      "bytes": 8426,
+      "sha256": "f241153c4251c3faf552602c4055d5df5a77c274484d8bc1aeecfb525b482635"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-06.png",
+      "bytes": 8157,
+      "sha256": "99d1b08fa80e7f1d4cf6d91d756281c4d93368ae196b47173ad5dbb385819e9e"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-07.png",
+      "bytes": 8587,
+      "sha256": "a47672993c724fee661bc3faad6c1032ac7607d3c80784e3dbd7ad08dfd53d7e"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-08.png",
+      "bytes": 9051,
+      "sha256": "f39c37c64603b14f06e883d4f712fa89466bfd90be95fc0d0cbdd4f8f97a1cef"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-09.png",
+      "bytes": 9023,
+      "sha256": "1cb3f2b64e574d7c3076761ce533dddc0b9ce6c8f32bf4ccf821c6286999db14"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-10.png",
+      "bytes": 9354,
+      "sha256": "8b0daadd75125a0e57c10fe8392abc0f52797c29f98244db830f63ecf39d02b5"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-11.png",
+      "bytes": 9186,
+      "sha256": "21993796ba9def9b02f8c7f560be598ad4d98a329f69948a0e63664324c06700"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-12.png",
+      "bytes": 9598,
+      "sha256": "d422324df33e4a5af734ebb30f7bc0f5bdfcdc7b1b63b3457f22774e6d6c2b3b"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-13.png",
+      "bytes": 9203,
+      "sha256": "b31a85c0971d18a798fec336f444a8514be1d3fd814b1209dcc146bab7890cae"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-14.png",
+      "bytes": 9379,
+      "sha256": "59c0de637d6ffe143e0c0d3fad9ea7800cc6acda3367cf6a1680ff3e486b2597"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-15.png",
+      "bytes": 9188,
+      "sha256": "6ece08de67b71c2792f64ed8f6db2fdc2285e3ead2f3c29a29c379a7a9e8db1c"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-16.png",
+      "bytes": 8918,
+      "sha256": "71f2bb9a2eb6895df31f1d8a6a30fd954b94130175ecdf31198ce41fed20fc4e"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-17.png",
+      "bytes": 8414,
+      "sha256": "ec9c32e651c7bf3bd204f38da21a79045cca8ca88232d5c9a5378728e4e03fbe"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-18.png",
+      "bytes": 8125,
+      "sha256": "9d6a13d5058f1f2c5efddcef88e7106be01dd7213040e5faed0982ee3d6d3d60"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-19.png",
+      "bytes": 8922,
+      "sha256": "d5d24bd3f40005722597be3ccc1f55dafd286fe3fc6e410ef221bfe5ce11c8b1"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-20.png",
+      "bytes": 9478,
+      "sha256": "65506fb8fa1e57a32a4f8a737038d32c53a40f36604592ca47d9687479af8a98"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-21.png",
+      "bytes": 9517,
+      "sha256": "cad3587f26767f941dae2451fbd12847e198791ba095b6a7e8414560437d6d9a"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-22.png",
+      "bytes": 9996,
+      "sha256": "3efd730c3a873f3e407e41fc2f1b731b901b22ca16ec0330fba7aaed47de086f"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/guard-walk-23.png",
+      "bytes": 9904,
+      "sha256": "758fb0369b6ee99a917ce24dd5171e2a7841323a64d4cf482105ce08608f06a5"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-00.png",
+      "bytes": 4309,
+      "sha256": "b64a185fba854cea3548471651f6e692ad891c927f35e3c36d38c5c12ca4eb05"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-01.png",
+      "bytes": 4052,
+      "sha256": "dcbb5e0ab329ceb36db8209d1ed8b8faffaf6d7bc75dc9a0bb1406df37291a78"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-02.png",
+      "bytes": 3837,
+      "sha256": "990f1ff378a609e6d677d02859d7f3ed29f553551ef40c42775fb297d31dd0eb"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-03.png",
+      "bytes": 3718,
+      "sha256": "1393ef1ff93f7b2ad4158284cf38c68ac4bc1d20a5a99340aa7bf1cd0832c5f2"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-04.png",
+      "bytes": 3771,
+      "sha256": "219a4c4c87f2614cdcb2eff7a67f4bf895b5b8b5ae9bb9b719722f451e297281"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-05.png",
+      "bytes": 3842,
+      "sha256": "e21a1564252662f7538dbb10df22ca8a45709fa26192c5f6240089b707102677"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-06.png",
+      "bytes": 3842,
+      "sha256": "e21a1564252662f7538dbb10df22ca8a45709fa26192c5f6240089b707102677"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-07.png",
+      "bytes": 3729,
+      "sha256": "c87d02c221abb3a505acdee6a49f0e1ee65ace1d47f4cd4ee354cfb66c4d097d"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-08.png",
+      "bytes": 3777,
+      "sha256": "df9491c4b6026a9e9278670e68faf418b635d1b07899277cd366095069dc58b8"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-09.png",
+      "bytes": 3871,
+      "sha256": "c1a58c26ba4e0072e5886d3fa136b14b91e62a3962fd2f2263d547684445ee12"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-10.png",
+      "bytes": 4131,
+      "sha256": "40af00dd9c1a093fa46492f3b5997d26db65c0cdd61dd9042db912fa5a437957"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-11.png",
+      "bytes": 4309,
+      "sha256": "b64a185fba854cea3548471651f6e692ad891c927f35e3c36d38c5c12ca4eb05"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/manifest.js",
+      "bytes": 28680,
+      "sha256": "65bf3cfa1f87917d69a23efb02be8108d5e009fece7d4b9f4dcd083a19a6bf54"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/manifest.json",
+      "bytes": 28664,
+      "sha256": "6035879ddae55fd2256a977c4876dc536626ad92e97e1785b7121d71a8c67a3d"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/characters/rest-path.js",
+      "bytes": 183,
+      "sha256": "12df6080faaa2665eee0c07f6724244e50aee262e361b4dfc84120e132d20ae9"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/devour/manifest.js",
+      "bytes": 71721,
+      "sha256": "6f089df68c553f5a336b3a85e60ea666b3da1ca2635d9bdac74a80abd63e454c"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory.svg",
+      "bytes": 14744,
+      "sha256": "d6ec48d7504f00c469a2780d71e34691ef6b0e3acf1de1713656884704a74ef1"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/architectural-details.png",
+      "bytes": 12199,
+      "sha256": "8c4f34a0a745d9fd43e49f8370f72c0e9404ba603166d415468704fe16affb2a"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/architecture.png",
+      "bytes": 15771,
+      "sha256": "a436270f60ceb36479261978466be6c3ff9f6965fbc28cc49454277f2f682f60"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/background-props.png",
+      "bytes": 26653,
+      "sha256": "38f7717aee96752234730e03c39311d7a30b3d7b30bdfb53e40b99647504e589"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/distant-background.png",
+      "bytes": 183461,
+      "sha256": "47132d9d8932ec5e1891c211d6eebb0dde69a738edf9f80cecd061defa322fc7"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/floor.png",
+      "bytes": 10611,
+      "sha256": "ddb264b8b6ac1cd07927b89a5471ddf702612577bf94debdcb051ab9f9b6bae5"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/foreground.png",
+      "bytes": 5686,
+      "sha256": "2c2e8201aedeaf06c1fe63f33f6546de9bceda72fc89f8523fd60267fba33871"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/art/laboratory/illumination.png",
+      "bytes": 307062,
+      "sha256": "b67362ef8d5e8b94bbf768de79a7a637bc63438315512fe06ced3e6444f2bdba"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/devour-study/actor.html",
+      "bytes": 1413,
+      "sha256": "ea0965a8294be59b710e00437e09e36e57fd39e65c8779e628c35cb926894053"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/devour-study/index.html",
+      "bytes": 2140,
+      "sha256": "fdee7b77a34531934579436c7327845f11e3e50843b98ce0204fc22c860d5b66"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/build-identity.js",
+      "bytes": 856,
+      "sha256": "a716d38d1be32c9e336dd117e3b64ca65cacef3f7eac76448bedba5f755bc98b"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/build-info.js",
+      "bytes": 249,
+      "sha256": "6c817a3a4f49a94478863ad32bbf0ee14eb53f95294fb6857f8baccf0d39a692"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/devour.js",
+      "bytes": 3646,
+      "sha256": "e52e3839f9c538c372d021f9c2582a87e74991a2745619a581ec028e9c8a34fa"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/engine.js",
+      "bytes": 4211,
+      "sha256": "cfcdbdf686fb8f58b1d98c52fd242fb5b8eb0ea5de51e78374a93d82bd1564f9"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/i18n.js",
+      "bytes": 5611,
+      "sha256": "c98a60b2536259196d6044ab85c8c1baa7e860a19fff30b55104158281653703"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/main.js",
+      "bytes": 8075,
+      "sha256": "30742152103edfdfa7c012236ff48f927524974724765cf3ec79556200905db5"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/presentation.js",
+      "bytes": 3879,
+      "sha256": "1991341312d6cc48719ff2be65395b255f001a33a7c3a3eb62de147b0da37898"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/scene.js",
+      "bytes": 698,
+      "sha256": "20566ab4b16c6b66a5f56bb6f73c0d570649e27100d4425ed82803dba5e4a18d"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/src/transformation.js",
+      "bytes": 390,
+      "sha256": "1f2e0b0f693f00f1f08bb13bfc561311b2a42bde8f3745622f2facd77fdd3e38"
+    },
+    {
+      "path": "assets/r3-5c7c6e926759/style.css",
+      "bytes": 5481,
+      "sha256": "ab5de375011775c0f1e59fc88915c80ce57d97bfb16c4af23e7ffd5865325d7e"
+    },
+    {
+      "path": "devour-study/index.html",
+      "bytes": 2218,
+      "sha256": "0038da382729d74d3f73a5d65b82a53fe71707e07aa06224bfe0509d8c1a0309"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5099,
+      "sha256": "7a757d1ef10e9d8466b20b0add57ed2fc117d1f8d5e9bee43e67630d090f76ce"
+    }
+  ],
+  "additionalHostingFiles": [
+    ".nojekyll"
+  ],
+  "excludedLocalHelpers": [
+    "serve.py",
+    "README-launch.txt"
+  ],
+  "allPublishedRuntimeBytesEqualAcceptedPackage": true
+}

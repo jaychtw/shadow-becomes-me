@@ -1,0 +1,100 @@
+name: Publish accepted Shadow laboratory demo
+on:
+  workflow_dispatch:
+    inputs:
+      release_commit:
+        description: Exact verified publication commit on main (full SHA)
+        required: true
+        type: string
+      authorization:
+        description: Under owner authorization, type PUBLISH SHADOW DEMO
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: shadow-demo-pages
+  cancel-in-progress: false
+jobs:
+  prepare:
+    # Standard public-repository runners only; never enable a paid/private path.
+    if: github.ref == 'refs/heads/main' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CHROMIUM_PATH: /usr/bin/google-chrome
+      RELEASE_COMMIT: ${{ inputs.release_commit }}
+      AUTHORIZATION: ${{ inputs.authorization }}
+    steps:
+      - name: Require explicit dispatch and an exact source
+        run: |
+          set -euo pipefail
+          [[ "$AUTHORIZATION" == 'PUBLISH SHADOW DEMO' ]]
+          [[ "$RELEASE_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ inputs.release_commit }}
+          fetch-depth: 0
+          persist-credentials: false
+      - run: git merge-base --is-ancestor "$RELEASE_COMMIT" origin/main
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - name: Prepare and test the frozen accepted runtime
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/publication/prepare.py
+          python3 scripts/local-server.py --directory .publication/site > .publication/server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          mkdir -p .publication/local-qa
+          (cd .publication/local-qa && TEST_URL=http://127.0.0.1:8080 node ../../tests/browser.mjs)
+          TEST_URL=http://127.0.0.1:8080 EVIDENCE_DIR=.publication/local-qa node scripts/publication/gameplay.mjs
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .publication/site
+  publish:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      CHROMIUM_PATH: /usr/bin/google-chrome
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ inputs.release_commit }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Verify canonical public bytes and actual play
+        run: |
+          python3 scripts/publication/prepare.py
+          python3 scripts/publication/verify-files.py
+          node scripts/publication/gameplay.mjs
+          mkdir -p .publication/public-qa
+          (cd .publication/public-qa && TEST_URL=https://jaychtw.github.io/shadow-becomes-me/ node ../../tests/browser.mjs)
+      - name: Preserve publication proof and failures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: shadow-public-verification-${{ inputs.release_commit }}
+          path: .publication/
+          include-hidden-files: true
+          retention-days: 7

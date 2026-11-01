@@ -6,6 +6,8 @@
 **Packaged runtime source:** `ed2ca26a9fca3fdd45eecab15d542597c1959d23`  
 **Artifact:** [Round 3 owner-review ZIP](../evidence/playtest-round3/shadow-becomes-me-r3-5c7c6e926759.zip)
 
+> Publication follow-up: the owner subsequently authorized Pages and Possibility publication at $0. [Current publication record](PUBLICATION.md). Historical no-release statements below describe this closure decision; they do not cancel the later authorization. POC scope and acceptance stay frozen.
+
 ## Owner decision
 
 After personally playing the delivered Round 3 local build, the owner reported: **“I completed the Shadow Becomes Me Round 3 owner playtest. All six checks passed. Let's proceed with the POC acceptance and closure review.”**

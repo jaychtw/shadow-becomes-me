@@ -1,8 +1,12 @@
 # Shadow Becomes Me — project state
 
+## Current publication assignment — 2026-11-01
+
+The owner now authorizes publication of the frozen accepted demo to game Pages and Possibility Games, including necessary merges/deployments at strictly $0. This supersedes earlier no-publication instructions for this assignment only; no gameplay/art expansion is authorized. [Publication record and rollback](PUBLICATION.md) · [Canonical resumption guide](AI_RESUMPTION.md). Game release is prepared but **blocked/not live-verified** because this environment denies GitHub API and the Pages host. Possibility remains gated/not started; shared standards reviewed, unchanged.
+
 ## Laboratory POC accepted and closed — 2026-11-01
 
-**Current authoritative status:** Owner completed the Round 3 playtest and confirmed all six acceptance checks passed. The bounded, single-laboratory local-first POC is **accepted and closed** against evidence checkpoint `5e26b0c4b521186114d1041a98ccaa3b0cfe7f8d`, package `r3-5c7c6e926759` (runtime source `ed2ca26`). See [owner acceptance / POC closure record](POC_ACCEPTANCE_CLOSURE.md). The accepted branch is frozen for scope purposes; any new work requires a separately authorized milestone. Physical phones, Safari/Firefox, screen readers and independent first-time-player validation remain unverified. **No merge, deployment, publication, Possibility entry or expenditure is authorized.** Earlier sections below reflect historical open acceptance gates, now superseded for the bounded POC only.
+**Current authoritative status:** Owner completed the Round 3 playtest and confirmed all six acceptance checks passed. The bounded, single-laboratory local-first POC is **accepted and closed** against evidence checkpoint `5e26b0c4b521186114d1041a98ccaa3b0cfe7f8d`, package `r3-5c7c6e926759` (runtime source `ed2ca26`). See [owner acceptance / POC closure record](POC_ACCEPTANCE_CLOSURE.md). The accepted branch is frozen for scope purposes; any new work requires a separately authorized milestone. Physical phones, Safari/Firefox, screen readers and independent first-time-player validation remain unverified. **Closure-time release restrictions are superseded only by the explicit publication assignment above; expenditure remains $0.** Earlier sections below reflect historical open acceptance gates, now superseded for the bounded POC only.
 
 
 Reviewed 2026-10-31 (Asia/Taipei). Bounded playable laboratory POC implemented; technical verification passed and complete gameplay/art acceptance remains open. Character checkpoint `9846cd36f8a6729c7fc82210a9640bb670187105` remains the latest art/implementation baseline; its transition still awaits visual acceptance.
