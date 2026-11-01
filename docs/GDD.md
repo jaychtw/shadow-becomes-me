@@ -134,3 +134,8 @@ UGDS v1.0.0 **P01–P05, L01–L02, A01, V01–V06, S02–S04, Q01–Q06, C01–
 ## 13. SBM-010 — Shadow Devour presentation commitment (2026-11-01)
 
 Owner explicitly authorized a distinct authored solid-cocoon **Shadow Devour** presentation for the existing eligible stealth-assassination outcome. Ordinary attacks retain Shadow Spike. This supersedes §4.4's original shared-spike **visual** direction for assassination only; eligibility, immediate defeat, range, cooldown, health/awareness, movement and camouflage rules do not change. The four authored poses and alpha-mask handoff at `1c55239` establish the concrete visual starting point. No Shadow Expansion, extra attack input, enemy or release is authorized. [Implementation and evidence](SHADOW_DEVOUR.md). Status: bounded implementation authorized; final motion/mask/art acceptance pending owner review. Historical accepted baselines and separate closed refinement remain preserved.
+
+
+## SBM-011 — Round 3 usability commitment (2026-11-01)
+
+Owner confirms the Round 2 playable revision works, including Devour. Authorizes primary C / mouse / touch Transform sequence **normal Shadow → Box → Chair → normal Shadow**, with current/next form feedback. Existing 1/2 and direct Box/Chair selection remain; Q/E retain previous/next disguise-only compatibility. Wounded-only scene health bar plus exact textual guard health replaces the permanent pips. Build identity and cache-safe local packaging are authorized. No changes to fitting/exposure, awareness, damage, timing, range, accepted art/animation or POC extent. Implementation delivery still stops for owner playtest / POC acceptance; no release authority.

@@ -1,6 +1,8 @@
 import {renderCharacters,artReady,presentAttack} from './presentation.js';
 import {createGame,start,tick,camouflage,attack} from './engine.js';
 import {strings} from './i18n.js';
+import {advanceTransformation} from './transformation.js';
+import {renderBuildIdentity,checkBuild} from './build-identity.js';
 let game=createGame(),locale='en',paused=false,help=false;
 try{const saved=localStorage.getItem('sbm-language');if(Object.hasOwn(strings,saved))locale=saved;}catch{}
 const $=id=>document.getElementById(id),t=k=>strings[locale][k];
@@ -18,6 +20,7 @@ function cycle(delta){camouflage(game,game.selected+delta);render();}
 function performAttack(){const result=attack(game);presentAttack(game,result);}
 function handleAction(action){
  if(action==='start'){if(help){help=false;}else if(paused){paused=false;}else if(game.phase==='intro'){start(game);$('pause').focus();}else reset();}
+ if(action==='transform'&&!paused&&!help)advanceTransformation(game);
  if(action==='attack'&&!paused&&!help)performAttack();
  if(action==='box'&&!paused&&!help)camouflage(game,0);
  if(action==='chair'&&!paused&&!help)camouflage(game,1);
@@ -28,7 +31,7 @@ $('restart').onclick=reset;
 $('pause').onclick=()=>{if(game.phase==='playing'){paused=!paused;clearInput();render();if(paused)$('begin').focus();}};
 $('help').onclick=()=>{help=!help;clearInput();render();if(help)$('begin').focus();};
 $('language').onclick=()=>{locale=locale==='en'?'zh-TW':'en';try{localStorage.setItem('sbm-language',locale);}catch{}render();};
-for(const id of ['attack','box','chair'])$(id).onclick=()=>handleAction(id);
+for(const id of ['transform','attack','box','chair'])$(id).onclick=()=>handleAction(id);
 for(const id of ['left','right']){
  const el=$(id);
  el.onpointerdown=e=>{e.preventDefault();el.setPointerCapture(e.pointerId);touch.add(id);};
@@ -45,7 +48,7 @@ window.addEventListener('keydown',e=>{
  if(game.phase!=='playing'||paused||help)return;
  if(key==='q')cycle(-1);if(key==='e')cycle(1);
  if(key==='1')camouflage(game,0);if(key==='2')camouflage(game,1);
- if(key==='c'){if(['box','chair'].includes(game.player.form))game.player.form='idle';else camouflage(game);}
+ if(key==='c')advanceTransformation(game);
  if(key==='x'||key===' ')performAttack();
  render();
 });
@@ -63,8 +66,13 @@ function render(){
  $('left').setAttribute('aria-label',t('left'));$('right').setAttribute('aria-label',t('right'));
  $('health').textContent='●'.repeat(game.player.hp)+'○'.repeat(3-game.player.hp);
  $('health').setAttribute('aria-label',`${t('health')} ${game.player.hp} / 3`);
- $('form').textContent=t(game.player.form);
- $('guard-state').textContent=t(game.guard.state);
+ text($('form'),t(game.player.form));
+ $('transform').setAttribute('aria-label',`${t('transform')} — ${t('currentForm')}: ${t(game.player.form)}; ${t('nextForm')}: ${t(game.player.form==='box'?'chair':game.player.form==='chair'?'idle':'box')}`);
+ $('transform').disabled=game.phase!=='playing'||paused||help;
+ $('transform').setAttribute('aria-keyshortcuts','C');
+ text($('guard-state'),t(game.guard.state));
+ text($('guard-health'),`${t('guardHealthValue')}: ${game.guard.hp} / 3`);
+ renderBuildIdentity(t);
  text($('feedback'),t(game.event));
  $('attack').style.boxShadow=game.player.cooldown?'inset 0 -4px #8c784e':'none';
  $('attack').setAttribute('aria-label',`${t('spike')} — ${t(game.player.cooldown?'cooldown':'available')}`);
@@ -91,7 +99,13 @@ function render(){
  $('guard-body').setAttribute('transform',b.hp?`scale(${b.direction} 1)`:'translate(0 -8) rotate(90)');
  $('guard').setAttribute('opacity',b.hp?'1':'.65');
  $('guard-cue').textContent=b.state==='investigate'?'?':b.state==='hostile'?'!':'';
- $('guard-hp').innerHTML=b.hp?Array.from({length:3},(_,i)=>`<rect x="${i*14-19}" y="-126" width="10" height="4" rx="1" fill="${i<b.hp?'#223e50':'#b3c2bd'}"/>`).join(''):'';
+ const guardHealth=$('guard-hp');
+ guardHealth.setAttribute('aria-hidden','true');
+ const healthKey=b.hp>0&&b.hp<3?String(b.hp):'hidden';
+ if(guardHealth.dataset.health!==healthKey){
+  guardHealth.dataset.health=healthKey;
+  guardHealth.innerHTML=healthKey==='hidden'?'':`<rect x="-23" y="-128" width="46" height="8" rx="3" fill="#152b36" stroke="#c8d8d3"/><rect x="-21" y="-126" width="${42*b.hp/3}" height="4" rx="1" fill="#e3cf9f"/>`;
+ }
  const range=330*b.direction;
  renderCharacters(game);
  $('guard-vision').innerHTML=b.hp?`<path d="M${b.x} 396l${range} -78v167Z" fill="url(#vision)"/><path d="M${b.x} 396l${range} -78" fill="none" stroke="#aa5649" opacity=".25"/>`:'';
@@ -107,4 +121,6 @@ function frame(now){
 }
 // Read-only observability for reproducible browser evidence; tests use real input.
 window.__shadow=Object.freeze({snapshot:()=>JSON.parse(JSON.stringify({phase:game.phase,player:game.player,guard:game.guard,time:game.time,locale,paused}))});
+$('check-build').onclick=()=>checkBuild().then(()=>render());
+window.addEventListener('pageshow',()=>checkBuild().then(()=>render()));
 render();requestAnimationFrame(frame);

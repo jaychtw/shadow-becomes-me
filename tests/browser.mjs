@@ -96,6 +96,7 @@ await test('exposed movement is immediately detected in sight, then failure and 
  await p.keyboard.press('r');assert.equal((await snap()).phase,'playing');assert.equal((await snap()).player.hp,3);
  await p.keyboard.press('e');assert.equal((await snap()).player.form,'chair');
  await p.keyboard.press('q');assert.equal((await snap()).player.form,'box');
+ await p.keyboard.press('c');assert.equal((await snap()).player.form,'chair');
  await p.keyboard.press('c');assert.equal((await snap()).player.form,'idle');
  await p.keyboard.press('c');assert.equal((await snap()).player.form,'box');
 });

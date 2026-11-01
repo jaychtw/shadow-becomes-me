@@ -28,10 +28,10 @@
   </svg>
   <div id="overlay"><div class="panel"><p class="eyebrow">01 / POC</p><h2 id="overlay-title"></h2><p id="overlay-copy"></p><p id="overlay-rule"></p><button class="primary" id="begin"></button></div></div>
  </section>
- <div class="readout"><div><span data-i18n="health"></span> <strong id="health" role="img"></strong></div><div><span data-i18n="form"></span> <strong id="form"></strong></div><div><span data-i18n="guardHealth"></span> <strong id="guard-state"></strong></div><button id="pause" data-i18n="pause"></button><button id="restart" data-i18n="restart"></button></div>
+ <div class="readout"><div><span data-i18n="health"></span> <strong id="health" role="img"></strong></div><div><span data-i18n="form"></span> <strong id="form" aria-live="polite" aria-atomic="true"></strong></div><div><span data-i18n="guardHealth"></span> <strong id="guard-state"></strong> <span id="guard-health" aria-live="polite" aria-atomic="true"></span></div><button id="pause" data-i18n="pause"></button><button id="restart" data-i18n="restart"></button></div>
  <p id="feedback" role="status" aria-live="polite"></p>
- <div class="controls" role="group" aria-label="Game controls"><div class="movement"><button id="left" aria-label="Slide left">←</button><button id="right" aria-label="Slide right">→</button></div><div class="forms"><button id="box" data-i18n="box"></button><button id="chair" data-i18n="chair"></button></div><button id="attack" class="primary" data-i18n="spike"></button></div>
+ <div class="controls" role="group" aria-label="Game controls"><div class="movement"><button id="left" aria-label="Slide left">←</button><button id="right" aria-label="Slide right">→</button></div><div class="forms"><button id="transform" data-i18n="transform" class="transform"></button><button id="box" data-i18n="box"></button><button id="chair" data-i18n="chair"></button></div><button id="attack" class="primary" data-i18n="spike"></button></div>
  <p class="hints" data-i18n="keys"></p><p class="touch-hint" data-i18n="touchHint"></p><p class="orientation" data-i18n="orientation"></p>
-</main><footer data-i18n="footer"></footer>
+</main><footer><p data-i18n="footer"></p><div class="build-line"><a id="build-id" href="BUILD.json">@BUILD_ID@</a><button id="check-build" data-i18n="checkBuild"></button><span id="build-status" role="status" aria-live="polite"></span></div></footer>
 <script type="module" src="src/main.js"></script>
 </body></html>
