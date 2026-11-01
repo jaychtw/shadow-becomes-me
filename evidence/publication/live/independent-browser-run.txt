@@ -1,0 +1,34 @@
+PASS help before entry returns to intro without starting simulation
+PASS desktop keyboard: upright → blob → fitting disguise → assassination → exit
+PASS desktop: wrong disguise investigated, ordinary spike, hostile attack, failure and retry
+PASS keyboard focus, pause, help, live locale switch preserves encounter and held movement
+PASS mobile zh-TW touch: movement, fitting disguise, spike, exit, live language change
+PASS mobile touch: wrong disguise investigation, ordinary damage, failure/retry
+PASS exposed movement is immediately detected in sight, then failure and keyboard retry
+PASS unresolved wrong-disguise inspection expires before hostility without a spike
+PASS layout, labels, targets, axe: 320px en
+PASS layout, labels, targets, axe: 320px zh-TW
+PASS layout, labels, targets, axe: 390px en
+PASS layout, labels, targets, axe: 390px zh-TW
+PASS layout, labels, targets, axe: 768px en
+PASS layout, labels, targets, axe: 768px zh-TW
+PASS layout, labels, targets, axe: 1440px en
+PASS layout, labels, targets, axe: 1440px zh-TW
+PASS blocked/corrupt preference storage is tolerated
+PASS performance sample and offline runtime
+{
+  "summary": {
+    "pass": 18,
+    "fail": 0
+  },
+  "performance": [
+    {
+      "frames": 180,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.700000000000273,
+      "maxMs": 16.800000000000182,
+      "svgNodes": 49
+    }
+  ],
+  "errors": []
+}

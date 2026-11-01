@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-01T07:32:12.550618+00:00",
+  "game": {
+    "url": "https://jaychtw.github.io/shadow-becomes-me/",
+    "workflowSource": "c5faf728a54660add3af3989c22847c59fe6b50b",
+    "tag": "demo-laboratory-round3",
+    "runId": 41282628622,
+    "buildId": "r3-5c7c6e926759",
+    "runtimeSource": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+    "independentRuntimeHashes": 63,
+    "independentBrowserCases": 18,
+    "zeroViolationAudits": 16,
+    "independentActualInputGroups": 6
+  },
+  "possibility": {
+    "url": "https://jaychtw.github.io/",
+    "factSheet": "https://jaychtw.github.io/games/shadow-becomes-me/",
+    "deployedSource": "49d043fbc59d44d6d7675b963713dc90773239a8",
+    "evidenceCommit": "91d9badc2e55f48dc28596e80a1179d5abc787f0",
+    "runId": 41284500241,
+    "independentPublicFiles": 139,
+    "publicEntryViews": 10,
+    "publicAppsAudits": 10,
+    "allViolations": 0,
+    "approvedCoverSha256": "3764649da4cfb79a32849c10b569da34a0c104af649d942a776efa89812c0d34",
+    "oldUnchangedRoutes": 26
+  },
+  "standards": {
+    "adoptedMain": "b8b9de0d4faaf666fb53cec83ff8516bccf5bd5b",
+    "referenceProposalCommit": "d1a66fe3a16413c855959d4501472a0305484157",
+    "pullRequest": "https://github.com/jaychtw/game-development-standards/pull/8",
+    "state": "Open, not merged or adopted; UGDS/AICP pins unchanged"
+  },
+  "environmentSettingsReappliedOrPublishedByAgent": false,
+  "newGameplayOrArtwork": false,
+  "additionalSpend": 0,
+  "remainingLimits": [
+    "Physical devices, Safari/Firefox, screen readers and independent first-time-player study not verified.",
+    "Optional non-normative standards reference proposal pending owner review; no production blocker."
+  ]
+}
