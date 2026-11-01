@@ -21,3 +21,6 @@ await copyFile('art/laboratory-poc/runtime/background-props.png','dist/art/labor
 await copyFile('art/laboratory-poc/runtime/foreground.png','dist/art/laboratory/foreground.png');
 
 await writeFile('dist/art/characters/manifest.js','export default '+await readFile('art/character-experiment/manifest.json','utf8')+';');
+
+await mkdir('dist/art/devour',{recursive:true});
+await writeFile('dist/art/devour/manifest.js','export default '+await readFile('art/shadow-transformation/manifest.json','utf8')+';');

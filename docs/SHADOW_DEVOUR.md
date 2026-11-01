@@ -1,0 +1,9 @@
+# Shadow Devour — authored solid-cocoon implementation
+
+Owner-authorized against `1c55239cb51dd44727ea75b70f4aab6a6e208a48`. AICP 1.2.1 / UGDS 1.0.0 remain pinned. Implementation in progress for visual review.
+
+The four poses are extracted directly from the authored solid-cocoon sheet, despite its legacy hollow-envelope filename. SVG near-black becomes opaque pure black. Upper contours are sampled and interpolated into 29 editable keyframes (20 ms sampling plus terminal pose), with transparent PNG exports. Timing: rest 0 ms, unfold 80 ms, full cocoon 160 ms, hold through 260 ms, settle 420 ms, identical rest at 560 ms. It is a fast 160 ms expansion, 100 ms full hold, then contraction. This is presentation duration only; engine assassination still resolves immediately. Cooldown stays 1.2 s; ordinary Spike stays 220 ms/range105.
+
+The renderer retains the last upright guard frame before logical defeat and displays it from the same input/render turn as Devour starts. An irregular directional luminance mask removes guard alpha from 60–260 ms; independent black cocoon geometry also occludes it. At full masking, the guard wrapper is explicitly hidden, remaining hidden after contraction. The mask uses a broad target-independent coordinate field, not a guard-shaped hole. Cocoon is solid with no internal cutout. Source ground y232 maps to player ground; uniform scale grows from the existing 0.4321 to0.65 and an affine directional lean aims the authored silhouette toward the target while its ground pivot stays fixed. This is geometric presentation, not Shadow Expansion or a mass-conservation mechanic.
+
+Movement or terminal phase cancels the presentation and hides the already defeated guard; pause/help freeze on engine simulation time; restart/new game clears the mask and restores a live guard. No walking, damage, eligibility, health, range, control or engine changes. New integrated motion needs owner visual acceptance.

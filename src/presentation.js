@@ -1,3 +1,4 @@
+import {notifyAttack,updateDevour} from './devour.js';
 // Presentation only. Engine timing, hit testing and accepted source artwork are untouched.
 import manifest from '../art/characters/manifest.js';
 const root=new URL('../art/characters/',import.meta.url);
@@ -9,7 +10,8 @@ export const SHADOW_SCALE=105/243;
 function at(list,t){let end=0;for(const f of list){end+=f.durationMs;if(t<end)return f;}return list.at(-1);}
 function image(parent,id){let e=document.getElementById(id);if(!e){e=document.createElementNS('http://www.w3.org/2000/svg','image');e.id=id;parent.append(e);}return e;}
 function apply(el,f,scale,dir){const href=new URL(f.png,root).href;if(el.getAttribute('href')!==href)el.setAttribute('href',href);el.setAttribute('width',f.canvas[0]);el.setAttribute('height',f.canvas[1]);el.setAttribute('transform',`scale(${scale*dir} ${scale}) translate(${-f.pivot[0]} ${-f.pivot[1]})`);el.dataset.frame=f.id;}
-let previous=null,lastX=0,distance=0;
+let previous=null,lastX=0,distance=0,lastGuardFrame=walk[0];
+export function presentAttack(g,result){notifyAttack(g,result,lastGuardFrame.png);}
 export function renderCharacters(g){
  if(previous!==g){previous=g;distance=0;lastX=g.guard.x;}
  distance+=Math.abs(g.guard.x-lastX);lastX=g.guard.x;
@@ -28,6 +30,12 @@ export function renderCharacters(g){
  document.getElementById('guard-body').style.display='none';
  const f=b.hp?at(walk,(distance/58*1000)%1200):walk[0];apply(guard,f,.55,b.direction);
  if(!b.hp)guard.setAttribute('transform',`rotate(90) scale(${.55*b.direction} .55) translate(-96 -240)`);
+ if(b.hp)lastGuardFrame=f;
+ const devour=updateDevour(g,path=>new URL(path,root).href);
+ if(devour.active){s.style.display='none';document.getElementById('shadow').style.display='none';}
+ else if(devour.suppressSpike&&active){
+  if(p.form==='idle'){apply(s,shadow[0],SHADOW_SCALE,p.direction);}else{s.style.display='none';document.getElementById('shadow').style.display='';}
+ }
  // Keep readable state cues above the sprite.
  for(const id of ['guard-cue','guard-hp'])document.getElementById('guard').append(document.getElementById(id));
 }

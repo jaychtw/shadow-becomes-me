@@ -1,4 +1,4 @@
-import {renderCharacters,artReady} from './presentation.js';
+import {renderCharacters,artReady,presentAttack} from './presentation.js';
 import {createGame,start,tick,camouflage,attack} from './engine.js';
 import {strings} from './i18n.js';
 let game=createGame(),locale='en',paused=false,help=false;
@@ -15,9 +15,10 @@ const forms={
 };
 function reset(){game=createGame();start(game);paused=false;help=false;clearInput();render();$('pause').focus();}
 function cycle(delta){camouflage(game,game.selected+delta);render();}
+function performAttack(){const result=attack(game);presentAttack(game,result);}
 function handleAction(action){
  if(action==='start'){if(help){help=false;}else if(paused){paused=false;}else if(game.phase==='intro'){start(game);$('pause').focus();}else reset();}
- if(action==='attack'&&!paused&&!help)attack(game);
+ if(action==='attack'&&!paused&&!help)performAttack();
  if(action==='box'&&!paused&&!help)camouflage(game,0);
  if(action==='chair'&&!paused&&!help)camouflage(game,1);
  render();
@@ -45,7 +46,7 @@ window.addEventListener('keydown',e=>{
  if(key==='q')cycle(-1);if(key==='e')cycle(1);
  if(key==='1')camouflage(game,0);if(key==='2')camouflage(game,1);
  if(key==='c'){if(['box','chair'].includes(game.player.form))game.player.form='idle';else camouflage(game);}
- if(key==='x'||key===' ')attack(game);
+ if(key==='x'||key===' ')performAttack();
  render();
 });
 window.addEventListener('keyup',e=>keys.delete(e.key.toLowerCase()));
