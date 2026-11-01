@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "archive": "shadow-becomes-me-r3-5c7c6e926759.zip",
+  "buildId": "r3-5c7c6e926759",
+  "sourceCommit": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+  "zipSha256": "d6baa41ce388efbb9c9232c6842074f257dcaedc5bbad674aef143fc2fb8c84b",
+  "allZipHashesMatch": true,
+  "runtimeMatchesRegressedDist": true,
+  "identityConsistentAcrossIndexModuleBuildJsonReadmeAndArchive": true,
+  "repeatPackagingByteIdentical": true,
+  "allRuntimeDependenciesLocal": true
+}

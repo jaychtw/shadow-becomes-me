@@ -1,0 +1,58 @@
+[
+  {
+    "width": 1440,
+    "baselineZip": "shadow-becomes-me-playtest-r2-6d5c7d3.zip",
+    "state": {
+      "phase": "playing",
+      "player": {
+        "x": 744.7129999999994,
+        "form": "chair",
+        "direction": 1,
+        "hp": 3,
+        "cooldown": 1.0166,
+        "spike": 0.036600000000000354
+      },
+      "guard": {
+        "x": 841.5889999999948,
+        "direction": -1,
+        "hp": 2,
+        "state": "hostile",
+        "inspection": 0,
+        "attackCooldown": 0,
+        "stagger": 0.19660000000000036
+      },
+      "time": 12.582899999999972,
+      "locale": "en",
+      "paused": false
+    },
+    "method": "Actual player input against extracted Round 2 ZIP; full viewport screenshots"
+  },
+  {
+    "width": 390,
+    "baselineZip": "shadow-becomes-me-playtest-r2-6d5c7d3.zip",
+    "state": {
+      "phase": "playing",
+      "player": {
+        "x": 744.7314999999993,
+        "form": "chair",
+        "direction": 1,
+        "hp": 3,
+        "cooldown": 1.116599999999998,
+        "spike": 0.13659999999999856
+      },
+      "guard": {
+        "x": 841.4889999999942,
+        "direction": -1,
+        "hp": 2,
+        "state": "hostile",
+        "inspection": 0,
+        "attackCooldown": 0,
+        "stagger": 0.2965999999999986
+      },
+      "time": 12.432899999999972,
+      "locale": "zh-TW",
+      "paused": false
+    },
+    "method": "Actual player input against extracted Round 2 ZIP; full viewport screenshots"
+  }
+]

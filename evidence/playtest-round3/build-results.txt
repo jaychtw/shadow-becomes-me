@@ -1,0 +1,6 @@
+
+> shadow-becomes-me@0.1.0 build
+> node scripts/build.js
+
+Static build: dist/ (no runtime network dependencies)
+Build r3-5c7c6e926759 (ed2ca26)

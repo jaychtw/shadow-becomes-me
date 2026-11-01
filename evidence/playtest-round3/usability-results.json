@@ -1,0 +1,27 @@
+{
+  "pass": 20,
+  "fail": 0,
+  "checks": [
+    "1440/en: deterministic C, held-key repeat, 1/2 and Q/E compatibility",
+    "1440/en: mouse/touch same cycle and current/next accessible name",
+    "1440/en: movement exposes forms, stop/transform and pause gating",
+    "1440/en: footer and no-store identity check match BUILD.json",
+    "1440/en: wounded-only bar, exact textual HP, ?/!, restart",
+    "1440/zh-TW: deterministic C, held-key repeat, 1/2 and Q/E compatibility",
+    "1440/zh-TW: mouse/touch same cycle and current/next accessible name",
+    "1440/zh-TW: movement exposes forms, stop/transform and pause gating",
+    "1440/zh-TW: footer and no-store identity check match BUILD.json",
+    "1440/zh-TW: wounded-only bar, exact textual HP, ?/!, restart",
+    "390/en: deterministic C, held-key repeat, 1/2 and Q/E compatibility",
+    "390/en: mouse/touch same cycle and current/next accessible name",
+    "390/en: movement exposes forms, stop/transform and pause gating",
+    "390/en: footer and no-store identity check match BUILD.json",
+    "390/en: wounded-only bar, exact textual HP, ?/!, restart",
+    "390/zh-TW: deterministic C, held-key repeat, 1/2 and Q/E compatibility",
+    "390/zh-TW: mouse/touch same cycle and current/next accessible name",
+    "390/zh-TW: movement exposes forms, stop/transform and pause gating",
+    "390/zh-TW: footer and no-store identity check match BUILD.json",
+    "390/zh-TW: wounded-only bar, exact textual HP, ?/!, restart"
+  ],
+  "errors": []
+}

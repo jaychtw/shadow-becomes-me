@@ -1,0 +1,37 @@
+
+> shadow-becomes-me@0.1.0 test
+> node --test tests/*.test.js
+
+✔ scene metadata validates and rejects invalid forms and geometry (1.138303ms)
+✔ upright starts exposed; movement slides; stopping restores upright (0.31969ms)
+✔ exposed idle and sliding blob immediately trigger hostility (0.162379ms)
+✔ sight respects direction, distance and opaque wall fixtures (0.191031ms)
+✔ fitting box ignored under identical sight conditions (0.305088ms)
+✔ wrong chair investigated before hostility; approach and timed inspection (0.343595ms)
+✔ metadata swap to chair reverses both forms without engine changes (0.191332ms)
+✔ fitting disguise assassinates unaware unarmored guard in one hit (0.231781ms)
+✔ unfitting investigation cannot assassinate; same spike does one damage (0.186985ms)
+✔ hostility and armor independently prohibit instant takedown (0.282365ms)
+✔ attack range and cooldown enforce meaningful limits (0.911439ms)
+✔ repeated ordinary spikes with retreat during cooldown defeat guard without one hit kill (0.214495ms)
+✔ observed fitting correction cancels investigation but never hostile state (0.127337ms)
+✔ patrol bounds turn and player collision clamps to floor extent (3.804442ms)
+✔ hostile attack causes failure; restart returns clean state (0.241685ms)
+✔ exit completes encounter and freezes further simulation (0.141297ms)
+✔ complete deterministic stealth route is solvable without taking damage (0.411234ms)
+✔ locale resources have matching complete keys (0.690996ms)
+✔ deliberate cadence blocks repeat attack through 1.19s, then permits after 1.2s (0.110763ms)
+✔ primary transform from idle advances to box, independent of prior selection (1.495238ms)
+✔ primary transform from blob advances to box, independent of prior selection (0.328463ms)
+✔ primary transform from box advances to chair, independent of prior selection (0.729372ms)
+✔ primary transform from chair advances to idle, independent of prior selection (0.121839ms)
+✔ three-step cycle returns to normal; movement still exposes both disguises (0.390764ms)
+✔ transform is inert outside an active encounter (1.000451ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 71.854087

@@ -1,0 +1,69 @@
+{
+  "pass": 13,
+  "fail": 0,
+  "checks": [
+    "1440: eligible instant logical defeat starts Devour",
+    "1440: pause freezes presentation",
+    "1440: no residual/reappearance after contraction, including ground shadow",
+    "1440: restart restores unmasked living guard",
+    "1440: movement interruption never resurrects target",
+    "1440: unfitting ordinary hit uses Spike, one damage",
+    "390: eligible instant logical defeat starts Devour",
+    "390: pause freezes presentation",
+    "390: no residual/reappearance after contraction, including ground shadow",
+    "390: restart restores unmasked living guard",
+    "390: movement interruption never resurrects target",
+    "390: unfitting ordinary hit uses Spike, one damage",
+    "isolated comparison scrubs authored anchors and terminal rest"
+  ],
+  "samples": [
+    {
+      "width": 1440,
+      "time": "299.8999999999956",
+      "maskProgress": "1",
+      "targetDisplay": "none"
+    },
+    {
+      "width": 1440,
+      "time": "383.19999999999334",
+      "maskProgress": "1",
+      "targetDisplay": "none"
+    },
+    {
+      "width": 1440,
+      "time": "449.89999999999065",
+      "maskProgress": "1",
+      "targetDisplay": "none"
+    },
+    {
+      "width": 1440,
+      "time": "516.5999999999897",
+      "maskProgress": "1",
+      "targetDisplay": "none"
+    },
+    {
+      "width": 390,
+      "time": "149.99999999999682",
+      "maskProgress": "0.4499999999999841",
+      "targetDisplay": ""
+    },
+    {
+      "width": 390,
+      "time": "216.6999999999959",
+      "maskProgress": "0.7834999999999794",
+      "targetDisplay": ""
+    },
+    {
+      "width": 390,
+      "time": "316.59999999999576",
+      "maskProgress": "1",
+      "targetDisplay": "none"
+    },
+    {
+      "width": 390,
+      "time": "483.2999999999981",
+      "maskProgress": "1",
+      "targetDisplay": "none"
+    }
+  ]
+}

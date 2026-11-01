@@ -1,0 +1,22 @@
+{
+  "pass": 2,
+  "fail": 0,
+  "cases": [
+    {
+      "width": 1440,
+      "logicalAssassination": true,
+      "visibleDevour": true,
+      "fullTransitionCompleted": true,
+      "exit": true,
+      "servedFromExtractedVersionedZip": true
+    },
+    {
+      "width": 390,
+      "logicalAssassination": true,
+      "visibleDevour": true,
+      "fullTransitionCompleted": true,
+      "exit": true,
+      "servedFromExtractedVersionedZip": true
+    }
+  ]
+}

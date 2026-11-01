@@ -1,0 +1,381 @@
+{
+  "pass": 5,
+  "fail": 0,
+  "firstBuild": {
+    "version": "Playtest Round 3",
+    "id": "r3-23b5b65e66ea",
+    "sourceCommit": "0b6602b3114c113690039bbf4390ce8e88d00d53",
+    "workingTreeModified": false,
+    "runtimeDirectory": "assets/r3-23b5b65e66ea",
+    "archive": "shadow-becomes-me-r3-23b5b65e66ea.zip"
+  },
+  "secondBuild": {
+    "version": "Playtest Round 3",
+    "id": "r3-5c7c6e926759",
+    "sourceCommit": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+    "workingTreeModified": false,
+    "runtimeDirectory": "assets/r3-5c7c6e926759",
+    "archive": "shadow-becomes-me-r3-5c7c6e926759.zip"
+  },
+  "samePersistentProfile": "/workspace/round3-cache/profile",
+  "sameOrigin": "http://127.0.0.1:8084",
+  "checks": [
+    "Two real successive checkpoint ZIPs, same browser profile and URL",
+    "Open old tab reports version mismatch without resetting encounter",
+    "Ordinary reload gets new identity, controls and versioned assets; locale persists",
+    "Reloaded document assets use only the new namespace with no-store/200; cross-navigation responses retained separately",
+    "Conditional old/future cache validators cannot produce a stale 304"
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8084/",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/style.css",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/main.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/distant-background.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/architecture.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/architectural-details.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/illumination.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/floor.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/foreground.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/background-props.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/engine.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/i18n.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/presentation.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/transformation.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/build-identity.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/scene.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/build-info.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/rest-path.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/devour.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/manifest.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/devour/manifest.js",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-00.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-01.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-02.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-05.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-04.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-03.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-06.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-07.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-08.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-09.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-10.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-11.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-00.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-01.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-03.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-02.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-04.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-05.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-06.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-08.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-07.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-09.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-10.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-12.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-13.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-14.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-15.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-11.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-16.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-17.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-18.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-19.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-20.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-22.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-23.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-21.png",
+      "status": 200,
+      "cacheControl": "no-store"
+    },
+    {
+      "url": "http://127.0.0.1:8084/BUILD.json",
+      "status": 200,
+      "cacheControl": "no-store"
+    }
+  ],
+  "documentResources": [
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/style.css",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/main.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/distant-background.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/architecture.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/architectural-details.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/illumination.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/floor.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/foreground.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/laboratory/background-props.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/presentation.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/engine.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/i18n.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/transformation.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/build-identity.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/scene.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/rest-path.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/devour.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/manifest.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/src/build-info.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/devour/manifest.js",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-00.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-01.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-02.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-04.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-03.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-05.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-06.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-07.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-08.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-09.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-10.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/shadow-spike-11.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-00.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-01.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-02.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-03.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-04.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-05.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-06.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-07.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-08.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-09.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-10.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-11.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-12.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-13.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-14.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-15.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-16.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-17.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-18.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-19.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-20.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-22.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-21.png",
+    "http://127.0.0.1:8084/assets/r3-5c7c6e926759/art/characters/frames/guard-walk-23.png",
+    "http://127.0.0.1:8084/BUILD.json"
+  ],
+  "limitations": "This validates the new packaging workflow. It does not independently reproduce or identify the owner's earlier cache incident."
+}

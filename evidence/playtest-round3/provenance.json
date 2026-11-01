@@ -1,0 +1,59 @@
+{
+  "round2AcceptedBaseline": "ad412b9d69f112a2e45a2e2c6ba3e02b3842fd15",
+  "packagedRuntimeSource": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+  "buildId": "r3-5c7c6e926759",
+  "archive": "shadow-becomes-me-r3-5c7c6e926759.zip",
+  "zipSha256": "d6baa41ce388efbb9c9232c6842074f257dcaedc5bbad674aef143fc2fb8c84b",
+  "unchangedFromRound2": [
+    "src/engine.js",
+    "src/scene.js",
+    "src/devour.js",
+    "src/presentation.js",
+    "art",
+    "devour-study"
+  ],
+  "acceptedArtTree": "abc3e354ca7179309571d66f66c7c7c4756050f0",
+  "verificationSourceSha256": {
+    "scripts/round3/check.mjs": "5e63e4d57b89fe2ed2d3f906b6e9b7096d442d24817da29bec4508feb7d8eee4",
+    "scripts/round3/cache.mjs": "8ad8d2abb591226f695d8ab5f2f627b75f32930a62e2dbf99f31733ecef7b13b",
+    "scripts/round3/before.mjs": "5fd8cf78c232bdacd1e8052fd3496b3dc286296bbed3ef3192ea82a48835c339",
+    "scripts/round3/demo.mjs": "b1259aed9722ccf13d97af643ab2ae75bfb01f8b013f662b6272c2fd5af58af3",
+    "scripts/round3/package.py": "0aeb69ca5a3ffe5d9b4ed695cfd9f1929bf6a8ab81070f25b97d626f54128c22",
+    "scripts/build.js": "23830b0d603e54f070fa6535554a6c7c70b5f04269a11398c2ba34178ddc7bd0",
+    "scripts/local-server.py": "ea0203c516dbc3d863a90043fc1a827449f2de8f3975981c760f012a83662328",
+    "src/main.js": "30742152103edfdfa7c012236ff48f927524974724765cf3ec79556200905db5",
+    "src/transformation.js": "1f2e0b0f693f00f1f08bb13bfc561311b2a42bde8f3745622f2facd77fdd3e38",
+    "src/build-identity.js": "a716d38d1be32c9e336dd117e3b64ca65cacef3f7eac76448bedba5f755bc98b",
+    "src/i18n.js": "c98a60b2536259196d6044ab85c8c1baa7e860a19fff30b55104158281653703",
+    "index.html": "376d8821d82044e6aa8d11817f067c523ee37e08f754f621d1fe680c5409fec4",
+    "style.css": "ab5de375011775c0f1e59fc88915c80ce57d97bfb16c4af23e7ffd5865325d7e",
+    "tests/browser.mjs": "160e1560203f1c65362cae92b3ceb98f3808fd01cbf21b04d94c6036e3cbfe44",
+    "tests/transformation.test.js": "e2b99656464ff89cd66cb7fa92b9d12eceb78d2cd235c335c9179e10501e8091"
+  },
+  "freshResults": {
+    "unit": 25,
+    "browser": 18,
+    "axeAudits": 16,
+    "axeViolations": 0,
+    "usabilityGroups": 20,
+    "devourLifecycle": 13,
+    "sameProfileUpgradeGroups": 5,
+    "extractedZipPlaythroughs": 2
+  },
+  "evidenceMethod": {
+    "input": "Real keyboard, mouse and CDP touch. Read-only snapshots/DOM; no injected game state in gameplay playthroughs. Isolated pre-existing study uses deterministic synthetic fixture, separately labeled.",
+    "before": "Exact extracted Round 2 ZIP; healthy/wounded actual input screenshots at1440/390; comparison positions/animation phases are not claimed identical.",
+    "after": "Final runtime source ed2ca26, actual gameplay screenshots. Four widths, both locales.",
+    "video": "Extracted final ZIP HTTP8083; CDP real screenshot timestamps encoded with FFmpeg; full Devour hold and exit. Original WebMs full resolution; reviewGIFs15fps/96colors, desktop800wide.",
+    "gifRecipe": {
+      "desktopFilter": "fps=15,scale=800:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle",
+      "phoneFilter": "fps=15,split[s0][s1];[s0]palettegen=max_colors=96[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle"
+    },
+    "cache": "Two committed real ZIPs, same persistent Chromium profile/HTTP origin; no cache disabling via CDP or route interception. Root response no-store, versioned graph; old tab warning then ordinary reload. New document resource timing distinguishes delayed old-document responses.",
+    "limits": [
+      "Exact earlier owner cache incident unconfirmed. Unversioned URLs and generic server cache policy were weaknesses, not proof of broken rules.",
+      "Physical devices, Safari/Firefox, screen readers and independent first-time-player review not verified.",
+      "Whole-POC/UI acceptance remains pending owner review."
+    ]
+  }
+}

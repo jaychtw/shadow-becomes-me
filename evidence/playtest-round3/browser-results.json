@@ -1,0 +1,476 @@
+{
+  "started": "2026-11-01T03:35:03.533Z",
+  "browser": "154.0.8037.57",
+  "tests": [
+    {
+      "name": "help before entry returns to intro without starting simulation",
+      "status": "pass"
+    },
+    {
+      "name": "desktop keyboard: upright → blob → fitting disguise → assassination → exit",
+      "status": "pass"
+    },
+    {
+      "name": "desktop: wrong disguise investigated, ordinary spike, hostile attack, failure and retry",
+      "status": "pass"
+    },
+    {
+      "name": "keyboard focus, pause, help, live locale switch preserves encounter and held movement",
+      "status": "pass"
+    },
+    {
+      "name": "mobile zh-TW touch: movement, fitting disguise, spike, exit, live language change",
+      "status": "pass"
+    },
+    {
+      "name": "mobile touch: wrong disguise investigation, ordinary damage, failure/retry",
+      "status": "pass"
+    },
+    {
+      "name": "exposed movement is immediately detected in sight, then failure and keyboard retry",
+      "status": "pass"
+    },
+    {
+      "name": "unresolved wrong-disguise inspection expires before hostility without a spike",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 320px en",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 320px zh-TW",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 390px en",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 390px zh-TW",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 768px en",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 768px zh-TW",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 1440px en",
+      "status": "pass"
+    },
+    {
+      "name": "layout, labels, targets, axe: 1440px zh-TW",
+      "status": "pass"
+    },
+    {
+      "name": "blocked/corrupt preference storage is tolerated",
+      "status": "pass"
+    },
+    {
+      "name": "performance sample and offline runtime",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "networkRequests": [],
+  "audits": [
+    {
+      "width": 320,
+      "locale": "en",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#overlay-rule"
+            ],
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 320,
+      "locale": "en",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 320,
+      "locale": "zh-TW",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#overlay-rule"
+            ],
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 320,
+      "locale": "zh-TW",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 390,
+      "locale": "en",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#overlay-rule"
+            ],
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 390,
+      "locale": "en",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 390,
+      "locale": "zh-TW",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#overlay-rule"
+            ],
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 390,
+      "locale": "zh-TW",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 768,
+      "locale": "en",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 768,
+      "locale": "en",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 768,
+      "locale": "zh-TW",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 768,
+      "locale": "zh-TW",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 1440,
+      "locale": "en",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 1440,
+      "locale": "en",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 1440,
+      "locale": "zh-TW",
+      "phase": "intro",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "width": 1440,
+      "locale": "zh-TW",
+      "phase": "playing",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#health"
+            ],
+            [
+              "#left"
+            ],
+            [
+              "#right"
+            ]
+          ]
+        }
+      ],
+      "passes": 24
+    }
+  ],
+  "performance": [
+    {
+      "frames": 180,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.799999999999727,
+      "maxMs": 16.800000000000182,
+      "svgNodes": 49
+    }
+  ],
+  "finished": "2026-11-01T03:37:05.034Z",
+  "summary": {
+    "pass": 18,
+    "fail": 0
+  }
+}
