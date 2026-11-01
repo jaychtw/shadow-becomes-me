@@ -1,0 +1,13 @@
+# Playtest round 2 — Devour diagnosis and visual ground contact
+
+Owner-observed defects are the acceptance starting point, not overridden by prior tests. Baseline Devour `9404913acc81e6edf6ac2e3861ce49af4f4f19a3`; branch also contains owner acceptance record `72dcf25`. AICP 1.2.1 / pinned UGDS 1.0.0 unchanged. Investigation/correction in progress for review.
+
+## Devour diagnosis — actual accepted ZIP
+
+Extracted `evidence/devour/playable-laboratory.zip`, verified its SHA-256 against the manifest, verified every runtime file hash, and served the extracted bytes over HTTP. `src/devour.js`, its production manifest and isolated preview are included. Three ordinary-input/read-only traced scenarios reproduced: stationary fitting box with unaware guard inside 105 units activates and visibly renders Devour; movement before attacking breaks camouflage and prevents eligibility; movement immediately after assassination cancels its accepted presentation after a few frames. The last two can make it appear absent. Exact package/input sequence used by the owner is unknown, so this does not prove their specific incident's cause or dismiss their observation.
+
+No change to accepted Devour, eligibility, combat or movement cancellation. Walkthrough: launch the versioned package via HTTP, enter, release movement before choosing Box/箱子, wait while disguised until the unaware guard is within range, click attack once and remain stationary for 0.56 seconds. Then move to exit. Chair is unfitting in this lab; attacking while sliding is ordinary Spike. Pause/help freeze presentation, movement interrupts it, restart clears it. ZIP version and source commit will be explicit in the delivered README rather than relying on the repeated historical `playable-laboratory.zip` filename. Never open the ES-module game directly via file://.
+
+## Minimal visual contact correction
+
+Replace only the moving-form PNG presentation with a vector rendering of the same authored rest contour at the existing low (0.46,0.24) scale. Preserve all accepted source art. Extend its lower edge 1.92 world units underneath the existing opaque floor stroke, removing the two-raster interpolation boundary and guaranteeing overlap. Upper silhouette, visible scale, movement/collision, floor artwork, resting PNG, Spike and Devour are unchanged. No new animation, collision or floor movement. Pixel captures at multiple positions, widths and device pixel ratios—not only transformed baseline measurements—are the visual verification target. Exact owner-browser reproduction remains a limitation until the owner reviews the new build.

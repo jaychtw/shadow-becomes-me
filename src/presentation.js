@@ -1,3 +1,4 @@
+import restPath from '../art/characters/rest-path.js';
 import {notifyAttack,updateDevour} from './devour.js';
 // Presentation only. Engine timing, hit testing and accepted source artwork are untouched.
 import manifest from '../art/characters/manifest.js';
@@ -17,6 +18,16 @@ export function renderCharacters(g){
  distance+=Math.abs(g.guard.x-lastX);lastX=g.guard.x;
  const p=g.player,b=g.guard;
  const s=image(document.getElementById('player'),'shadow-sprite');
+ let slide=document.getElementById('shadow-slide');
+ if(!slide){slide=document.createElementNS('http://www.w3.org/2000/svg','path');slide.id='shadow-slide';slide.setAttribute('fill','#000');document.getElementById('player').append(slide);}
+ slide.style.display='none';
+ function groundedSlide(){
+  // Same authored upper contour, vector-rasterized at final resolution. The
+  // bottom extends 1.92 world units under the existing opaque floor stroke.
+  slide.setAttribute('d',restPath.replace(/L\s*40\s+232\s*Z\s*$/, 'L472 240 L40 240 Z'));
+  slide.setAttribute('transform',`scale(${.46*p.direction} .24) translate(-256 -232)`);
+  slide.style.display='';s.style.display='none';document.getElementById('shadow').style.display='none';
+ }
  const active=p.spike>0,visible=active||p.form==='idle'||p.form==='blob';
  s.style.display=visible?'':'none';document.getElementById('shadow').style.display=visible?'none':'';
  document.getElementById('spike-shape').setAttribute('d','');
@@ -24,7 +35,7 @@ export function renderCharacters(g){
   apply(s,active?at(shadow,Math.max(0,220-p.spike*1000)):shadow[0],SHADOW_SCALE,p.direction);
   // Reuse the authored amorphous rest envelope with a wider, lower moving profile.
   // The flat source baseline stays exactly at the actor's ground pivot.
-  if(!active&&p.form==='blob')s.setAttribute('transform',`scale(${.46*p.direction} .24) translate(-256 -232)`);
+  if(!active&&p.form==='blob')groundedSlide();
  }
  const guard=image(document.getElementById('guard'),'guard-sprite');
  document.getElementById('guard-body').style.display='none';
@@ -32,9 +43,9 @@ export function renderCharacters(g){
  if(!b.hp)guard.setAttribute('transform',`rotate(90) scale(${.55*b.direction} .55) translate(-96 -240)`);
  if(b.hp)lastGuardFrame=f;
  const devour=updateDevour(g,path=>new URL(path,root).href);
- if(devour.active){s.style.display='none';document.getElementById('shadow').style.display='none';}
+ if(devour.active){slide.style.display='none';s.style.display='none';document.getElementById('shadow').style.display='none';}
  else if(devour.suppressSpike&&active){
-  if(p.form==='idle'||p.form==='blob'){apply(s,shadow[0],SHADOW_SCALE,p.direction);if(p.form==='blob')s.setAttribute('transform',`scale(${.46*p.direction} .24) translate(-256 -232)`);}else{s.style.display='none';document.getElementById('shadow').style.display='';}
+  if(p.form==='idle'||p.form==='blob'){apply(s,shadow[0],SHADOW_SCALE,p.direction);if(p.form==='blob')groundedSlide();}else{s.style.display='none';document.getElementById('shadow').style.display='';}
  }
  // Keep readable state cues above the sprite.
  for(const id of ['guard-cue','guard-hp'])document.getElementById('guard').append(document.getElementById(id));
