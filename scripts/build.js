@@ -24,3 +24,5 @@ await writeFile('dist/art/characters/manifest.js','export default '+await readFi
 
 await mkdir('dist/art/devour',{recursive:true});
 await writeFile('dist/art/devour/manifest.js','export default '+await readFile('art/shadow-transformation/manifest.json','utf8')+';');
+
+await cp('devour-study','dist/devour-study',{recursive:true});

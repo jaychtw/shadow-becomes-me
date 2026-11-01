@@ -34,7 +34,7 @@ export function renderCharacters(g){
  const devour=updateDevour(g,path=>new URL(path,root).href);
  if(devour.active){s.style.display='none';document.getElementById('shadow').style.display='none';}
  else if(devour.suppressSpike&&active){
-  if(p.form==='idle'){apply(s,shadow[0],SHADOW_SCALE,p.direction);}else{s.style.display='none';document.getElementById('shadow').style.display='';}
+  if(p.form==='idle'||p.form==='blob'){apply(s,shadow[0],SHADOW_SCALE,p.direction);if(p.form==='blob')s.setAttribute('transform',`scale(${.46*p.direction} .24) translate(-256 -232)`);}else{s.style.display='none';document.getElementById('shadow').style.display='';}
  }
  // Keep readable state cues above the sprite.
  for(const id of ['guard-cue','guard-hp'])document.getElementById('guard').append(document.getElementById(id));

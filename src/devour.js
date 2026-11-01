@@ -25,6 +25,8 @@ export function updateDevour(g,guardFrame){
  const scale=105/243+(.65-105/243)*expansion,dir=Math.sign(effect.delta)||g.player.direction;
  const lean=(Math.abs(effect.delta)+18)/185*expansion;
  path.setAttribute('transform',`matrix(${scale*dir} 0 ${-dir*lean} ${scale} 0 0) translate(-256 -232)`);
+ if(ms<20&&['box','chair'].includes(g.player.form)){path.setAttribute('d',document.getElementById('shadow').getAttribute('d'));path.removeAttribute('transform');}
+ if(ms<20&&['box','chair'].includes(g.player.form)){path.setAttribute('d',document.getElementById('shadow').getAttribute('d'));path.removeAttribute('transform');}
  const defs=document.querySelector('#world defs');const mask=node('mask','devour-mask',defs);
  for(const [k,v] of Object.entries({maskUnits:'userSpaceOnUse',maskContentUnits:'userSpaceOnUse',x:-160,y:-200,width:320,height:240}))mask.setAttribute(k,v);
  mask.style.maskType='luminance';const base=node('rect','devour-mask-base',mask);for(const [k,v] of Object.entries({x:-160,y:-200,width:320,height:240,fill:'white'}))base.setAttribute(k,v);
