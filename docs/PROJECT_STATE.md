@@ -2,7 +2,7 @@
 
 ## Current publication assignment — 2026-11-01
 
-The owner now authorizes publication of the frozen accepted demo to game Pages and Possibility Games, including necessary merges/deployments at strictly $0. This supersedes earlier no-publication instructions for this assignment only; no gameplay/art expansion is authorized. [Publication record and rollback](PUBLICATION.md) · [Canonical resumption guide](AI_RESUMPTION.md). Game release is prepared but **blocked/not live-verified** because this environment denies GitHub API and the Pages host. Possibility remains gated/not started; shared standards reviewed, unchanged.
+The owner now authorizes publication of the frozen accepted demo to game Pages and Possibility Games, including necessary merges/deployments at strictly $0. This supersedes earlier no-publication instructions for this assignment only; no gameplay/art expansion is authorized. [Publication record and rollback](PUBLICATION.md) · [Canonical resumption guide](AI_RESUMPTION.md). Publication source `adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9` was safely pushed to main after the owner reconfirmed approval. Actual dispatch failed before creating a run; release remains **blocked/not live-verified** because this environment denies GitHub API and the Pages host. [Next Codex pause handoff](AI_RESUMPTION.md#next-codex--owner-paused-after-main-push). Possibility remains gated/not started; shared standards reviewed, unchanged.
 
 ## Laboratory POC accepted and closed — 2026-11-01
 

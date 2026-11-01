@@ -2,6 +2,29 @@
 
 **The one-laboratory POC is accepted and closed.** It is deliberately a complete bounded demonstration, not a complete campaign or a v1.0 game. The current assignment authorizes publication, preservation and handoff only, at $0 additional expenditure. Do not restart visual iteration or extend gameplay. [Publication status, exact release procedure and rollback](PUBLICATION.md) is the operational record; a URL listed here is not proof it has been deployed.
 
+## Next Codex — owner paused after main push
+
+**Owner standing authorization:** publish the accepted demo and Possibility entry at $0, including required merges/deployments after checks. The later instruction expressly approved pushing main/deploying and requested this pause handoff. Do not request the same release approval again. Do not extend gameplay.
+
+- **Completed:** verified publication source `adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9` is on main; accepted development branch remains. Later handoff-only commits may be descendants. All game/runtime/art bytes remain the accepted Round3 baseline.
+- **Blocked:** actual dispatch failed at workflow lookup GET, before POST: `api.github.com ... Forbidden`. No run ID/deployment was created by that attempt. Game/portal live probes still fail with proxy CONNECT403. This establishes an environment access failure, not a failed Pages build or an absent site. [Receipt](../evidence/publication/main-push-and-dispatch.json).
+- **Access first:** read cloud-runtime instructions and current network status. Earlier network draft adds only api.github.com and jaychtw.github.io; saving it did not activate it. Supported environment settings must apply/publish it. Do not bypass the proxy or assume another instance has the same access/credentials.
+- **Then inspect:** fetch current remote state without resetting work; inspect Pages configuration/permissions/environment policy and existing runs. The owner may have dispatched manually while this conversation was paused. Avoid duplicate publication if the intended build is already live and verified.
+
+If no matching deployment has already succeeded, dispatch from main:
+
+```sh
+gh workflow run publish-demo.yml --repo jaychtw/shadow-becomes-me --ref main \
+  -f release_commit=adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9 \
+  -f 'authorization=PUBLISH SHADOW DEMO'
+```
+
+The [workflow UI](https://github.com/jaychtw/shadow-becomes-me/actions/workflows/publish-demo.yml) accepts the same inputs. Observe the run and independently verify canonical game hashes and actual play. `python3 scripts/publication/prepare.py` recreates the expected artifact; `python3 scripts/publication/verify-files.py` and `node scripts/publication/gameplay.mjs` target the live URL by default. Run full browser checks against the live URL in isolated outputs. These scripts are present at the exact publication source and later handoff commits.
+
+**After the game is verified:** finish Possibility first-card integration/newest-first Games policy with stable tie-break/manual overrides, the exact approved cover and required derivatives; preserve filter behavior and other collections. Portal was untouched, inspected at `23c91035642e343a845fbc4a95db6c6edb6f16e9`; actual live identity is still unknown here. It has English-only chrome and no language switch: resolve bilingual-entry presentation narrowly, without claiming a nonexistent portal locale mode. The owner requested High reasoning by default and an Extra High recommendation before architectural ambiguity/consequential cross-repository decisions. Then publish using that repository's existing manual gate, verify actual live card/routes/destination, and finalize the publication record and standards disposition. Do not silently adopt unmerged AICP1.2.2.
+
+Standards main was unchanged at `b8b9de0d4faaf666fb53cec83ff8516bccf5bd5b`; [review](publication/STANDARDS_REVIEW.md) found most lessons already covered and the artifact/reasoning proposal already pending. Physical-device/Safari/Firefox/screen-reader limits persist. **The overall publication assignment is not closed.** Close only after both independent public verifications or report the next precise blocker. Rollback is documented in [the publication record](PUBLICATION.md).
+
 ## First read
 
 1. [Project state](PROJECT_STATE.md) and [publication record](PUBLICATION.md): current authority, verified deployment status and blockers.

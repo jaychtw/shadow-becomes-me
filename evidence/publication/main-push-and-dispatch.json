@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-01T06:25:52.600749+00:00",
+  "ownerInstruction": "Approved. Push to main, deploy to publish. Preserve knowledge transfer for the next Codex instance.",
+  "mainFastForward": {
+    "from": "e1404aeb4ab60fb54f796a07c0f9276e0dac52e5",
+    "to": "adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9",
+    "remoteVerified": true,
+    "forcePush": false
+  },
+  "publicationSourceCommit": "adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9",
+  "workflow": ".github/workflows/publish-demo.yml",
+  "dispatchInputs": {
+    "ref": "main",
+    "release_commit": "adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9",
+    "authorization": "PUBLISH SHADOW DEMO"
+  },
+  "dispatchResult": {
+    "exitCode": 1,
+    "error": "Get \"https://api.github.com/repos/jaychtw/shadow-becomes-me/actions/workflows/publish-demo.yml\": Forbidden",
+    "failedAt": "workflow lookup GET, before workflow dispatch POST",
+    "runId": null,
+    "deploymentStartedByThisAttempt": false
+  },
+  "activeNetworkPolicy": {
+    "state": "enforced",
+    "customHosts": []
+  },
+  "liveBuildProbes": {
+    "game": "proxy CONNECT403",
+    "possibility": "proxy CONNECT403"
+  },
+  "freshVerification": {
+    "unitPass": 25,
+    "acceptedPackageFilesVerified": 63,
+    "acceptedRuntimeSource": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+    "buildId": "r3-5c7c6e926759"
+  },
+  "laterHandoffCommits": "Documentation/evidence descendants may move main; use publicationSourceCommit above for dispatch after access is restored.",
+  "additionalSpend": 0
+}
