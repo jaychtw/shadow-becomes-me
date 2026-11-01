@@ -1,0 +1,13 @@
+{
+  "gameUrl": "https://jaychtw.github.io/shadow-becomes-me/",
+  "workflowSource": "c5faf728a54660add3af3989c22847c59fe6b50b",
+  "runId": 41282628622,
+  "deploymentId": 7469781666,
+  "deploymentSuccessAt": "2026-11-01T07:00:30Z",
+  "buildId": "r3-5c7c6e926759",
+  "runtimeSource": "ed2ca26a9fca3fdd45eecab15d542597c1959d23",
+  "canonicalFilesIndependentlyMatched": 63,
+  "ordinaryInputChecksIndependentlyPassed": 6,
+  "environmentNetworkChangedByAgent": false,
+  "portalStatus": "Game gate satisfied; authorized integration in progress."
+}

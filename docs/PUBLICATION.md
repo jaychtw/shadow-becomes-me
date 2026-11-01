@@ -2,7 +2,19 @@
 
 **Owner authorization (2026-11-01):** publish the accepted POC on GitHub Pages and add it to Possibility Games, including necessary merges/deployments after successful verification, at strictly $0 additional expenditure. [Supplied detailed brief](publication/OWNER_HANDOFF.md). This supersedes the earlier closure record's no-publication restriction for this assignment only. Gameplay/art scope remains frozen.
 
-## Current gate
+## Current verified release — 2026-11-01 (Asia/Taipei)
+
+**Game: deployed and independently verified** at https://jaychtw.github.io/shadow-becomes-me/. [Successful run41282628622](https://github.com/jaychtw/shadow-becomes-me/actions/runs/41282628622), workflow source `c5faf728a54660add3af3989c22847c59fe6b50b`, Pages deployment7469781666, success2026-11-01T07:00:30Z (15:00 Asia/Taipei). Owner started the existing run; Codex did not dispatch a duplicate. [Release receipt](../evidence/publication/live/release.json).
+
+The newly published environment grants current API/live-host access. No environment settings were reapplied or published by Codex. All63 canonical website file hashes match the exact accepted ZIP, build `r3-5c7c6e926759` / runtime source `ed2ca26`. Six independent actual keyboard/touch checks passed: Transform, fitting-box full Devour, ordinary Spike, exit, restart and both languages. [Integrity](../evidence/publication/live/public-integrity.json) · [Gameplay](../evidence/publication/live/public-gameplay.json). Workflow prepare/publish and its complete public browser suite passed; a second full independent browser suite is running. Local preflight results remain separately recorded below.
+
+**Possibility: integration in progress, not yet published.** Verified pre-change live portal source is `f8ca326efa4eee919c336cdceac18334a480746a`; source main `23c91035642e343a845fbc4a95db6c6edb6f16e9` differs only in release documentation. Keep this source as the portal rollback baseline. Shared standards remain unchanged/pinned. Accepted POC scope stays closed.
+
+### Historical preparation / blocked attempts
+
+The following records describe the earlier state; they do not override the verified release above.
+
+## Previous gate (superseded)
 
 | Workstream | Observed status |
 |---|---|

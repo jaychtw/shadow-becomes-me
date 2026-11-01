@@ -2,7 +2,7 @@
 
 An owner-accepted, closed laboratory **Playable Demo / Proof of Concept**: become a featureless black silhouette, imitate familiar shapes, and escape a patrolling guard. The single encounter is intentionally complete within its bounded scope; it is not a full campaign.
 
-**Start here:** [Canonical AI resumption guide](docs/AI_RESUMPTION.md) · [Owner acceptance](docs/POC_ACCEPTANCE_CLOSURE.md) · [Publication status and rollback](docs/PUBLICATION.md). Publication is authorized at $0. Verified publication source `adac5ff` is on main; deployment dispatch/live verification remain blocked by environment network access. [Next Codex: resume here](docs/AI_RESUMPTION.md#next-codex--owner-paused-after-main-push). The accepted runtime is frozen, not reopened for development.
+**Start here:** [Canonical AI resumption guide](docs/AI_RESUMPTION.md) · [Owner acceptance](docs/POC_ACCEPTANCE_CLOSURE.md) · [Publication status and rollback](docs/PUBLICATION.md). **[Play the accepted laboratory demo](https://jaychtw.github.io/shadow-becomes-me/).** Pages deployment and independent live verification succeeded; [release evidence](docs/PUBLICATION.md). Possibility integration is in progress. The accepted runtime is frozen, not reopened for development.
 
 ## Play locally
 

@@ -2,7 +2,7 @@
 
 ## Current publication assignment — 2026-11-01
 
-The owner now authorizes publication of the frozen accepted demo to game Pages and Possibility Games, including necessary merges/deployments at strictly $0. This supersedes earlier no-publication instructions for this assignment only; no gameplay/art expansion is authorized. [Publication record and rollback](PUBLICATION.md) · [Canonical resumption guide](AI_RESUMPTION.md). Publication source `adac5ff0c9e5f21fd49444cfc949a8cf9c8d8de9` was safely pushed to main after the owner reconfirmed approval. Actual dispatch failed before creating a run; release remains **blocked/not live-verified** because this environment denies GitHub API and the Pages host. [Next Codex pause handoff](AI_RESUMPTION.md#next-codex--owner-paused-after-main-push). Possibility remains gated/not started; shared standards reviewed, unchanged.
+**Game deployed and independently verified:** https://jaychtw.github.io/shadow-becomes-me/, successful run41282628622 / workflow source `c5faf728a54660add3af3989c22847c59fe6b50b`; all63 canonical runtime hashes and six real keyboard/touch checks passed. Accepted build `r3-5c7c6e926759` unchanged. **Possibility entry: authorized integration in progress, not yet published.** Shared standards unchanged. [Current release record](PUBLICATION.md) · [Canonical resumption guide](AI_RESUMPTION.md). The prior network blocker is resolved by the owner's published environment; Codex did not reapply settings. $0 additional spend; no gameplay expansion.
 
 ## Laboratory POC accepted and closed — 2026-11-01
 
