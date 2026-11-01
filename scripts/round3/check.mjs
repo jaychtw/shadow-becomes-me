@@ -17,14 +17,14 @@ for(const width of [1440,390])for(const locale of ['en','zh-TW']){
  checks.push(`${width}/${locale}: deterministic C, held-key repeat, 1/2 and Q/E compatibility`);
  for(const method of width===390?['tap','click']:['click'])for(const expected of ['chair','idle','box']){
   await p.locator('#transform')[method]();assert.equal(await form(),expected);
-  const name=await p.locator('#transform').getAttribute('aria-label');assert.ok(name.includes(locale==='en'?'Current form':'目前形態'));
+  const name=await p.locator('#transform').getAttribute('aria-label');assert.ok(name.includes(locale==='en'?'Current form':'目前形態'));assert.ok((await p.locator('#transform-current').textContent()).includes('→'));
  }
  checks.push(`${width}/${locale}: mouse/touch same cycle and current/next accessible name`);
  await p.keyboard.down('d');await p.waitForTimeout(80);assert.equal(await form(),'blob');await p.keyboard.press('c');await p.waitForTimeout(80);assert.equal(await form(),'blob');await p.keyboard.up('d');await p.waitForFunction(()=>__shadow.snapshot().player.form==='idle');
  await p.keyboard.press('c');assert.equal(await form(),'box');await p.locator('#pause').click();assert.equal(await p.locator('#transform').isDisabled(),true);await p.keyboard.press('c');assert.equal(await form(),'box');await p.locator('#begin').click();
  checks.push(`${width}/${locale}: movement exposes forms, stop/transform and pause gating`);
  const build=await p.evaluate(async()=>await(await fetch('BUILD.json',{cache:'no-store'})).json());assert.ok((await p.locator('#build-id').textContent()).includes(build.id));await p.locator('#check-build').click();await p.waitForFunction(()=>document.getElementById('build-status').textContent.length>0);assert.ok((await p.locator('#build-status').textContent()).includes(locale==='en'?'served build':'伺服器提供'));
- assert.equal(await p.evaluate(()=>navigator.serviceWorker?.controller??null),null);checks.push(`${width}/${locale}: footer and no-store identity check match BUILD.json`);
+ const mutations=await p.evaluate(()=>new Promise(resolve=>{let count=0;const o=new MutationObserver(list=>count+=list.length);o.observe(document.getElementById('build-status'),{childList:true,subtree:true,characterData:true});setTimeout(()=>{o.disconnect();resolve(count);},250);}));assert.equal(mutations,0,'Build live region must stay quiet between changes');assert.equal(await p.evaluate(()=>navigator.serviceWorker?.controller??null),null);checks.push(`${width}/${locale}: footer and no-store identity check match BUILD.json`);
  await p.locator('#restart').click();await approach(p);await p.locator('#transform')[width===390?'tap':'click']();assert.equal(await form(),'box');
  await p.waitForFunction(()=>{const s=__shadow.snapshot();return Math.abs(s.guard.x-s.player.x)<170;},null,{timeout:20000});
  assert.equal(await p.locator('#guard-hp rect').count(),0);assert.equal(await p.locator('#guard-hp').getAttribute('aria-hidden'),'true');assert.ok((await p.locator('#guard-health').textContent()).includes('3 / 3'));await p.screenshot({path:`${out}/after-${width}-${locale}-healthy.png`,fullPage:true});

@@ -67,6 +67,7 @@ function render(){
  $('health').textContent='●'.repeat(game.player.hp)+'○'.repeat(3-game.player.hp);
  $('health').setAttribute('aria-label',`${t('health')} ${game.player.hp} / 3`);
  text($('form'),t(game.player.form));
+ text($('transform-current'),`${t(game.player.form)} → ${t(game.player.form==='box'?'chair':game.player.form==='chair'?'idle':'box')}`);
  $('transform').setAttribute('aria-label',`${t('transform')} — ${t('currentForm')}: ${t(game.player.form)}; ${t('nextForm')}: ${t(game.player.form==='box'?'chair':game.player.form==='chair'?'idle':'box')}`);
  $('transform').disabled=game.phase!=='playing'||paused||help;
  $('transform').setAttribute('aria-keyshortcuts','C');

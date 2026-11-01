@@ -8,4 +8,6 @@ Guard scene health now appears as a compact bar only when alive and wounded; exa
 
 Local build emits one BUILD.json identity shared by its footer and ZIP name, and places the complete module/image/style graph in a build-specific directory. The bundled Python launcher supplies no-store and ignores conditional cache headers. Check build fetches BUILD.json with no-store and reports mismatched open tabs without resetting play. Ordinary static servers retain their own entry-HTML caching policy, and already-open tabs must refresh. No service worker, telemetry or online dependency. The owner's exact stale-cache incident is not yet independently reproduced; it is not evidence of broken game rules.
 
+First 25 unit and 20 usability checks passed at the initial implementation checkpoint. Visual inspection then added a legible current → next subtitle inside Transform; live-region updates were made change-only to avoid redundant screen-reader announcements.
+
 Pending final checks: complete engine/browser/lifecycle/accessibility regressions, actual input recordings, desktop/mobile before-after health images, two successive packages at the same origin/browser profile, repeat packaging and preservation hashes. No merge/deploy/publish/costs. Stop after this cycle for owner review.

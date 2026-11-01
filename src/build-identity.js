@@ -3,9 +3,10 @@ let status=null;
 export function renderBuildIdentity(t) {
  const link=document.getElementById('build-id');
  const label=`${t('build')}: ${t('buildRound')} · ${build.id}`;
- if(link.textContent!==label)link.textContent=label;
- link.setAttribute('aria-label',label);
- document.getElementById('build-status').textContent=status?t(status):'';
+ if(link.textContent!==label){link.textContent=label;link.setAttribute('aria-label',label);}
+ const result=document.getElementById('build-status'),message=status?t(status):'';
+ // Do not repeatedly replace a live-region text node on every animation frame.
+ if(result.textContent!==message)result.textContent=message;
 }
 export async function checkBuild() {
  try {
